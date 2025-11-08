@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "rd:block/cactus_pressure_plate"
+    },
+    "powered=true": {
+      "model": "rd:block/cactus_pressure_plate_down"
+    }
+  }
+}

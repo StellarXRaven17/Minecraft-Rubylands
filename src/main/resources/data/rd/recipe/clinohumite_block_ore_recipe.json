@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rd:clinohumite_block"
+    }
+  ],
+  "result": {
+    "id": "rd:clinohumite",
+    "count": 9
+  }
+}

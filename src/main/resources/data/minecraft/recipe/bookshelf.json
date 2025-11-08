@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    " b ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:book"
+    },
+    "b": {
+      "item": "minecraft:chiseled_bookshelf"
+    }
+  },
+  "result": {
+    "id": "minecraft:bookshelf",
+    "count": 1
+  }
+}

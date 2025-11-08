@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "rd:block/flame_infused_lily",
+    "particle": "rd:block/flame_infused_lily"
+  },
+  "render_type": "cutout_mipped"
+}

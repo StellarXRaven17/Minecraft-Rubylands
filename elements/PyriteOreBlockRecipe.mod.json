@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Pyrite"
+      },
+      {
+        "value": "CUSTOM:Pyrite"
+      },
+      {
+        "value": "CUSTOM:Pyrite"
+      },
+      {
+        "value": "CUSTOM:Pyrite"
+      },
+      {
+        "value": "CUSTOM:Pyrite"
+      },
+      {
+        "value": "CUSTOM:Pyrite"
+      },
+      {
+        "value": "CUSTOM:Pyrite"
+      },
+      {
+        "value": "CUSTOM:Pyrite"
+      },
+      {
+        "value": "CUSTOM:Pyrite"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PyriteBlock"
+    },
+    "name": "pyrite_ore_block_recipe",
+    "namespace": "mod"
+  }
+}

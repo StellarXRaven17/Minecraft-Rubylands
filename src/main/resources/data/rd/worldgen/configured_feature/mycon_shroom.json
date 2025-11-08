@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:huge_fungus",
+  "config": {
+    "valid_base_block": {
+      "Name": "rd:low_mycelium"
+    },
+    "stem_state": {
+      "Name": "rd:mycon_stem"
+    },
+    "hat_state": {
+      "Name": "rd:mycon_cap"
+    },
+    "decor_state": {
+      "Name": "minecraft:cave_air"
+    },
+    "replaceable_blocks": {
+      "type": "minecraft:matching_blocks",
+      "blocks": "#replaceable_by_trees"
+    },
+    "planted": "true"
+  }
+}

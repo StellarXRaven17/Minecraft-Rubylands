@@ -1,0 +1,81 @@
+{
+  "block.lily_infuse": {
+    "subtitle": "subtitles.block.lily_infuse",
+    "sounds": [
+      {
+        "name": "rd:infuse",
+        "stream": false
+      }
+    ]
+  },
+  "music.hub": {
+    "sounds": [
+      {
+        "name": "rd:neural_convergence",
+        "stream": true
+      },
+      {
+        "name": "rd:nexus",
+        "stream": true
+      },
+      {
+        "name": "rd:prophecy_of_the_holy_epiphora",
+        "stream": true
+      },
+      {
+        "name": "rd:starless_bethlehem",
+        "stream": true
+      }
+    ]
+  },
+  "music.nebula": {
+    "sounds": [
+      {
+        "name": "rd:moon_2",
+        "stream": true
+      },
+      {
+        "name": "rd:sadway",
+        "stream": true
+      },
+      {
+        "name": "rd:sunrise_at_denmark",
+        "stream": true
+      }
+    ]
+  },
+  "entity.observer.ambient": {
+    "subtitle": "subtitles.entity.observer.ambient",
+    "sounds": [
+      {
+        "name": "rd:obvr_spawn",
+        "stream": false
+      }
+    ]
+  },
+  "entity.observer.attack": {
+    "subtitle": "subtitles.entity.observer.attack",
+    "sounds": [
+      {
+        "name": "rd:obvr_attack",
+        "stream": false
+      }
+    ]
+  },
+  "music.low_river": {
+    "sounds": [
+      {
+        "name": "rd:estonian_reliquary",
+        "stream": true
+      }
+    ]
+  },
+  "record.rokkubitoru_tune": {
+    "sounds": [
+      {
+        "name": "rd:rokkubitorutune",
+        "stream": true
+      }
+    ]
+  }
+}

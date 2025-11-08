@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_right",
+  "textures": {
+    "particle": "rd:block/flamewood_door_bottom",
+    "bottom": "rd:block/flamewood_door_bottom",
+    "top": "rd:block/flamewood_door_top"
+  },
+  "render_type": "cutout"
+}

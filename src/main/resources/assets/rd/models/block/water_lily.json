@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "rd:block/water_lily",
+    "particle": "rd:block/water_lily"
+  },
+  "render_type": "cutout_mipped"
+}

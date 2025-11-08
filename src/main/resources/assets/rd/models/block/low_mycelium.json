@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "rd:block/low_stone",
+    "top": "rd:block/low_mycelium_top",
+    "side": "rd:block/low_mycelium_side",
+    "overlay": "rd:block/low_mycelium_side",
+    "particle": "rd:block/low_stone"
+  },
+  "render_type": "cutout_mipped"
+}

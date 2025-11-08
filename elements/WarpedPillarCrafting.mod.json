@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "wooden_pillar",
+    "unlockingItems": [
+      {
+        "value": "Blocks.WARPED_PLANKS"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.WARPED_PLANKS"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Blocks.WARPED_PLANKS"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Blocks.WARPED_PLANKS"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Blocks.WARPED_PLANKS"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WarpedPillar"
+    },
+    "name": "warped_pillar_crafting",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rd:block/low_stone_bricks",
+    "particle": "rd:block/low_stone_bricks"
+  },
+  "render_type": "solid"
+}

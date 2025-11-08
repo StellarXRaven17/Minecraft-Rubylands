@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:ObserverFur"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ObserverFur"
+      },
+      {
+        "value": "CUSTOM:ObserverFur"
+      },
+      {
+        "value": "CUSTOM:ObserverFur"
+      },
+      {
+        "value": "CUSTOM:ObserverFur"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ObserverFur"
+      },
+      {
+        "value": "CUSTOM:ObserverFur"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ObserverFur"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.CHAINMAIL_LEGGINGS"
+    },
+    "name": "ragged_leggings_crafting",
+    "namespace": "mod"
+  }
+}

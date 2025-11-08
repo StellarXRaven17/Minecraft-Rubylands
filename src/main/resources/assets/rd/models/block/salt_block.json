@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "rd:block/salt_block_top",
+    "top": "rd:block/salt_block_top",
+    "side": "rd:block/salt_block_side",
+    "overlay": "rd:block/salt_block_side",
+    "particle": "rd:block/salt_block_top"
+  },
+  "render_type": "cutout_mipped"
+}

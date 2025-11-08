@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rd:block/jungle_pillar_top",
+    "up": "rd:block/jungle_pillar_top",
+    "north": "rd:block/jungle_pillar",
+    "east": "rd:block/jungle_pillar",
+    "south": "rd:block/jungle_pillar",
+    "west": "rd:block/jungle_pillar",
+    "particle": "rd:block/jungle_pillar_top"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,56 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:TileBlock3"
+      },
+      {
+        "value": "CUSTOM:TileBlock4"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:TileBlock3"
+      },
+      {
+        "value": "CUSTOM:TileBlock4"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TileBlock4"
+      },
+      {
+        "value": "CUSTOM:TileBlock3"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DimensionFloorBlock"
+    },
+    "name": "dimension_floor_block_crafting_1",
+    "namespace": "mod"
+  }
+}

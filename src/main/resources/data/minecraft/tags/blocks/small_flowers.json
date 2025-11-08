@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "rd:obsidian_infused_lily",
+    "rd:water_lily",
+    "rd:gold_infused_lily",
+    "rd:flame_infused_lily"
+  ]
+}

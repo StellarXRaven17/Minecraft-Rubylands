@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:TeaLog"
+      },
+      {
+        "value": "CUSTOM:TeaLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TeaLog"
+      },
+      {
+        "value": "CUSTOM:TeaLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TeaWood"
+    },
+    "name": "tea_wood_recipe",
+    "namespace": "mod"
+  }
+}

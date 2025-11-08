@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "Blocks.RED_MUSHROOM"
+      }
+    ],
+    "cookingBookCategory": "FOOD",
+    "xpReward": 1.0,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "Blocks.RED_MUSHROOM"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:Fryshroom"
+    },
+    "name": "shroom_smoking",
+    "namespace": "mod"
+  }
+}

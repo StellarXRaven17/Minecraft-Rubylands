@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "rd:block/tea_planks",
+    "bottom": "rd:block/tea_planks",
+    "top": "rd:block/tea_planks",
+    "side": "rd:block/tea_planks"
+  },
+  "render_type": "solid"
+}

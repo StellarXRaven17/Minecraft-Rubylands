@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rd:block/crimson_pillar_top",
+    "up": "rd:block/crimson_pillar_top",
+    "north": "rd:block/crimson_pillar",
+    "east": "rd:block/crimson_pillar",
+    "south": "rd:block/crimson_pillar",
+    "west": "rd:block/crimson_pillar",
+    "particle": "rd:block/crimson_pillar_top"
+  },
+  "render_type": "solid"
+}

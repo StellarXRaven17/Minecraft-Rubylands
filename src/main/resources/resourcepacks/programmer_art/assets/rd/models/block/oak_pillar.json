@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "rd:block/oak_pillar",
+    "side": "rd:block/oak_pillar"
+  }
+}

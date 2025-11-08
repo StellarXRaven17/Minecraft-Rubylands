@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rd:block/bamboo_pillar_top",
+    "up": "rd:block/bamboo_pillar_top",
+    "north": "rd:block/bamboo_pillar",
+    "east": "rd:block/bamboo_pillar",
+    "south": "rd:block/bamboo_pillar",
+    "west": "rd:block/bamboo_pillar",
+    "particle": "rd:block/bamboo_pillar_top"
+  },
+  "render_type": "solid"
+}

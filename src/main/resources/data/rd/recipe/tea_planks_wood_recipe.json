@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "rd:tea_wood"
+    }
+  ],
+  "result": {
+    "id": "rd:tea_planks",
+    "count": 4
+  }
+}

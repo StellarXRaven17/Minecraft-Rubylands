@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rd:block/stripped_flamewood_log_top",
+    "up": "rd:block/stripped_flamewood_log_top",
+    "north": "rd:block/stripped_flamewood_log_side",
+    "east": "rd:block/stripped_flamewood_log_side",
+    "south": "rd:block/stripped_flamewood_log_side",
+    "west": "rd:block/stripped_flamewood_log_side",
+    "particle": "rd:block/stripped_flamewood_log_top"
+  },
+  "render_type": "solid"
+}

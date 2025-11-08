@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 7,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.PRISMARINE#2"
+      },
+      {
+        "value": "Blocks.PRISMARINE#2"
+      },
+      {
+        "value": "Blocks.PRISMARINE#2"
+      },
+      {
+        "value": "Blocks.PRISMARINE#2"
+      },
+      {
+        "value": "Items.APPLE"
+      },
+      {
+        "value": "Blocks.PRISMARINE#2"
+      },
+      {
+        "value": "Blocks.PRISMARINE#2"
+      },
+      {
+        "value": "Items.DYE#2"
+      },
+      {
+        "value": "Blocks.PRISMARINE#2"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:YeahWeHadFunWithThisAsYouCanSee"
+    },
+    "name": "green_mojang_crafting",
+    "namespace": "mod"
+  }
+}

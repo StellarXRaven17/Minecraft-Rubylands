@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:dark_prismarine"
+    },
+    "b": {
+      "item": "minecraft:apple"
+    },
+    "c": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "result": {
+    "id": "rd:white_mojang_block",
+    "count": 7
+  }
+}

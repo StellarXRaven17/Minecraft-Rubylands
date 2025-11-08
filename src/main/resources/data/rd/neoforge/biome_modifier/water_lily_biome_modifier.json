@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#rd:lilypad_spawnable",
+  "features": "rd:water_lily",
+  "step": "local_modifications"
+}

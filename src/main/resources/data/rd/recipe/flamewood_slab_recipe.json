@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "rd:flamewood_planks"
+    }
+  },
+  "result": {
+    "id": "rd:flamewood_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "rd:block/mycon_planks",
+    "bottom": "rd:block/mycon_planks",
+    "top": "rd:block/mycon_planks",
+    "side": "rd:block/mycon_planks"
+  },
+  "render_type": "solid"
+}

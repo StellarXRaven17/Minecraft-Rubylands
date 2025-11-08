@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "rd:petrified_wood"
+  },
+  "result": {
+    "id": "minecraft:petrified_oak_slab",
+    "count": 2
+  }
+}

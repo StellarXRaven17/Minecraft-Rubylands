@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "minecraft:poppy"
+  },
+  "result": {
+    "id": "minecraft:blue_dye"
+  }
+}

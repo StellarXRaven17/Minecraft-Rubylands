@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "rd:lace_agate_ore"
+  },
+  "result": {
+    "id": "rd:lace_agate"
+  }
+}

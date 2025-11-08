@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "rd:block/celestial_flame"
+  },
+  "render_type": "translucent"
+}

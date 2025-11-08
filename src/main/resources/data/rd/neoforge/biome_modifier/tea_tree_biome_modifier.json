@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#rd:tea_tree_spawnable",
+  "features": "rd:tea_tree",
+  "step": "vegetal_decoration"
+}

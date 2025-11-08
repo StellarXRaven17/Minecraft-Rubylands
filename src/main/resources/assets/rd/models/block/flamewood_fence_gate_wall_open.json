@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_fence_gate_wall_open",
+  "textures": {
+    "particle": "rd:block/flamewood_planks",
+    "texture": "rd:block/flamewood_planks"
+  },
+  "render_type": "solid"
+}

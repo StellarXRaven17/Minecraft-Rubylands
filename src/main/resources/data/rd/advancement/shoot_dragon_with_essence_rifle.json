@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "rd:essence_rifle"
+    },
+    "title": {
+      "translate": "advancements.shoot_dragon_with_essence_rifle.title"
+    },
+    "description": {
+      "translate": "advancements.shoot_dragon_with_essence_rifle.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "shoot_dragon_with_essence_rifle_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "rd:fire_essence_rifle"
+}

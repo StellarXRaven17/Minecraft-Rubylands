@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "experience": 0,
+  "cookingtime": 150,
+  "ingredient": {
+    "item": "minecraft:red_mushroom"
+  },
+  "result": {
+    "id": "rd:fryshroom"
+  }
+}

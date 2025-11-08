@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "a a",
+    "bbb",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:chain"
+    },
+    "b": {
+      "item": "rd:stripped_tea_log"
+    }
+  },
+  "result": {
+    "id": "minecraft:acacia_hanging_sign",
+    "count": 6
+  }
+}

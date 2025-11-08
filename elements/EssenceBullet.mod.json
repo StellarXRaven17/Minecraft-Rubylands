@@ -1,0 +1,31 @@
+{
+  "_fv": 79,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Essence"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "block.amethyst_cluster.hit"
+    },
+    "igniteFire": false,
+    "disableGravity": false,
+    "power": 1.6,
+    "damage": 5.5,
+    "knockback": 1,
+    "entityModel": "Modelarrow",
+    "customModelTexture": "essence_bullet.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsBlock": {
+      "name": "DropEssenceBulletBlock"
+    },
+    "onHitsPlayer": {
+      "name": "DropEssenceBullet"
+    },
+    "onHitsEntity": {
+      "name": "DropEssenceBullet"
+    }
+  }
+}

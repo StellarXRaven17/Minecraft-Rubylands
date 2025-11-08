@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "rd:cyan_mojang_block",
+    "rd:dimension_wall",
+    "rd:deepslate_clinohumite_ore",
+    "rd:pyrite_ore",
+    "rd:low_clinohumite_ore",
+    "rd:malachite_block",
+    "rd:lace_agate_block",
+    "rd:low_malachite_ore",
+    "rd:pyrite_block",
+    "rd:low_lace_agate_ore",
+    "rd:malachite_ore",
+    "rd:green_mojang_block",
+    "rd:low_pyrite_ore",
+    "rd:deepslate_lace_agate_ore",
+    "rd:deepslate_malachite_ore",
+    "rd:lace_agate_ore",
+    "rd:clinohumite_ore",
+    "rd:white_mojang_block",
+    "rd:clinohumite_block",
+    "rd:deepslate_pyrite_ore"
+  ]
+}

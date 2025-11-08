@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "rd:mycon_hyphae"
+    }
+  ],
+  "result": {
+    "id": "rd:mycon_planks",
+    "count": 4
+  }
+}

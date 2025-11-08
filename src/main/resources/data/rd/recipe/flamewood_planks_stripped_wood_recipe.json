@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "rd:stripped_flamewood_wood"
+    }
+  ],
+  "result": {
+    "id": "rd:flamewood_planks",
+    "count": 4
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 79,
+  "_type": "painting",
+  "definition": {
+    "texture": "coverimage_nebula",
+    "width": 32,
+    "height": 32,
+    "title": "Water",
+    "author": "Mojang"
+  }
+}

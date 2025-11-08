@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rd:block/pillarblock_dark_oak_top",
+    "up": "rd:block/pillarblock_dark_oak_top",
+    "north": "rd:block/pillarblock_dark_oak",
+    "east": "rd:block/pillarblock_dark_oak",
+    "south": "rd:block/pillarblock_dark_oak",
+    "west": "rd:block/pillarblock_dark_oak",
+    "particle": "rd:block/pillarblock_dark_oak_top"
+  },
+  "render_type": "solid"
+}

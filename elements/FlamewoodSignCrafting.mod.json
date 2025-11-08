@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:FlamewoodPlanks"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:FlamewoodPlanks"
+      },
+      {
+        "value": "CUSTOM:FlamewoodPlanks"
+      },
+      {
+        "value": "CUSTOM:FlamewoodPlanks"
+      },
+      {
+        "value": "CUSTOM:FlamewoodPlanks"
+      },
+      {
+        "value": "CUSTOM:FlamewoodPlanks"
+      },
+      {
+        "value": "CUSTOM:FlamewoodPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.SIGN"
+    },
+    "name": "flamewood_sign_crafting",
+    "namespace": "mod"
+  }
+}

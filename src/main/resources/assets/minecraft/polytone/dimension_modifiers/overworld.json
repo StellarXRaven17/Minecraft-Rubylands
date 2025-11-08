@@ -1,0 +1,4 @@
+{
+   "targets": ["minecraft:overworld", "twilightforest:twilightforest"]
+   "sunset_colormap": "minecraft:overworld_sunset"
+}

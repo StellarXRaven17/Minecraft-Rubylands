@@ -1,0 +1,23 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "Blocks.RED_FLOWER#0"
+    },
+    "smeltingReturnStack": {
+      "value": "Items.DYE#18"
+    },
+    "name": "red_dye_from_poppy",
+    "namespace": "minecraft"
+  }
+}

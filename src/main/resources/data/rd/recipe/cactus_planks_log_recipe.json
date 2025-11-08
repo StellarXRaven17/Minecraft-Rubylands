@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "rd:hardened_cactus_stem"
+    }
+  ],
+  "result": {
+    "id": "rd:cactus_planks",
+    "count": 4
+  }
+}

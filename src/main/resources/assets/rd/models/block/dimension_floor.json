@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rd:block/dimension_floor",
+    "particle": "rd:block/dimension_floor"
+  },
+  "render_type": "cutout"
+}

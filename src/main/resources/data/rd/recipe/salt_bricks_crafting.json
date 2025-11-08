@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "rd:salt_block"
+    }
+  },
+  "result": {
+    "id": "rd:salt_bricks",
+    "count": 4
+  }
+}

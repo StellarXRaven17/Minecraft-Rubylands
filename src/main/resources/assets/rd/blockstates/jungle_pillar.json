@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "rd:block/jungle_pillar",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "rd:block/jungle_pillar"
+    },
+    "axis=z": {
+      "model": "rd:block/jungle_pillar",
+      "x": 90
+    }
+  }
+}

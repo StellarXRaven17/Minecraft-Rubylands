@@ -1,0 +1,10 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "rd:block/cactus_planks",
+    "bottom": "rd:block/cactus_planks",
+    "top": "rd:block/cactus_planks",
+    "side": "rd:block/cactus_planks"
+  },
+  "render_type": "solid"
+}

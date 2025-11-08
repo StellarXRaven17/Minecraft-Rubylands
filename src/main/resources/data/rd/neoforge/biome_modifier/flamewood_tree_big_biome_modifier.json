@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#rd:flamewood_tree_spawnable",
+  "features": "rd:flamewood_tree_big",
+  "step": "vegetal_decoration"
+}

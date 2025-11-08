@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:stone_bricks"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    },
+    "c": {
+      "item": "rd:essence_cache"
+    }
+  },
+  "result": {
+    "id": "minecraft:lodestone",
+    "count": 1
+  }
+}

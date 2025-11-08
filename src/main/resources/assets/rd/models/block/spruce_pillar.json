@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rd:block/spruce_pillar_top",
+    "up": "rd:block/spruce_pillar_top",
+    "north": "rd:block/spruce_pillar",
+    "east": "rd:block/spruce_pillar",
+    "south": "rd:block/spruce_pillar",
+    "west": "rd:block/spruce_pillar",
+    "particle": "rd:block/spruce_pillar_top"
+  },
+  "render_type": "solid"
+}

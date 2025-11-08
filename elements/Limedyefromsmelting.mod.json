@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "Blocks.SEA_PICKLE"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "Blocks.SEA_PICKLE"
+    },
+    "smeltingReturnStack": {
+      "value": "Items.DYE#2"
+    },
+    "name": "lime_dye_from_smelting",
+    "namespace": "minecraft"
+  }
+}

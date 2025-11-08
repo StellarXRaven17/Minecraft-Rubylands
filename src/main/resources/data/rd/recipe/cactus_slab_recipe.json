@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "rd:cactus_planks"
+    }
+  },
+  "result": {
+    "id": "rd:cactus_slab",
+    "count": 6
+  }
+}

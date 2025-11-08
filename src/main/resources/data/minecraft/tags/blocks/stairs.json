@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "rd:salt_brick_stairs",
+    "rd:mycon_stairs",
+    "rd:tea_stairs",
+    "rd:cactus_stairs",
+    "rd:flamewood_stairs"
+  ]
+}

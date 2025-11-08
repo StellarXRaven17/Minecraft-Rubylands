@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rd:lace_agate_block"
+    }
+  ],
+  "result": {
+    "id": "rd:lace_agate",
+    "count": 9
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rd:block/mycon_slab"
+    },
+    "type=top": {
+      "model": "rd:block/mycon_slab_top"
+    },
+    "type=double": {
+      "model": "rd:block/mycon_slab_full"
+    }
+  }
+}

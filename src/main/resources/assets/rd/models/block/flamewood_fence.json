@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "rd:block/flamewood_planks",
+    "particle": "rd:block/flamewood_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Campfire cooking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "Blocks.RED_MUSHROOM"
+      }
+    ],
+    "cookingBookCategory": "FOOD",
+    "xpReward": 0.0,
+    "cookingTime": 150,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "campfireCookingInputStack": {
+      "value": "Blocks.RED_MUSHROOM"
+    },
+    "campfireCookingReturnStack": {
+      "value": "CUSTOM:Fryshroom"
+    },
+    "name": "shroom_cooking",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "rd:block/freezer"
+    },
+    "facing=east": {
+      "model": "rd:block/freezer",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rd:block/freezer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rd:block/freezer",
+      "y": 270
+    }
+  }
+}

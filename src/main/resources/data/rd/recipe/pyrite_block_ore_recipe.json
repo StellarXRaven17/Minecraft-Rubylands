@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rd:pyrite_block"
+    }
+  ],
+  "result": {
+    "id": "rd:pyrite",
+    "count": 9
+  }
+}

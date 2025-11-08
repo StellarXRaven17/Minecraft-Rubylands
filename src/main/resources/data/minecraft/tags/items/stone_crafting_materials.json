@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:end_stone",
+    "minecraft:blackstone",
+    "rd:low_stone",
+    "rd:cobbled_low_stone"
+  ]
+}

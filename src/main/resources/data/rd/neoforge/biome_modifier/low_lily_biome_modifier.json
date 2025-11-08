@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "rd:low_lily",
+  "step": "vegetal_decoration"
+}

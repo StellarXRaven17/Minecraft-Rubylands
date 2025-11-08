@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_right_open",
+  "textures": {
+    "particle": "rd:block/wood_slab_top",
+    "bottom": "rd:block/wood_slab_top",
+    "top": "rd:block/wood_slab_top"
+  },
+  "render_type": "solid"
+}

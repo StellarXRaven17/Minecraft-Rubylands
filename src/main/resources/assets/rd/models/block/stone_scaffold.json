@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rd:block/stone_scaffold",
+    "particle": "rd:block/stone_scaffold"
+  },
+  "render_type": "solid"
+}

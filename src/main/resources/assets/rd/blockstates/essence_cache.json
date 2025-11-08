@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "rd:block/essence_cache"
+    }
+  }
+}

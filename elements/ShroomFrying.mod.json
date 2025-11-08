@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "Blocks.RED_MUSHROOM"
+      }
+    ],
+    "cookingBookCategory": "FOOD",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "Blocks.RED_MUSHROOM"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Fryshroom"
+    },
+    "name": "shroom_frying",
+    "namespace": "mod"
+  }
+}

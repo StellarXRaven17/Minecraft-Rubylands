@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "wooden_stairs",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MyconPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MyconPlanks"
+      },
+      {
+        "value": "CUSTOM:MyconPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MyconPlanks"
+      },
+      {
+        "value": "CUSTOM:MyconPlanks"
+      },
+      {
+        "value": "CUSTOM:MyconPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MyconStairs"
+    },
+    "name": "mycon_stairs_recipe",
+    "namespace": "mod"
+  }
+}

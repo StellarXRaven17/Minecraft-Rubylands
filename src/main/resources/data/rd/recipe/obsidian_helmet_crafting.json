@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "rd:obsidian_ingot"
+    }
+  },
+  "result": {
+    "id": "rd:obsidian_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rd:block/flamewood_pillar_top",
+    "up": "rd:block/flamewood_pillar_top",
+    "north": "rd:block/flamewood_pillar",
+    "east": "rd:block/flamewood_pillar",
+    "south": "rd:block/flamewood_pillar",
+    "west": "rd:block/flamewood_pillar",
+    "particle": "rd:block/flamewood_pillar_top"
+  },
+  "render_type": "solid"
+}

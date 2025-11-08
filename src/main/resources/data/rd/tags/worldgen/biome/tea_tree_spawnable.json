@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "sparse_jungle",
+    {
+      "id": "moderner_beta:alpha",
+      "required": false
+    },
+    "flower_forest",
+    "cherry_grove"
+  ]
+}

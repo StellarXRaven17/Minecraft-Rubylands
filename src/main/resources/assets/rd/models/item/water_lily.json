@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "rd:block/water_lily"
+  },
+  "render_type": "translucent"
+}

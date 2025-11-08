@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "rd:block/flamewood_planks",
+    "bottom": "rd:block/flamewood_planks",
+    "top": "rd:block/flamewood_planks",
+    "side": "rd:block/flamewood_planks"
+  },
+  "render_type": "solid"
+}

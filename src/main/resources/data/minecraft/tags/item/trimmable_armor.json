@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "rd:copper_helmet",
+    "rd:obsidian_helmet",
+    "rd:copper_boots",
+    "rd:obsidian_leggings",
+    "rd:obsidian_boots",
+    "rd:copper_leggings",
+    "rd:copper_chestplate",
+    "rd:obsidian_chestplate"
+  ]
+}

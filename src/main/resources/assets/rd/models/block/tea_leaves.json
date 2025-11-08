@@ -1,0 +1,7 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "rd:block/tea_leaves",
+    "particle": "rd:block/tea_leaves"
+  }
+}

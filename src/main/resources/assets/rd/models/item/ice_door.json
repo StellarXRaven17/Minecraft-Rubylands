@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "rd:block/wood_slab_top"
+  },
+  "render_type": "solid"
+}

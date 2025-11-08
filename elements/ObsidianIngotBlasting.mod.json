@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "Blocks.OBSIDIAN"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "Blocks.OBSIDIAN"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:ObsidianIngot"
+    },
+    "name": "obsidian_ingot_blasting",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "particle": "rd:block/cactus_planks",
+    "texture": "rd:block/cactus_planks"
+  },
+  "render_type": "solid"
+}

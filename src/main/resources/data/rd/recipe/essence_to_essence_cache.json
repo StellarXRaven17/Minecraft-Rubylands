@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "rd:essence"
+    }
+  },
+  "result": {
+    "id": "rd:essence_cache",
+    "count": 1
+  }
+}

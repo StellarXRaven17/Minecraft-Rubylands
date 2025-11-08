@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "rd:hardened_cactus_stem"
+    }
+  },
+  "result": {
+    "id": "rd:hardened_cactus_arm",
+    "count": 3
+  }
+}

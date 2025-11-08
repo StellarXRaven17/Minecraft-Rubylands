@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "rd:flamewood_door",
+    "rd:tea_door",
+    "rd:hub_door"
+  ]
+}

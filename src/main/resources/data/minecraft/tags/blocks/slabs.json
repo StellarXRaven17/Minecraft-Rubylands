@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "rd:tea_slab",
+    "rd:salt_brick_slab",
+    "rd:cactus_slab",
+    "rd:flamewood_slab",
+    "rd:mycon_slab"
+  ]
+}

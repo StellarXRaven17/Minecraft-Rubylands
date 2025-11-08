@@ -1,0 +1,54 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="Not specified"
+
+[[mods]]
+modId="rd"
+version="0.1.0"
+displayName="Minecraft: Rubylands"
+displayURL="https://docs.google.com/document/d/e/2PACX-1vReIFbbTTbypJxIFhX5X_AathCM86d_VQyzdnE9QhVeo0XR3OECQ_XjrfOXtIs4dXDFLkGw8RyNIC3r/pub"
+logoFile="logo.png"
+credits="Based on Minecraft Alpha 1.0.16 Versions, made with MCreator."
+authors="StellarXRaven17"
+description="A fresh coat of paint on the block game you know and love."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+    [[mixins]]
+    config = "rd.mixins.json"
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.rd]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.176,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.rd]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.rd]]
+    modId="polytone"
+    type="required"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.rd]]
+    modId="moderner_beta"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

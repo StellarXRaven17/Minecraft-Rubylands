@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "rd:block/salt_bricks",
+    "bottom": "rd:block/salt_bricks",
+    "top": "rd:block/salt_bricks",
+    "side": "rd:block/salt_bricks"
+  },
+  "render_type": "cutout_mipped"
+}

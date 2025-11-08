@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "rd:block/gold_infused_lily"
+  },
+  "render_type": "translucent"
+}

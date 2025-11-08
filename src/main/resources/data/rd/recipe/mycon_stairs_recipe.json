@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_stairs",
+  "category": "building",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "rd:mycon_planks"
+    }
+  },
+  "result": {
+    "id": "rd:mycon_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "rd:blocks/tea_door",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "rd:tea_door",
+          "conditions": [
+            {
+              "block": "rd:tea_door",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

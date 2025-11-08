@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/cactus_bottom",
+    "up": "minecraft:block/cactus_bottom",
+    "north": "minecraft:block/cactus_side",
+    "east": "minecraft:block/cactus_side",
+    "south": "minecraft:block/cactus_side",
+    "west": "minecraft:block/cactus_side",
+    "particle": "minecraft:block/cactus_bottom"
+  },
+  "render_type": "solid"
+}

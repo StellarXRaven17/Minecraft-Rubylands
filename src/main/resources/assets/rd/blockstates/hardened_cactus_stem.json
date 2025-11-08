@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "rd:block/hardened_cactus_stem",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "rd:block/hardened_cactus_stem"
+    },
+    "axis=z": {
+      "model": "rd:block/hardened_cactus_stem",
+      "x": 90
+    }
+  }
+}

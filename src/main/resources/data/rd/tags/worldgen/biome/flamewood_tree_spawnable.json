@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "forest",
+    {
+      "id": "moderner_beta:alpha",
+      "required": false
+    },
+    "flower_forest"
+  ]
+}

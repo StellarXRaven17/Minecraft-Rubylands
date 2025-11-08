@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "rd:diamond_brick",
+    "rd:low_stone_gold_ore",
+    "rd:greenstone_brick",
+    "rd:low_stone_diamond_ore",
+    "rd:gold_brick"
+  ]
+}

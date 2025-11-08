@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rd:block/clinohumite_block",
+    "particle": "rd:block/clinohumite_block"
+  },
+  "render_type": "solid"
+}

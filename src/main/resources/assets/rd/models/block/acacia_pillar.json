@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rd:block/acacia_pillar_top",
+    "up": "rd:block/acacia_pillar_top",
+    "north": "rd:block/acacia_pillar",
+    "east": "rd:block/acacia_pillar",
+    "south": "rd:block/acacia_pillar",
+    "west": "rd:block/acacia_pillar",
+    "particle": "rd:block/acacia_pillar_top"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "rd:petrified_wood"
+    }
+  },
+  "result": {
+    "id": "minecraft:petrified_oak_slab",
+    "count": 6
+  }
+}

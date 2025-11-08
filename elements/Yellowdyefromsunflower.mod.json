@@ -1,0 +1,23 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "Blocks.DOUBLE_PLANT#0"
+    },
+    "smeltingReturnStack": {
+      "value": "Items.DYE#11"
+    },
+    "name": "yellow_dye_from_sunflower",
+    "namespace": "minecraft"
+  }
+}

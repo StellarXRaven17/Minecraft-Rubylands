@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rd:malachite_block"
+    }
+  ],
+  "result": {
+    "id": "rd:malachite",
+    "count": 9
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "rd:obsidian_ingot"
+    }
+  },
+  "result": {
+    "id": "rd:obsidian_boots",
+    "count": 1
+  }
+}

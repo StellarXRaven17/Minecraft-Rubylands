@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_pressure_plate",
+  "category": "redstone",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "rd:flamewood_planks"
+    }
+  },
+  "result": {
+    "id": "rd:flamewood_pressure_plate",
+    "count": 1
+  }
+}
