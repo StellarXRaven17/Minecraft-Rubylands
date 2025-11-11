@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "rd:block/wood_slab_top"
+    "layer0": "rd:item/flamewood_door"
   },
-  "render_type": "solid"
+  "render_type": "translucent"
 }

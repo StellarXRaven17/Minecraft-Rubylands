@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "rd:block/mycon_log_side",
-    "particle": "rd:block/mycon_log_side"
+    "all": "rd:block/mycon_stem",
+    "particle": "rd:block/mycon_stem"
   },
   "render_type": "solid"
 }

@@ -1,9 +1,9 @@
 {
   "parent": "block/door_bottom_left",
   "textures": {
-    "particle": "rd:block/wood_slab_top",
-    "bottom": "rd:block/wood_slab_top",
-    "top": "rd:block/wood_slab_top"
+    "particle": "rd:block/ice_door_bottom",
+    "bottom": "rd:block/ice_door_bottom",
+    "top": "rd:block/ice_door_top"
   },
-  "render_type": "solid"
+  "render_type": "translucent"
 }

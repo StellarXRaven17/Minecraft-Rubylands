@@ -2,8 +2,8 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "wood_slab_top",
-    "textureTop": "wood_slab_top",
+    "texture": "ice_door_bottom",
+    "textureTop": "ice_door_top",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
@@ -15,7 +15,7 @@
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "animations": [],
-    "itemTexture": "",
+    "itemTexture": "flamewood_door",
     "particleTexture": "",
     "blockBase": "Door",
     "blockSetType": "OAK",
@@ -23,7 +23,7 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "TRANSLUCENT",
     "disableOffset": false,
     "boundingBoxes": [
       {

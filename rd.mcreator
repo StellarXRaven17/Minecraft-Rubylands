@@ -22,8 +22,7 @@
       "registry_name": "wooden_slab_crafting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/recipe/wooden_slab_crafting.json",
-          "src/main/resources/data/rd/advancement/recipes/wooden_slab_crafting.json"
+          "src/main/resources/data/rd/recipe/wooden_slab_crafting.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks"
@@ -4215,7 +4214,6 @@
       "registry_name": "wooden_slab_stonecutting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/advancement/recipes/wooden_slab_stonecutting.json",
           "src/main/resources/data/rd/recipe/wooden_slab_stonecutting.json"
         ]
       },
@@ -5280,7 +5278,7 @@
       "name": "ElderLily",
       "type": "plant",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "low_lily",
       "metadata": {
         "files": [
@@ -5768,21 +5766,6 @@
       "path": "~/Blocks/HubBlocks"
     },
     {
-      "name": "LowRiver",
-      "type": "biome",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "low_river",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rd/worldgen/configured_feature/low_river_tree.json",
-          "src/main/resources/data/rd/worldgen/placed_feature/low_river_tree.json",
-          "src/main/resources/data/rd/worldgen/biome/low_river.json"
-        ]
-      },
-      "path": "~/CodeStuff/LowRiver"
-    },
-    {
       "name": "ApplePie",
       "type": "item",
       "compiles": true,
@@ -6187,6 +6170,17 @@
         ]
       },
       "path": "~/VanillaRecipeOverrides"
+    },
+    {
+      "name": "EssenceExtension",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "essence_extension",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Items/Essence"
     }
   ],
   "variable_elements": [
@@ -6344,8 +6338,7 @@
       "EXTERNAL:moderner_beta:alpha"
     ],
     "BLOCKS:minecraft:saplings": [
-      "~CUSTOM:TeaSapling",
-      "~CUSTOM:FlamewoodSapling"
+      "~CUSTOM:TeaSapling"
     ],
     "BLOCKS:minecraft:small_flowers": [
       "CUSTOM:GlowingFlower",
@@ -6978,7 +6971,6 @@
       "item.rd.copper_boots": "Copper Boots",
       "item.rd.fryshroom": "Fryshroom",
       "block.rd.debug": "DBG",
-      "biome.rd.low_river": "Low River",
       "block.rd.mycon_hyphae": "Mycon Hyphae",
       "item.rd.apple_pie": "Apple Pie",
       "block.rd.bamboo_pillar": "Bamboo Pillar",
@@ -7244,7 +7236,6 @@
       "item.rd.copper_boots": "Copper Boots",
       "item.rd.fryshroom": "Fryshroom",
       "block.rd.debug": "DBG",
-      "biome.rd.low_river": "Low River",
       "block.rd.mycon_hyphae": "Mycon Hyphae",
       "item.rd.apple_pie": "Apple Pie",
       "block.rd.bamboo_pillar": "Bamboo Pillar",
@@ -7262,7 +7253,6 @@
     "files": [
       "src/main/java/net/stellarxraven17/rubylands/init/RdModModels.java",
       "src/main/resources/pack.mcmeta",
-      "src/main/resources/rd.mixins.json",
       "src/main/java/net/stellarxraven17/rubylands/network/RdModVariables.java",
       "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/net/stellarxraven17/rubylands/RdMod.java",
@@ -7270,11 +7260,10 @@
       "src/main/resources/assets/rd/sounds.json",
       "src/main/java/net/stellarxraven17/rubylands/init/RdModSounds.java",
       "src/main/java/net/stellarxraven17/rubylands/init/RdModTabs.java",
-      "src/main/java/net/stellarxraven17/rubylands/init/RdModBiomes.java",
-      "src/main/java/net/stellarxraven17/rubylands/mixin/NoiseGeneratorSettingsMixin.java",
       "src/main/java/net/stellarxraven17/rubylands/network/MenuStateUpdateMessage.java",
       "src/main/java/net/stellarxraven17/rubylands/init/RdModMenus.java",
       "src/main/java/net/stellarxraven17/rubylands/init/RdModScreens.java",
+      "src/main/java/net/stellarxraven17/rubylands/init/RdModFuels.java",
       "src/main/resources/data/neoforge/data_maps/entity_type/monster_room_mobs.json",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/stellarxraven17/rubylands/init/RdModTrades.java",
@@ -7520,10 +7509,6 @@
             "children": []
           },
           {
-            "name": "LowRiver",
-            "children": []
-          },
-          {
             "name": "EssenceExchange",
             "children": []
           },
@@ -7546,10 +7531,10 @@
   "workspaceSettings": {
     "modid": "rd",
     "modName": "Minecraft: Rubylands",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "A fresh coat of paint on the block game you know and love.",
     "author": "StellarXRaven17",
-    "websiteURL": "https://docs.google.com/document/d/e/2PACX-1vReIFbbTTbypJxIFhX5X_AathCM86d_VQyzdnE9QhVeo0XR3OECQ_XjrfOXtIs4dXDFLkGw8RyNIC3r/pub",
+    "websiteURL": "https://modrinth.com/mod/minecraft-rubylands",
     "license": "Not specified",
     "serverSideOnly": false,
     "modPicture": "inequity",

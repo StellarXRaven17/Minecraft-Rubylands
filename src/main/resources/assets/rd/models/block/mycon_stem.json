@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "rd:block/mycon_log_top",
-    "up": "rd:block/mycon_log_top",
-    "north": "rd:block/mycon_log_side",
-    "east": "rd:block/mycon_log_side",
-    "south": "rd:block/mycon_log_side",
-    "west": "rd:block/mycon_log_side",
-    "particle": "rd:block/mycon_log_top"
+    "down": "rd:block/mycon_stem_top",
+    "up": "rd:block/mycon_stem_top",
+    "north": "rd:block/mycon_stem",
+    "east": "rd:block/mycon_stem",
+    "south": "rd:block/mycon_stem",
+    "west": "rd:block/mycon_stem",
+    "particle": "rd:block/mycon_stem_top"
   },
   "render_type": "solid"
 }

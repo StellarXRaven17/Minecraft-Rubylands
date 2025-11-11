@@ -2,12 +2,12 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "mycon_log_top",
-    "textureTop": "mycon_log_top",
-    "textureLeft": "mycon_log_side",
-    "textureFront": "mycon_log_side",
-    "textureRight": "mycon_log_side",
-    "textureBack": "mycon_log_side",
+    "texture": "mycon_stem_top",
+    "textureTop": "mycon_stem_top",
+    "textureLeft": "mycon_stem",
+    "textureFront": "mycon_stem",
+    "textureRight": "mycon_stem",
+    "textureBack": "mycon_stem",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 5,
@@ -112,6 +112,9 @@
     "isBonemealable": false,
     "sensitiveToVibration": false,
     "vibrationalEvents": [],
+    "vibrationSensitivityRadius": {
+      "fixedValue": 7.0
+    },
     "hasInventory": false,
     "openGUIOnRightClick": false,
     "inventorySize": 9,

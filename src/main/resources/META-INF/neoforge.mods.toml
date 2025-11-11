@@ -4,9 +4,9 @@ license="Not specified"
 
 [[mods]]
 modId="rd"
-version="0.1.0"
+version="0.1.1"
 displayName="Minecraft: Rubylands"
-displayURL="https://docs.google.com/document/d/e/2PACX-1vReIFbbTTbypJxIFhX5X_AathCM86d_VQyzdnE9QhVeo0XR3OECQ_XjrfOXtIs4dXDFLkGw8RyNIC3r/pub"
+displayURL="https://modrinth.com/mod/minecraft-rubylands"
 logoFile="logo.png"
 credits="Based on Minecraft Alpha 1.0.16 Versions, made with MCreator."
 authors="StellarXRaven17"
@@ -15,8 +15,6 @@ description="A fresh coat of paint on the block game you know and love."
 # Start of user code block mod configuration
 # End of user code block mod configuration
 
-    [[mixins]]
-    config = "rd.mixins.json"
 
 # Start of user code block custom mixins
 # End of user code block custom mixins
