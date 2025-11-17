@@ -8,8 +8,8 @@
       "registry_name": "essence",
       "metadata": {
         "files": [
-          "src/main/java/net/stellarxraven17/rubylands/item/EssenceItem.java",
-          "src/main/resources/assets/rd/models/item/essence.json"
+          "src/main/resources/assets/rd/models/item/essence.json",
+          "src/main/java/net/stellarxraven17/rubylands/item/EssenceItem.java"
         ]
       },
       "path": "~/Items/Essence"
@@ -35,11 +35,11 @@
       "registry_name": "oak_pillar",
       "metadata": {
         "files": [
+          "src/main/java/net/stellarxraven17/rubylands/block/WoodenPillarBlock.java",
           "src/main/resources/assets/rd/models/item/oak_pillar.json",
           "src/main/resources/assets/rd/blockstates/oak_pillar.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/WoodenPillarBlock.java",
-          "src/main/resources/assets/rd/models/block/oak_pillar.json",
-          "src/main/resources/data/rd/loot_table/blocks/oak_pillar.json"
+          "src/main/resources/data/rd/loot_table/blocks/oak_pillar.json",
+          "src/main/resources/assets/rd/models/block/oak_pillar.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Oak"
@@ -66,11 +66,11 @@
       "registry_name": "essence_cache",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/item/essence_cache.json",
-          "src/main/resources/assets/rd/blockstates/essence_cache.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/EssenceCacheBlock.java",
+          "src/main/resources/data/rd/loot_table/blocks/essence_cache.json",
           "src/main/resources/assets/rd/models/block/essence_cache.json",
-          "src/main/resources/data/rd/loot_table/blocks/essence_cache.json"
+          "src/main/resources/assets/rd/blockstates/essence_cache.json",
+          "src/main/resources/assets/rd/models/item/essence_cache.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/EssenceCacheBlock.java"
         ]
       },
       "path": "~/Blocks/MiscLilypadBlocks"
@@ -83,8 +83,8 @@
       "registry_name": "essence_to_essence_cache",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/recipe/essence_to_essence_cache.json",
-          "src/main/resources/data/rd/advancement/recipes/essence_to_essence_cache.json"
+          "src/main/resources/data/rd/advancement/recipes/essence_to_essence_cache.json",
+          "src/main/resources/data/rd/recipe/essence_to_essence_cache.json"
         ]
       },
       "path": "~/Blocks/MiscLilypadBlocks"
@@ -110,8 +110,8 @@
       "registry_name": "obsidian_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/item/obsidian_ingot.json",
-          "src/main/java/net/stellarxraven17/rubylands/item/ObsidianIngotItem.java"
+          "src/main/java/net/stellarxraven17/rubylands/item/ObsidianIngotItem.java",
+          "src/main/resources/assets/rd/models/item/obsidian_ingot.json"
         ]
       },
       "path": "~/Items/Gear/Obsidian"
@@ -124,8 +124,8 @@
       "registry_name": "observer_fur",
       "metadata": {
         "files": [
-          "src/main/java/net/stellarxraven17/rubylands/item/ObserverFurItem.java",
-          "src/main/resources/assets/rd/models/item/observer_fur.json"
+          "src/main/resources/assets/rd/models/item/observer_fur.json",
+          "src/main/java/net/stellarxraven17/rubylands/item/ObserverFurItem.java"
         ]
       },
       "path": "~/Items/Gear/Ragged"
@@ -166,8 +166,8 @@
       "registry_name": "ragged_leggings_crafting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/recipe/ragged_leggings_crafting.json",
-          "src/main/resources/data/rd/advancement/recipes/ragged_leggings_crafting.json"
+          "src/main/resources/data/rd/advancement/recipes/ragged_leggings_crafting.json",
+          "src/main/resources/data/rd/recipe/ragged_leggings_crafting.json"
         ]
       },
       "path": "~/Items/Gear/Ragged"
@@ -180,8 +180,8 @@
       "registry_name": "ragged_boots_crafting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/advancement/recipes/ragged_boots_crafting.json",
-          "src/main/resources/data/rd/recipe/ragged_boots_crafting.json"
+          "src/main/resources/data/rd/recipe/ragged_boots_crafting.json",
+          "src/main/resources/data/rd/advancement/recipes/ragged_boots_crafting.json"
         ]
       },
       "path": "~/Items/Gear/Ragged"
@@ -209,9 +209,9 @@
       "metadata": {
         "files": [
           "src/main/resources/data/rd/loot_table/blocks/window.json",
-          "src/main/resources/assets/rd/models/block/window.json",
           "src/main/java/net/stellarxraven17/rubylands/block/FortifiedGlassBlock.java",
           "src/main/resources/assets/rd/models/item/window.json",
+          "src/main/resources/assets/rd/models/block/window.json",
           "src/main/resources/assets/rd/blockstates/window.json"
         ]
       },
@@ -252,10 +252,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/rd/models/item/iron_brick.json",
-          "src/main/resources/assets/rd/blockstates/iron_brick.json",
           "src/main/java/net/stellarxraven17/rubylands/block/IronBrickBlock.java",
           "src/main/resources/data/rd/loot_table/blocks/iron_brick.json",
-          "src/main/resources/assets/rd/models/block/iron_brick.json"
+          "src/main/resources/assets/rd/models/block/iron_brick.json",
+          "src/main/resources/assets/rd/blockstates/iron_brick.json"
         ]
       },
       "path": "~/Blocks/OreBlocks/Iron"
@@ -269,10 +269,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/rd/models/item/gold_brick.json",
-          "src/main/resources/assets/rd/blockstates/gold_brick.json",
-          "src/main/resources/assets/rd/models/block/gold_brick.json",
           "src/main/java/net/stellarxraven17/rubylands/block/GoldBrickBlock.java",
-          "src/main/resources/data/rd/loot_table/blocks/gold_brick.json"
+          "src/main/resources/assets/rd/models/block/gold_brick.json",
+          "src/main/resources/data/rd/loot_table/blocks/gold_brick.json",
+          "src/main/resources/assets/rd/blockstates/gold_brick.json"
         ]
       },
       "path": "~/Blocks/OreBlocks/Gold"
@@ -286,8 +286,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/rd/loot_table/blocks/diamond_brick.json",
-          "src/main/resources/assets/rd/blockstates/diamond_brick.json",
           "src/main/resources/assets/rd/models/item/diamond_brick.json",
+          "src/main/resources/assets/rd/blockstates/diamond_brick.json",
           "src/main/resources/assets/rd/models/block/diamond_brick.json",
           "src/main/java/net/stellarxraven17/rubylands/block/DiamondBrickBlock.java"
         ]
@@ -303,10 +303,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/rd/models/block/obsidian_brick.json",
+          "src/main/resources/data/rd/loot_table/blocks/obsidian_brick.json",
           "src/main/resources/assets/rd/models/item/obsidian_brick.json",
           "src/main/resources/assets/rd/blockstates/obsidian_brick.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/ObsidianBrickBlock.java",
-          "src/main/resources/data/rd/loot_table/blocks/obsidian_brick.json"
+          "src/main/java/net/stellarxraven17/rubylands/block/ObsidianBrickBlock.java"
         ]
       },
       "path": "~/Blocks/OreBlocks/Obsidian"
@@ -319,8 +319,8 @@
       "registry_name": "iron_brick_crafting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/recipe/iron_brick_crafting.json",
-          "src/main/resources/data/rd/advancement/recipes/iron_brick_crafting.json"
+          "src/main/resources/data/rd/advancement/recipes/iron_brick_crafting.json",
+          "src/main/resources/data/rd/recipe/iron_brick_crafting.json"
         ]
       },
       "path": "~/Blocks/OreBlocks/Iron"
@@ -375,10 +375,10 @@
       "registry_name": "stone_scaffold",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/loot_table/blocks/stone_scaffold.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/TileBlockBlock.java",
-          "src/main/resources/assets/rd/models/item/stone_scaffold.json",
           "src/main/resources/assets/rd/blockstates/stone_scaffold.json",
+          "src/main/resources/assets/rd/models/item/stone_scaffold.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/TileBlockBlock.java",
+          "src/main/resources/data/rd/loot_table/blocks/stone_scaffold.json",
           "src/main/resources/assets/rd/models/block/stone_scaffold.json"
         ]
       },
@@ -392,9 +392,9 @@
       "registry_name": "xray_scaffold",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/blockstates/xray_scaffold.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/TileBlock2Block.java",
           "src/main/resources/assets/rd/models/item/xray_scaffold.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/TileBlock2Block.java",
+          "src/main/resources/assets/rd/blockstates/xray_scaffold.json",
           "src/main/resources/data/rd/loot_table/blocks/xray_scaffold.json",
           "src/main/resources/assets/rd/models/block/xray_scaffold.json"
         ]
@@ -409,11 +409,11 @@
       "registry_name": "scaffold",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/loot_table/blocks/scaffold.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/TileBlock2NonFuckedBlock.java",
-          "src/main/resources/assets/rd/models/block/scaffold.json",
           "src/main/resources/assets/rd/models/item/scaffold.json",
-          "src/main/resources/assets/rd/blockstates/scaffold.json"
+          "src/main/java/net/stellarxraven17/rubylands/block/TileBlock2NonFuckedBlock.java",
+          "src/main/resources/assets/rd/blockstates/scaffold.json",
+          "src/main/resources/assets/rd/models/block/scaffold.json",
+          "src/main/resources/data/rd/loot_table/blocks/scaffold.json"
         ]
       },
       "path": "~/Blocks/StoneBlocks"
@@ -426,8 +426,8 @@
       "registry_name": "tile_block_crafting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/recipe/tile_block_crafting.json",
-          "src/main/resources/data/rd/advancement/recipes/tile_block_crafting.json"
+          "src/main/resources/data/rd/advancement/recipes/tile_block_crafting.json",
+          "src/main/resources/data/rd/recipe/tile_block_crafting.json"
         ]
       },
       "path": "~/Blocks/StoneBlocks"
@@ -440,8 +440,8 @@
       "registry_name": "tile_block_2_crafting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/recipe/tile_block_2_crafting.json",
-          "src/main/resources/data/rd/advancement/recipes/tile_block_2_crafting.json"
+          "src/main/resources/data/rd/advancement/recipes/tile_block_2_crafting.json",
+          "src/main/resources/data/rd/recipe/tile_block_2_crafting.json"
         ]
       },
       "path": "~/Blocks/StoneBlocks"
@@ -454,11 +454,11 @@
       "registry_name": "blue_dimension_tile",
       "metadata": {
         "files": [
+          "src/main/resources/assets/rd/models/block/blue_dimension_tile.json",
           "src/main/java/net/stellarxraven17/rubylands/block/TileBlock3Block.java",
-          "src/main/resources/assets/rd/blockstates/blue_dimension_tile.json",
-          "src/main/resources/data/rd/loot_table/blocks/blue_dimension_tile.json",
           "src/main/resources/assets/rd/models/item/blue_dimension_tile.json",
-          "src/main/resources/assets/rd/models/block/blue_dimension_tile.json"
+          "src/main/resources/data/rd/loot_table/blocks/blue_dimension_tile.json",
+          "src/main/resources/assets/rd/blockstates/blue_dimension_tile.json"
         ]
       },
       "path": "~/Blocks/HubBlocks"
@@ -471,11 +471,11 @@
       "registry_name": "yellow_dimension_tile",
       "metadata": {
         "files": [
+          "src/main/resources/data/rd/loot_table/blocks/yellow_dimension_tile.json",
+          "src/main/resources/assets/rd/models/item/yellow_dimension_tile.json",
           "src/main/resources/assets/rd/blockstates/yellow_dimension_tile.json",
           "src/main/resources/assets/rd/models/block/yellow_dimension_tile.json",
-          "src/main/resources/data/rd/loot_table/blocks/yellow_dimension_tile.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/TileBlock4Block.java",
-          "src/main/resources/assets/rd/models/item/yellow_dimension_tile.json"
+          "src/main/java/net/stellarxraven17/rubylands/block/TileBlock4Block.java"
         ]
       },
       "path": "~/Blocks/HubBlocks"
@@ -488,11 +488,11 @@
       "registry_name": "dimension_floor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/block/dimension_floor.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/DimensionFloorBlockBlock.java",
           "src/main/resources/data/rd/loot_table/blocks/dimension_floor.json",
+          "src/main/resources/assets/rd/models/block/dimension_floor.json",
+          "src/main/resources/assets/rd/models/item/dimension_floor.json",
           "src/main/resources/assets/rd/blockstates/dimension_floor.json",
-          "src/main/resources/assets/rd/models/item/dimension_floor.json"
+          "src/main/java/net/stellarxraven17/rubylands/block/DimensionFloorBlockBlock.java"
         ]
       },
       "path": "~/Blocks/HubBlocks"
@@ -550,9 +550,9 @@
       "registry_name": "celestial_flames",
       "metadata": {
         "files": [
+          "src/main/resources/data/rd/neoforge/biome_modifier/celestial_flames_biome_modifier.json",
           "src/main/resources/data/rd/worldgen/placed_feature/celestial_flames.json",
-          "src/main/resources/data/rd/worldgen/configured_feature/celestial_flames.json",
-          "src/main/resources/data/rd/neoforge/biome_modifier/celestial_flames_biome_modifier.json"
+          "src/main/resources/data/rd/worldgen/configured_feature/celestial_flames.json"
         ]
       },
       "path": "~/Blocks/MiscLilypadBlocks"
@@ -605,9 +605,9 @@
       "registry_name": "water_lily",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/worldgen/configured_feature/water_lily.json",
+          "src/main/resources/data/rd/worldgen/placed_feature/water_lily.json",
           "src/main/resources/data/rd/neoforge/biome_modifier/water_lily_biome_modifier.json",
-          "src/main/resources/data/rd/worldgen/placed_feature/water_lily.json"
+          "src/main/resources/data/rd/worldgen/configured_feature/water_lily.json"
         ]
       },
       "path": "~/Blocks/MiscLilypadBlocks"
@@ -655,8 +655,8 @@
       "registry_name": "chiseledbookshelf",
       "metadata": {
         "files": [
-          "src/main/resources/data/minecraft/recipe/chiseled_bookshelf.json",
-          "src/main/resources/data/rd/advancement/recipes/chiseledbookshelf.json"
+          "src/main/resources/data/rd/advancement/recipes/chiseledbookshelf.json",
+          "src/main/resources/data/minecraft/recipe/chiseled_bookshelf.json"
         ]
       },
       "path": "~/VanillaRecipeOverrides"
@@ -669,8 +669,8 @@
       "registry_name": "bookshelf",
       "metadata": {
         "files": [
-          "src/main/resources/data/minecraft/recipe/bookshelf.json",
-          "src/main/resources/data/rd/advancement/recipes/bookshelf.json"
+          "src/main/resources/data/rd/advancement/recipes/bookshelf.json",
+          "src/main/resources/data/minecraft/recipe/bookshelf.json"
         ]
       },
       "path": "~/VanillaRecipeOverrides"
@@ -764,9 +764,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/rd/blockstates/salt_block.json",
-          "src/main/resources/data/rd/loot_table/blocks/salt_block.json",
           "src/main/java/net/stellarxraven17/rubylands/block/SaltBlockBlock.java",
           "src/main/resources/assets/rd/models/item/salt_block.json",
+          "src/main/resources/data/rd/loot_table/blocks/salt_block.json",
           "src/main/resources/assets/rd/models/block/salt_block.json"
         ]
       },
@@ -780,9 +780,9 @@
       "registry_name": "salt_pillars",
       "metadata": {
         "files": [
+          "src/main/resources/data/rd/worldgen/configured_feature/salt_pillars.json",
           "src/main/resources/data/rd/neoforge/biome_modifier/salt_pillars_biome_modifier.json",
-          "src/main/resources/data/rd/worldgen/placed_feature/salt_pillars.json",
-          "src/main/resources/data/rd/worldgen/configured_feature/salt_pillars.json"
+          "src/main/resources/data/rd/worldgen/placed_feature/salt_pillars.json"
         ]
       },
       "path": "~/Blocks/StoneBlocks/Salt"
@@ -808,10 +808,10 @@
       "registry_name": "dimension_wall",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/item/dimension_wall.json",
-          "src/main/resources/assets/rd/blockstates/dimension_wall.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/DimensionWallBlockBlock.java",
           "src/main/resources/assets/rd/models/block/dimension_wall.json",
+          "src/main/resources/assets/rd/models/item/dimension_wall.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/DimensionWallBlockBlock.java",
+          "src/main/resources/assets/rd/blockstates/dimension_wall.json",
           "src/main/resources/data/rd/loot_table/blocks/dimension_wall.json"
         ]
       },
@@ -825,10 +825,10 @@
       "registry_name": "observer",
       "metadata": {
         "files": [
-          "src/main/java/net/stellarxraven17/rubylands/client/renderer/ObserverRenderer.java",
-          "src/main/resources/assets/rd/models/item/observer_spawn_egg.json",
           "src/main/resources/data/rd/neoforge/biome_modifier/observer_biome_modifier.json",
-          "src/main/java/net/stellarxraven17/rubylands/entity/ObserverEntity.java"
+          "src/main/resources/assets/rd/models/item/observer_spawn_egg.json",
+          "src/main/java/net/stellarxraven17/rubylands/entity/ObserverEntity.java",
+          "src/main/java/net/stellarxraven17/rubylands/client/renderer/ObserverRenderer.java"
         ]
       },
       "path": "~/Mobs/Observer"
@@ -854,9 +854,9 @@
       "registry_name": "recruiter",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/neoforge/biome_modifier/recruiter_biome_modifier.json",
+          "src/main/java/net/stellarxraven17/rubylands/client/renderer/RecruiterRenderer.java",
           "src/main/java/net/stellarxraven17/rubylands/entity/RecruiterEntity.java",
-          "src/main/java/net/stellarxraven17/rubylands/client/renderer/RecruiterRenderer.java"
+          "src/main/resources/data/rd/neoforge/biome_modifier/recruiter_biome_modifier.json"
         ]
       },
       "path": "~/Mobs/Recruiter"
@@ -869,11 +869,11 @@
       "registry_name": "cyan_mojang_block",
       "metadata": {
         "files": [
-          "src/main/java/net/stellarxraven17/rubylands/block/AltMojangHypostasisAnemoBlock.java",
-          "src/main/resources/assets/rd/blockstates/cyan_mojang_block.json",
           "src/main/resources/assets/rd/models/item/cyan_mojang_block.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/AltMojangHypostasisAnemoBlock.java",
           "src/main/resources/assets/rd/models/block/cyan_mojang_block.json",
-          "src/main/resources/data/rd/loot_table/blocks/cyan_mojang_block.json"
+          "src/main/resources/data/rd/loot_table/blocks/cyan_mojang_block.json",
+          "src/main/resources/assets/rd/blockstates/cyan_mojang_block.json"
         ]
       },
       "path": "~/Blocks/HubBlocks"
@@ -886,11 +886,11 @@
       "registry_name": "white_mojang_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/item/white_mojang_block.json",
-          "src/main/resources/data/rd/loot_table/blocks/white_mojang_block.json",
           "src/main/resources/assets/rd/models/block/white_mojang_block.json",
-          "src/main/resources/assets/rd/blockstates/white_mojang_block.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/Imgur9F0A3unBlock.java"
+          "src/main/resources/data/rd/loot_table/blocks/white_mojang_block.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/Imgur9F0A3unBlock.java",
+          "src/main/resources/assets/rd/models/item/white_mojang_block.json",
+          "src/main/resources/assets/rd/blockstates/white_mojang_block.json"
         ]
       },
       "path": "~/Blocks/HubBlocks"
@@ -904,10 +904,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/rd/models/block/green_mojang_block.json",
-          "src/main/resources/assets/rd/models/item/green_mojang_block.json",
           "src/main/java/net/stellarxraven17/rubylands/block/YeahWeHadFunWithThisAsYouCanSeeBlock.java",
-          "src/main/resources/assets/rd/blockstates/green_mojang_block.json",
-          "src/main/resources/data/rd/loot_table/blocks/green_mojang_block.json"
+          "src/main/resources/assets/rd/models/item/green_mojang_block.json",
+          "src/main/resources/data/rd/loot_table/blocks/green_mojang_block.json",
+          "src/main/resources/assets/rd/blockstates/green_mojang_block.json"
         ]
       },
       "path": "~/Blocks/HubBlocks"
@@ -935,10 +935,10 @@
       "registry_name": "flamewood_wood",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/loot_table/blocks/flamewood_wood.json",
           "src/main/resources/assets/rd/models/item/flamewood_wood.json",
           "src/main/resources/assets/rd/blockstates/flamewood_wood.json",
           "src/main/java/net/stellarxraven17/rubylands/block/FlamewoodWoodBlock.java",
+          "src/main/resources/data/rd/loot_table/blocks/flamewood_wood.json",
           "src/main/resources/assets/rd/models/block/flamewood_wood.json"
         ]
       },
@@ -952,11 +952,11 @@
       "registry_name": "flamewood_log",
       "metadata": {
         "files": [
-          "src/main/java/net/stellarxraven17/rubylands/block/FlamewoodLogBlock.java",
           "src/main/resources/assets/rd/blockstates/flamewood_log.json",
           "src/main/resources/assets/rd/models/item/flamewood_log.json",
           "src/main/resources/data/rd/loot_table/blocks/flamewood_log.json",
-          "src/main/resources/assets/rd/models/block/flamewood_log.json"
+          "src/main/resources/assets/rd/models/block/flamewood_log.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/FlamewoodLogBlock.java"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Flamewood"
@@ -970,10 +970,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/rd/models/block/flamewood_planks.json",
+          "src/main/resources/assets/rd/models/item/flamewood_planks.json",
           "src/main/resources/assets/rd/blockstates/flamewood_planks.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/FlamewoodPlanksBlock.java",
           "src/main/resources/data/rd/loot_table/blocks/flamewood_planks.json",
-          "src/main/resources/assets/rd/models/item/flamewood_planks.json"
+          "src/main/java/net/stellarxraven17/rubylands/block/FlamewoodPlanksBlock.java"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Flamewood"
@@ -987,9 +987,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/rd/models/item/flamewood_leaves.json",
-          "src/main/resources/assets/rd/blockstates/flamewood_leaves.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/FlamewoodLeavesBlock.java",
           "src/main/resources/assets/rd/models/block/flamewood_leaves.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/FlamewoodLeavesBlock.java"
+          "src/main/resources/assets/rd/blockstates/flamewood_leaves.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Flamewood"
@@ -1002,13 +1002,13 @@
       "registry_name": "flamewood_stairs",
       "metadata": {
         "files": [
-          "src/main/java/net/stellarxraven17/rubylands/block/FlamewoodStairsBlock.java",
-          "src/main/resources/assets/rd/blockstates/flamewood_stairs.json",
-          "src/main/resources/data/rd/loot_table/blocks/flamewood_stairs.json",
-          "src/main/resources/assets/rd/models/block/flamewood_stairs_inner.json",
           "src/main/resources/assets/rd/models/item/flamewood_stairs.json",
+          "src/main/resources/assets/rd/blockstates/flamewood_stairs.json",
+          "src/main/resources/assets/rd/models/block/flamewood_stairs_outer.json",
+          "src/main/resources/data/rd/loot_table/blocks/flamewood_stairs.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/FlamewoodStairsBlock.java",
           "src/main/resources/assets/rd/models/block/flamewood_stairs.json",
-          "src/main/resources/assets/rd/models/block/flamewood_stairs_outer.json"
+          "src/main/resources/assets/rd/models/block/flamewood_stairs_inner.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Flamewood"
@@ -1021,13 +1021,13 @@
       "registry_name": "flamewood_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/blockstates/flamewood_slab.json",
-          "src/main/resources/assets/rd/models/block/flamewood_slab_top.json",
           "src/main/resources/data/rd/loot_table/blocks/flamewood_slab.json",
-          "src/main/resources/assets/rd/models/item/flamewood_slab.json",
-          "src/main/resources/assets/rd/models/block/flamewood_slab.json",
+          "src/main/resources/assets/rd/models/block/flamewood_slab_top.json",
           "src/main/resources/assets/rd/models/block/flamewood_slab_full.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/FlamewoodSlabBlock.java"
+          "src/main/resources/assets/rd/models/block/flamewood_slab.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/FlamewoodSlabBlock.java",
+          "src/main/resources/assets/rd/models/item/flamewood_slab.json",
+          "src/main/resources/assets/rd/blockstates/flamewood_slab.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Flamewood"
@@ -1040,13 +1040,13 @@
       "registry_name": "flamewood_fence",
       "metadata": {
         "files": [
+          "src/main/resources/data/rd/loot_table/blocks/flamewood_fence.json",
+          "src/main/resources/assets/rd/models/item/flamewood_fence.json",
           "src/main/resources/assets/rd/models/block/flamewood_fence.json",
           "src/main/java/net/stellarxraven17/rubylands/block/FlamewoodFenceBlock.java",
           "src/main/resources/assets/rd/blockstates/flamewood_fence.json",
-          "src/main/resources/assets/rd/models/block/flamewood_fence_post.json",
-          "src/main/resources/assets/rd/models/item/flamewood_fence.json",
-          "src/main/resources/data/rd/loot_table/blocks/flamewood_fence.json",
-          "src/main/resources/assets/rd/models/block/flamewood_fence_inventory.json"
+          "src/main/resources/assets/rd/models/block/flamewood_fence_inventory.json",
+          "src/main/resources/assets/rd/models/block/flamewood_fence_post.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Flamewood"
@@ -1059,13 +1059,13 @@
       "registry_name": "flamewood_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/loot_table/blocks/flamewood_fence_gate.json",
           "src/main/java/net/stellarxraven17/rubylands/block/FlamewoodFenceGateBlock.java",
-          "src/main/resources/assets/rd/blockstates/flamewood_fence_gate.json",
-          "src/main/resources/assets/rd/models/item/flamewood_fence_gate.json",
-          "src/main/resources/assets/rd/models/block/flamewood_fence_gate_wall_open.json",
           "src/main/resources/assets/rd/models/block/flamewood_fence_gate.json",
+          "src/main/resources/assets/rd/models/block/flamewood_fence_gate_wall_open.json",
           "src/main/resources/assets/rd/models/block/flamewood_fence_gate_open.json",
+          "src/main/resources/data/rd/loot_table/blocks/flamewood_fence_gate.json",
+          "src/main/resources/assets/rd/models/item/flamewood_fence_gate.json",
+          "src/main/resources/assets/rd/blockstates/flamewood_fence_gate.json",
           "src/main/resources/assets/rd/models/block/flamewood_fence_gate_wall.json"
         ]
       },
@@ -1079,12 +1079,12 @@
       "registry_name": "flamewood_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/blockstates/flamewood_pressure_plate.json",
-          "src/main/resources/assets/rd/models/block/flamewood_pressure_plate_down.json",
+          "src/main/resources/data/rd/loot_table/blocks/flamewood_pressure_plate.json",
           "src/main/resources/assets/rd/models/block/flamewood_pressure_plate.json",
-          "src/main/resources/assets/rd/models/item/flamewood_pressure_plate.json",
           "src/main/java/net/stellarxraven17/rubylands/block/FlamewoodPressurePlateBlock.java",
-          "src/main/resources/data/rd/loot_table/blocks/flamewood_pressure_plate.json"
+          "src/main/resources/assets/rd/models/block/flamewood_pressure_plate_down.json",
+          "src/main/resources/assets/rd/blockstates/flamewood_pressure_plate.json",
+          "src/main/resources/assets/rd/models/item/flamewood_pressure_plate.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Flamewood"
@@ -1098,12 +1098,12 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/rd/models/block/flamewood_button.json",
-          "src/main/resources/data/rd/loot_table/blocks/flamewood_button.json",
-          "src/main/resources/assets/rd/models/block/flamewood_button_inventory.json",
-          "src/main/resources/assets/rd/blockstates/flamewood_button.json",
-          "src/main/resources/assets/rd/models/item/flamewood_button.json",
           "src/main/resources/assets/rd/models/block/flamewood_button_pressed.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/FlamewoodButtonBlock.java"
+          "src/main/java/net/stellarxraven17/rubylands/block/FlamewoodButtonBlock.java",
+          "src/main/resources/assets/rd/models/item/flamewood_button.json",
+          "src/main/resources/assets/rd/blockstates/flamewood_button.json",
+          "src/main/resources/data/rd/loot_table/blocks/flamewood_button.json",
+          "src/main/resources/assets/rd/models/block/flamewood_button_inventory.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Flamewood"
@@ -1169,8 +1169,8 @@
       "registry_name": "flamewood_slab_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/advancement/recipes/flamewood_slab_recipe.json",
-          "src/main/resources/data/rd/recipe/flamewood_slab_recipe.json"
+          "src/main/resources/data/rd/recipe/flamewood_slab_recipe.json",
+          "src/main/resources/data/rd/advancement/recipes/flamewood_slab_recipe.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Flamewood"
@@ -1183,8 +1183,8 @@
       "registry_name": "flamewood_fence_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/advancement/recipes/flamewood_fence_recipe.json",
-          "src/main/resources/data/rd/recipe/flamewood_fence_recipe.json"
+          "src/main/resources/data/rd/recipe/flamewood_fence_recipe.json",
+          "src/main/resources/data/rd/advancement/recipes/flamewood_fence_recipe.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Flamewood"
@@ -1197,8 +1197,8 @@
       "registry_name": "flamewood_fence_gate_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/advancement/recipes/flamewood_fence_gate_recipe.json",
-          "src/main/resources/data/rd/recipe/flamewood_fence_gate_recipe.json"
+          "src/main/resources/data/rd/recipe/flamewood_fence_gate_recipe.json",
+          "src/main/resources/data/rd/advancement/recipes/flamewood_fence_gate_recipe.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Flamewood"
@@ -1239,11 +1239,11 @@
       "registry_name": "stripped_flamewood_log",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/block/stripped_flamewood_log.json",
           "src/main/resources/data/rd/loot_table/blocks/stripped_flamewood_log.json",
-          "src/main/resources/assets/rd/models/item/stripped_flamewood_log.json",
+          "src/main/resources/assets/rd/blockstates/stripped_flamewood_log.json",
           "src/main/java/net/stellarxraven17/rubylands/block/StrippedFlamewoodLogBlock.java",
-          "src/main/resources/assets/rd/blockstates/stripped_flamewood_log.json"
+          "src/main/resources/assets/rd/models/item/stripped_flamewood_log.json",
+          "src/main/resources/assets/rd/models/block/stripped_flamewood_log.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Flamewood"
@@ -1257,10 +1257,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/stellarxraven17/rubylands/block/StrippedFlamewoodWoodBlock.java",
-          "src/main/resources/assets/rd/blockstates/stripped_flamewood_wood.json",
-          "src/main/resources/assets/rd/models/item/stripped_flamewood_wood.json",
           "src/main/resources/data/rd/loot_table/blocks/stripped_flamewood_wood.json",
-          "src/main/resources/assets/rd/models/block/stripped_flamewood_wood.json"
+          "src/main/resources/assets/rd/models/block/stripped_flamewood_wood.json",
+          "src/main/resources/assets/rd/models/item/stripped_flamewood_wood.json",
+          "src/main/resources/assets/rd/blockstates/stripped_flamewood_wood.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Flamewood"
@@ -1384,11 +1384,11 @@
       "registry_name": "obsidian",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/item/obsidian_chestplate.json",
-          "src/main/resources/assets/rd/models/item/obsidian_leggings.json",
-          "src/main/resources/assets/rd/models/item/obsidian_helmet.json",
           "src/main/java/net/stellarxraven17/rubylands/item/ObsidianItem.java",
-          "src/main/resources/assets/rd/models/item/obsidian_boots.json"
+          "src/main/resources/assets/rd/models/item/obsidian_chestplate.json",
+          "src/main/resources/assets/rd/models/item/obsidian_boots.json",
+          "src/main/resources/assets/rd/models/item/obsidian_leggings.json",
+          "src/main/resources/assets/rd/models/item/obsidian_helmet.json"
         ]
       },
       "path": "~/Items/Gear/Obsidian"
@@ -1401,8 +1401,8 @@
       "registry_name": "obsidian_helmet_crafting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/advancement/recipes/obsidian_helmet_crafting.json",
-          "src/main/resources/data/rd/recipe/obsidian_helmet_crafting.json"
+          "src/main/resources/data/rd/recipe/obsidian_helmet_crafting.json",
+          "src/main/resources/data/rd/advancement/recipes/obsidian_helmet_crafting.json"
         ]
       },
       "path": "~/Items/Gear/Obsidian"
@@ -1474,21 +1474,21 @@
       "registry_name": "hub_door",
       "metadata": {
         "files": [
+          "src/main/resources/assets/rd/models/block/hub_door_top_left_open.json",
           "src/main/resources/data/rd/loot_table/blocks/hub_door.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/HubDoorBlock.java",
-          "src/main/resources/assets/rd/models/block/hub_door_top_left.json",
-          "src/main/resources/assets/rd/models/block/hub_door_top_right_open.json",
           "src/main/resources/assets/rd/models/block/hub_door_bottom_left_open.json",
+          "src/main/resources/assets/rd/models/block/hub_door_top_right.json",
+          "src/main/resources/assets/rd/models/block/hub_door_top_right_open.json",
+          "src/main/resources/assets/rd/blockstates/hub_door.json",
+          "src/main/resources/assets/rd/models/block/hub_door_top_left.json",
+          "src/main/resources/assets/rd/models/block/hub_door_bottom_right.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/HubDoorBlock.java",
           "src/main/resources/assets/rd/models/block/hub_door_bottom_right_open.json",
           "src/main/resources/assets/rd/models/block/hub_door_bottom_left.json",
-          "src/main/resources/assets/rd/blockstates/hub_door.json",
-          "src/main/resources/assets/rd/models/block/hub_door_top_left_open.json",
-          "src/main/resources/assets/rd/models/block/hub_door_top_right.json",
-          "src/main/resources/assets/rd/models/item/hub_door.json",
-          "src/main/resources/assets/rd/models/block/hub_door_bottom_right.json"
+          "src/main/resources/assets/rd/models/item/hub_door.json"
         ]
       },
-      "path": "~/CodeStuff/Hub"
+      "path": "~/MiscFeatures/Hub"
     },
     {
       "name": "HubDoorSpawning",
@@ -1503,7 +1503,7 @@
         ],
         "dependencies": []
       },
-      "path": "~/CodeStuff/Hub"
+      "path": "~/MiscFeatures/Hub"
     },
     {
       "name": "HubDoorSpawn",
@@ -1516,7 +1516,7 @@
           "src/main/resources/data/rd/worldgen/configured_feature/hub_door_feachur.json"
         ]
       },
-      "path": "~/CodeStuff/Hub"
+      "path": "~/MiscFeatures/Hub"
     },
     {
       "name": "FlamewoodDoor",
@@ -1526,18 +1526,18 @@
       "registry_name": "flamewood_door",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/item/flamewood_door.json",
-          "src/main/resources/assets/rd/models/block/flamewood_door_bottom_left_open.json",
-          "src/main/resources/assets/rd/models/block/flamewood_door_top_left.json",
-          "src/main/resources/data/rd/loot_table/blocks/flamewood_door.json",
-          "src/main/resources/assets/rd/models/block/flamewood_door_top_left_open.json",
-          "src/main/resources/assets/rd/models/block/flamewood_door_bottom_left.json",
-          "src/main/resources/assets/rd/blockstates/flamewood_door.json",
           "src/main/resources/assets/rd/models/block/flamewood_door_top_right_open.json",
           "src/main/java/net/stellarxraven17/rubylands/block/FlamewoodDoorBlock.java",
+          "src/main/resources/assets/rd/models/block/flamewood_door_top_left_open.json",
+          "src/main/resources/assets/rd/models/block/flamewood_door_bottom_left.json",
+          "src/main/resources/assets/rd/models/block/flamewood_door_top_left.json",
+          "src/main/resources/assets/rd/models/block/flamewood_door_bottom_left_open.json",
+          "src/main/resources/data/rd/loot_table/blocks/flamewood_door.json",
+          "src/main/resources/assets/rd/blockstates/flamewood_door.json",
           "src/main/resources/assets/rd/models/block/flamewood_door_bottom_right.json",
-          "src/main/resources/assets/rd/models/block/flamewood_door_bottom_right_open.json",
-          "src/main/resources/assets/rd/models/block/flamewood_door_top_right.json"
+          "src/main/resources/assets/rd/models/block/flamewood_door_top_right.json",
+          "src/main/resources/assets/rd/models/item/flamewood_door.json",
+          "src/main/resources/assets/rd/models/block/flamewood_door_bottom_right_open.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Flamewood"
@@ -1552,11 +1552,11 @@
         "files": [
           "src/main/java/net/stellarxraven17/rubylands/block/FlamewoodTrapdoorBlock.java",
           "src/main/resources/assets/rd/models/block/flamewood_trapdoor_open.json",
-          "src/main/resources/assets/rd/blockstates/flamewood_trapdoor.json",
-          "src/main/resources/assets/rd/models/block/flamewood_trapdoor_top.json",
-          "src/main/resources/assets/rd/models/block/flamewood_trapdoor.json",
           "src/main/resources/data/rd/loot_table/blocks/flamewood_trapdoor.json",
-          "src/main/resources/assets/rd/models/item/flamewood_trapdoor.json"
+          "src/main/resources/assets/rd/models/block/flamewood_trapdoor.json",
+          "src/main/resources/assets/rd/models/item/flamewood_trapdoor.json",
+          "src/main/resources/assets/rd/models/block/flamewood_trapdoor_top.json",
+          "src/main/resources/assets/rd/blockstates/flamewood_trapdoor.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Flamewood"
@@ -1597,11 +1597,11 @@
       "registry_name": "stone_path",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/blockstates/stone_path.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/StonePathBlock.java",
+          "src/main/resources/data/rd/loot_table/blocks/stone_path.json",
           "src/main/resources/assets/rd/models/item/stone_path.json",
           "src/main/resources/assets/rd/models/block/stone_path.json",
-          "src/main/resources/data/rd/loot_table/blocks/stone_path.json"
+          "src/main/resources/assets/rd/blockstates/stone_path.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/StonePathBlock.java"
         ]
       },
       "path": "~/Blocks/StoneBlocks"
@@ -1623,7 +1623,7 @@
           }
         ]
       },
-      "path": "~/CodeStuff/Hub"
+      "path": "~/MiscFeatures/Hub"
     },
     {
       "name": "HerobrineJoins",
@@ -1642,7 +1642,7 @@
           }
         ]
       },
-      "path": "~/CodeStuff"
+      "path": "~/MiscFeatures"
     },
     {
       "name": "HerobrineSpawns",
@@ -1673,7 +1673,7 @@
           }
         ]
       },
-      "path": "~/CodeStuff"
+      "path": "~/MiscFeatures"
     },
     {
       "name": "RecruiterDisconnect",
@@ -1736,7 +1736,7 @@
           "src/main/resources/data/rd/advancement/enter_hub.json"
         ]
       },
-      "path": "~/CodeStuff/Hub"
+      "path": "~/MiscFeatures/Hub"
     },
     {
       "name": "HurtMonsterWithInfusedLily",
@@ -1802,8 +1802,8 @@
       "registry_name": "essence_bullet",
       "metadata": {
         "files": [
-          "src/main/java/net/stellarxraven17/rubylands/entity/EssenceBulletEntity.java",
-          "src/main/java/net/stellarxraven17/rubylands/client/renderer/EssenceBulletRenderer.java"
+          "src/main/java/net/stellarxraven17/rubylands/client/renderer/EssenceBulletRenderer.java",
+          "src/main/java/net/stellarxraven17/rubylands/entity/EssenceBulletEntity.java"
         ]
       },
       "path": "~/Items/Essence"
@@ -1915,9 +1915,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/rd/models/block/salt_bricks.json",
+          "src/main/resources/data/rd/loot_table/blocks/salt_bricks.json",
           "src/main/java/net/stellarxraven17/rubylands/block/SaltBricksBlock.java",
           "src/main/resources/assets/rd/models/item/salt_bricks.json",
-          "src/main/resources/data/rd/loot_table/blocks/salt_bricks.json",
           "src/main/resources/assets/rd/blockstates/salt_bricks.json"
         ]
       },
@@ -1945,13 +1945,13 @@
       "registry_name": "salt_brick_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/blockstates/salt_brick_slab.json",
-          "src/main/resources/data/rd/loot_table/blocks/salt_brick_slab.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/SaltBricksSlabBlock.java",
-          "src/main/resources/assets/rd/models/item/salt_brick_slab.json",
-          "src/main/resources/assets/rd/models/block/salt_brick_slab_full.json",
           "src/main/resources/assets/rd/models/block/salt_brick_slab.json",
-          "src/main/resources/assets/rd/models/block/salt_brick_slab_top.json"
+          "src/main/resources/data/rd/loot_table/blocks/salt_brick_slab.json",
+          "src/main/resources/assets/rd/models/item/salt_brick_slab.json",
+          "src/main/resources/assets/rd/models/block/salt_brick_slab_top.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/SaltBricksSlabBlock.java",
+          "src/main/resources/assets/rd/blockstates/salt_brick_slab.json",
+          "src/main/resources/assets/rd/models/block/salt_brick_slab_full.json"
         ]
       },
       "path": "~/Blocks/StoneBlocks/Salt"
@@ -1964,12 +1964,12 @@
       "registry_name": "salt_brick_stairs",
       "metadata": {
         "files": [
+          "src/main/java/net/stellarxraven17/rubylands/block/SaltBricksStairsBlock.java",
           "src/main/resources/assets/rd/models/block/salt_brick_stairs_inner.json",
+          "src/main/resources/data/rd/loot_table/blocks/salt_brick_stairs.json",
           "src/main/resources/assets/rd/models/item/salt_brick_stairs.json",
           "src/main/resources/assets/rd/blockstates/salt_brick_stairs.json",
           "src/main/resources/assets/rd/models/block/salt_brick_stairs.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/SaltBricksStairsBlock.java",
-          "src/main/resources/data/rd/loot_table/blocks/salt_brick_stairs.json",
           "src/main/resources/assets/rd/models/block/salt_brick_stairs_outer.json"
         ]
       },
@@ -1983,14 +1983,14 @@
       "registry_name": "salt_brick_wall",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/item/salt_brick_wall.json",
-          "src/main/resources/assets/rd/models/block/salt_brick_wall_post.json",
-          "src/main/resources/assets/rd/models/block/salt_brick_wall_side_tall.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/SaltBricksWallBlock.java",
           "src/main/resources/assets/rd/models/block/salt_brick_wall_inventory.json",
-          "src/main/resources/data/rd/loot_table/blocks/salt_brick_wall.json",
+          "src/main/resources/assets/rd/models/block/salt_brick_wall.json",
+          "src/main/resources/assets/rd/models/block/salt_brick_wall_side_tall.json",
           "src/main/resources/assets/rd/blockstates/salt_brick_wall.json",
-          "src/main/resources/assets/rd/models/block/salt_brick_wall.json"
+          "src/main/resources/data/rd/loot_table/blocks/salt_brick_wall.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/SaltBricksWallBlock.java",
+          "src/main/resources/assets/rd/models/item/salt_brick_wall.json",
+          "src/main/resources/assets/rd/models/block/salt_brick_wall_post.json"
         ]
       },
       "path": "~/Blocks/StoneBlocks/Salt"
@@ -2003,8 +2003,8 @@
       "registry_name": "salt_brick_slab_crafting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/recipe/salt_brick_slab_crafting.json",
-          "src/main/resources/data/rd/advancement/recipes/salt_brick_slab_crafting.json"
+          "src/main/resources/data/rd/advancement/recipes/salt_brick_slab_crafting.json",
+          "src/main/resources/data/rd/recipe/salt_brick_slab_crafting.json"
         ]
       },
       "path": "~/Blocks/StoneBlocks/Salt"
@@ -2017,9 +2017,9 @@
       "registry_name": "rock_beetle",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/item/rock_beetle.json",
+          "src/main/resources/data/rd/jukebox_song/rock_beetle.json",
           "src/main/java/net/stellarxraven17/rubylands/item/RockBeetleItem.java",
-          "src/main/resources/data/rd/jukebox_song/rock_beetle.json"
+          "src/main/resources/assets/rd/models/item/rock_beetle.json"
         ]
       },
       "path": "~/Items/Records"
@@ -2046,8 +2046,8 @@
       "registry_name": "obsidian_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/item/obsidian_pickaxe.json",
-          "src/main/java/net/stellarxraven17/rubylands/item/ObsidianPickaxeItem.java"
+          "src/main/java/net/stellarxraven17/rubylands/item/ObsidianPickaxeItem.java",
+          "src/main/resources/assets/rd/models/item/obsidian_pickaxe.json"
         ]
       },
       "path": "~/Items/Gear/Obsidian"
@@ -2074,8 +2074,8 @@
       "registry_name": "obsidian_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/stellarxraven17/rubylands/item/ObsidianShovelItem.java",
-          "src/main/resources/assets/rd/models/item/obsidian_shovel.json"
+          "src/main/resources/assets/rd/models/item/obsidian_shovel.json",
+          "src/main/java/net/stellarxraven17/rubylands/item/ObsidianShovelItem.java"
         ]
       },
       "path": "~/Items/Gear/Obsidian"
@@ -2187,9 +2187,9 @@
       "registry_name": "flamewood_tree_big",
       "metadata": {
         "files": [
+          "src/main/resources/data/rd/worldgen/configured_feature/flamewood_tree_big.json",
           "src/main/resources/data/rd/neoforge/biome_modifier/flamewood_tree_big_biome_modifier.json",
-          "src/main/resources/data/rd/worldgen/placed_feature/flamewood_tree_big.json",
-          "src/main/resources/data/rd/worldgen/configured_feature/flamewood_tree_big.json"
+          "src/main/resources/data/rd/worldgen/placed_feature/flamewood_tree_big.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Flamewood"
@@ -2203,7 +2203,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/CodeStuff"
+      "path": "~/MiscFeatures"
     },
     {
       "name": "TeaWood",
@@ -2213,10 +2213,10 @@
       "registry_name": "tea_wood",
       "metadata": {
         "files": [
+          "src/main/resources/assets/rd/blockstates/tea_wood.json",
           "src/main/resources/assets/rd/models/block/tea_wood.json",
           "src/main/resources/data/rd/loot_table/blocks/tea_wood.json",
           "src/main/java/net/stellarxraven17/rubylands/block/TeaWoodBlock.java",
-          "src/main/resources/assets/rd/blockstates/tea_wood.json",
           "src/main/resources/assets/rd/models/item/tea_wood.json"
         ]
       },
@@ -2230,8 +2230,8 @@
       "registry_name": "tea_log",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/block/tea_log.json",
           "src/main/resources/assets/rd/models/item/tea_log.json",
+          "src/main/resources/assets/rd/models/block/tea_log.json",
           "src/main/resources/assets/rd/blockstates/tea_log.json",
           "src/main/java/net/stellarxraven17/rubylands/block/TeaLogBlock.java",
           "src/main/resources/data/rd/loot_table/blocks/tea_log.json"
@@ -2247,11 +2247,11 @@
       "registry_name": "tea_planks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/blockstates/tea_planks.json",
           "src/main/java/net/stellarxraven17/rubylands/block/TeaPlanksBlock.java",
-          "src/main/resources/assets/rd/models/item/tea_planks.json",
+          "src/main/resources/data/rd/loot_table/blocks/tea_planks.json",
           "src/main/resources/assets/rd/models/block/tea_planks.json",
-          "src/main/resources/data/rd/loot_table/blocks/tea_planks.json"
+          "src/main/resources/assets/rd/models/item/tea_planks.json",
+          "src/main/resources/assets/rd/blockstates/tea_planks.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Tea"
@@ -2264,8 +2264,8 @@
       "registry_name": "tea_leaves",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/block/tea_leaves.json",
           "src/main/java/net/stellarxraven17/rubylands/block/TeaLeavesBlock.java",
+          "src/main/resources/assets/rd/models/block/tea_leaves.json",
           "src/main/resources/assets/rd/models/item/tea_leaves.json",
           "src/main/resources/assets/rd/blockstates/tea_leaves.json"
         ]
@@ -2281,12 +2281,12 @@
       "metadata": {
         "files": [
           "src/main/resources/data/rd/loot_table/blocks/tea_stairs.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/TeaStairsBlock.java",
-          "src/main/resources/assets/rd/models/block/tea_stairs_outer.json",
+          "src/main/resources/assets/rd/models/block/tea_stairs.json",
           "src/main/resources/assets/rd/blockstates/tea_stairs.json",
-          "src/main/resources/assets/rd/models/block/tea_stairs_inner.json",
+          "src/main/resources/assets/rd/models/block/tea_stairs_outer.json",
           "src/main/resources/assets/rd/models/item/tea_stairs.json",
-          "src/main/resources/assets/rd/models/block/tea_stairs.json"
+          "src/main/java/net/stellarxraven17/rubylands/block/TeaStairsBlock.java",
+          "src/main/resources/assets/rd/models/block/tea_stairs_inner.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Tea"
@@ -2299,13 +2299,13 @@
       "registry_name": "tea_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/block/tea_slab_top.json",
-          "src/main/resources/assets/rd/models/block/tea_slab.json",
-          "src/main/resources/data/rd/loot_table/blocks/tea_slab.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/TeaSlabBlock.java",
           "src/main/resources/assets/rd/models/item/tea_slab.json",
-          "src/main/resources/assets/rd/blockstates/tea_slab.json",
-          "src/main/resources/assets/rd/models/block/tea_slab_full.json"
+          "src/main/resources/assets/rd/models/block/tea_slab_top.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/TeaSlabBlock.java",
+          "src/main/resources/data/rd/loot_table/blocks/tea_slab.json",
+          "src/main/resources/assets/rd/models/block/tea_slab_full.json",
+          "src/main/resources/assets/rd/models/block/tea_slab.json",
+          "src/main/resources/assets/rd/blockstates/tea_slab.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Tea"
@@ -2318,13 +2318,13 @@
       "registry_name": "tea_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/item/tea_fence.json",
+          "src/main/resources/assets/rd/models/block/tea_fence_inventory.json",
           "src/main/resources/assets/rd/blockstates/tea_fence.json",
+          "src/main/resources/assets/rd/models/item/tea_fence.json",
           "src/main/resources/data/rd/loot_table/blocks/tea_fence.json",
           "src/main/resources/assets/rd/models/block/tea_fence.json",
           "src/main/resources/assets/rd/models/block/tea_fence_post.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/TeaFenceBlock.java",
-          "src/main/resources/assets/rd/models/block/tea_fence_inventory.json"
+          "src/main/java/net/stellarxraven17/rubylands/block/TeaFenceBlock.java"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Tea"
@@ -2337,14 +2337,14 @@
       "registry_name": "tea_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/blockstates/tea_fence_gate.json",
-          "src/main/resources/data/rd/loot_table/blocks/tea_fence_gate.json",
-          "src/main/resources/assets/rd/models/item/tea_fence_gate.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/TeaFenceGateBlock.java",
-          "src/main/resources/assets/rd/models/block/tea_fence_gate_wall_open.json",
-          "src/main/resources/assets/rd/models/block/tea_fence_gate_open.json",
           "src/main/resources/assets/rd/models/block/tea_fence_gate.json",
-          "src/main/resources/assets/rd/models/block/tea_fence_gate_wall.json"
+          "src/main/resources/assets/rd/models/block/tea_fence_gate_wall_open.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/TeaFenceGateBlock.java",
+          "src/main/resources/data/rd/loot_table/blocks/tea_fence_gate.json",
+          "src/main/resources/assets/rd/models/block/tea_fence_gate_wall.json",
+          "src/main/resources/assets/rd/models/item/tea_fence_gate.json",
+          "src/main/resources/assets/rd/blockstates/tea_fence_gate.json",
+          "src/main/resources/assets/rd/models/block/tea_fence_gate_open.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Tea"
@@ -2357,12 +2357,12 @@
       "registry_name": "tea_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/blockstates/tea_pressure_plate.json",
-          "src/main/resources/assets/rd/models/block/tea_pressure_plate_down.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/TeaPressurePlateBlock.java",
-          "src/main/resources/assets/rd/models/item/tea_pressure_plate.json",
           "src/main/resources/assets/rd/models/block/tea_pressure_plate.json",
-          "src/main/resources/data/rd/loot_table/blocks/tea_pressure_plate.json"
+          "src/main/resources/assets/rd/models/item/tea_pressure_plate.json",
+          "src/main/resources/assets/rd/models/block/tea_pressure_plate_down.json",
+          "src/main/resources/assets/rd/blockstates/tea_pressure_plate.json",
+          "src/main/resources/data/rd/loot_table/blocks/tea_pressure_plate.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/TeaPressurePlateBlock.java"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Tea"
@@ -2375,13 +2375,13 @@
       "registry_name": "tea_button",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/blockstates/tea_button.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/TeaButtonBlock.java",
           "src/main/resources/assets/rd/models/item/tea_button.json",
-          "src/main/resources/assets/rd/models/block/tea_button.json",
-          "src/main/resources/data/rd/loot_table/blocks/tea_button.json",
+          "src/main/resources/assets/rd/models/block/tea_button_pressed.json",
           "src/main/resources/assets/rd/models/block/tea_button_inventory.json",
-          "src/main/resources/assets/rd/models/block/tea_button_pressed.json"
+          "src/main/resources/data/rd/loot_table/blocks/tea_button.json",
+          "src/main/resources/assets/rd/models/block/tea_button.json",
+          "src/main/resources/assets/rd/blockstates/tea_button.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/TeaButtonBlock.java"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Tea"
@@ -2433,8 +2433,8 @@
       "registry_name": "tea_stairs_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/advancement/recipes/tea_stairs_recipe.json",
-          "src/main/resources/data/rd/recipe/tea_stairs_recipe.json"
+          "src/main/resources/data/rd/recipe/tea_stairs_recipe.json",
+          "src/main/resources/data/rd/advancement/recipes/tea_stairs_recipe.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Tea"
@@ -2447,8 +2447,8 @@
       "registry_name": "tea_slab_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/recipe/tea_slab_recipe.json",
-          "src/main/resources/data/rd/advancement/recipes/tea_slab_recipe.json"
+          "src/main/resources/data/rd/advancement/recipes/tea_slab_recipe.json",
+          "src/main/resources/data/rd/recipe/tea_slab_recipe.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Tea"
@@ -2461,8 +2461,8 @@
       "registry_name": "tea_fence_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/advancement/recipes/tea_fence_recipe.json",
-          "src/main/resources/data/rd/recipe/tea_fence_recipe.json"
+          "src/main/resources/data/rd/recipe/tea_fence_recipe.json",
+          "src/main/resources/data/rd/advancement/recipes/tea_fence_recipe.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Tea"
@@ -2475,8 +2475,8 @@
       "registry_name": "tea_fence_gate_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/recipe/tea_fence_gate_recipe.json",
-          "src/main/resources/data/rd/advancement/recipes/tea_fence_gate_recipe.json"
+          "src/main/resources/data/rd/advancement/recipes/tea_fence_gate_recipe.json",
+          "src/main/resources/data/rd/recipe/tea_fence_gate_recipe.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Tea"
@@ -2503,8 +2503,8 @@
       "registry_name": "tea_button_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/recipe/tea_button_recipe.json",
-          "src/main/resources/data/rd/advancement/recipes/tea_button_recipe.json"
+          "src/main/resources/data/rd/advancement/recipes/tea_button_recipe.json",
+          "src/main/resources/data/rd/recipe/tea_button_recipe.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Tea"
@@ -2517,18 +2517,18 @@
       "registry_name": "tea_door",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/block/tea_door_bottom_right_open.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/TeaDoorBlock.java",
-          "src/main/resources/assets/rd/models/block/tea_door_bottom_left.json",
-          "src/main/resources/assets/rd/models/block/tea_door_bottom_left_open.json",
-          "src/main/resources/data/rd/loot_table/blocks/tea_door.json",
-          "src/main/resources/assets/rd/models/block/tea_door_bottom_right.json",
-          "src/main/resources/assets/rd/models/block/tea_door_top_right.json",
           "src/main/resources/assets/rd/blockstates/tea_door.json",
+          "src/main/resources/assets/rd/models/block/tea_door_bottom_right_open.json",
+          "src/main/resources/assets/rd/models/block/tea_door_bottom_left_open.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/TeaDoorBlock.java",
+          "src/main/resources/assets/rd/models/block/tea_door_bottom_right.json",
+          "src/main/resources/assets/rd/models/block/tea_door_top_left_open.json",
+          "src/main/resources/data/rd/loot_table/blocks/tea_door.json",
           "src/main/resources/assets/rd/models/block/tea_door_top_left.json",
-          "src/main/resources/assets/rd/models/block/tea_door_top_right_open.json",
           "src/main/resources/assets/rd/models/item/tea_door.json",
-          "src/main/resources/assets/rd/models/block/tea_door_top_left_open.json"
+          "src/main/resources/assets/rd/models/block/tea_door_top_right.json",
+          "src/main/resources/assets/rd/models/block/tea_door_top_right_open.json",
+          "src/main/resources/assets/rd/models/block/tea_door_bottom_left.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Tea"
@@ -2541,13 +2541,13 @@
       "registry_name": "tea_trapdoor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/blockstates/tea_trapdoor.json",
           "src/main/java/net/stellarxraven17/rubylands/block/TeaTrapdoorBlock.java",
           "src/main/resources/assets/rd/models/block/tea_trapdoor_open.json",
+          "src/main/resources/data/rd/loot_table/blocks/tea_trapdoor.json",
+          "src/main/resources/assets/rd/blockstates/tea_trapdoor.json",
           "src/main/resources/assets/rd/models/block/tea_trapdoor.json",
-          "src/main/resources/assets/rd/models/item/tea_trapdoor.json",
           "src/main/resources/assets/rd/models/block/tea_trapdoor_top.json",
-          "src/main/resources/data/rd/loot_table/blocks/tea_trapdoor.json"
+          "src/main/resources/assets/rd/models/item/tea_trapdoor.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Tea"
@@ -2560,11 +2560,11 @@
       "registry_name": "stripped_tea_wood",
       "metadata": {
         "files": [
-          "src/main/java/net/stellarxraven17/rubylands/block/StrippedTeaWoodBlock.java",
-          "src/main/resources/data/rd/loot_table/blocks/stripped_tea_wood.json",
           "src/main/resources/assets/rd/models/block/stripped_tea_wood.json",
+          "src/main/resources/assets/rd/models/item/stripped_tea_wood.json",
           "src/main/resources/assets/rd/blockstates/stripped_tea_wood.json",
-          "src/main/resources/assets/rd/models/item/stripped_tea_wood.json"
+          "src/main/java/net/stellarxraven17/rubylands/block/StrippedTeaWoodBlock.java",
+          "src/main/resources/data/rd/loot_table/blocks/stripped_tea_wood.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Tea"
@@ -2577,11 +2577,11 @@
       "registry_name": "stripped_tea_log",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/loot_table/blocks/stripped_tea_log.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/StrippedTeaLogBlock.java",
           "src/main/resources/assets/rd/blockstates/stripped_tea_log.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/StrippedTeaLogBlock.java",
           "src/main/resources/assets/rd/models/block/stripped_tea_log.json",
-          "src/main/resources/assets/rd/models/item/stripped_tea_log.json"
+          "src/main/resources/assets/rd/models/item/stripped_tea_log.json",
+          "src/main/resources/data/rd/loot_table/blocks/stripped_tea_log.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Tea"
@@ -2678,8 +2678,8 @@
       "registry_name": "hanging_flamewood_sign_crafting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/advancement/recipes/hanging_flamewood_sign_crafting.json",
-          "src/main/resources/data/rd/recipe/hanging_flamewood_sign_crafting.json"
+          "src/main/resources/data/rd/recipe/hanging_flamewood_sign_crafting.json",
+          "src/main/resources/data/rd/advancement/recipes/hanging_flamewood_sign_crafting.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Flamewood"
@@ -2720,8 +2720,8 @@
       "registry_name": "hanging_tea_sign_crafting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/recipe/hanging_tea_sign_crafting.json",
-          "src/main/resources/data/rd/advancement/recipes/hanging_tea_sign_crafting.json"
+          "src/main/resources/data/rd/advancement/recipes/hanging_tea_sign_crafting.json",
+          "src/main/resources/data/rd/recipe/hanging_tea_sign_crafting.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Tea"
@@ -2748,11 +2748,11 @@
       "registry_name": "tea_sapling",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/item/tea_sapling.json",
-          "src/main/resources/assets/rd/blockstates/tea_sapling.json",
           "src/main/resources/assets/rd/models/block/tea_sapling.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/TeaSaplingBlock.java",
           "src/main/resources/data/rd/loot_table/blocks/tea_sapling.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/TeaSaplingBlock.java"
+          "src/main/resources/assets/rd/blockstates/tea_sapling.json",
+          "src/main/resources/assets/rd/models/item/tea_sapling.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Tea"
@@ -2765,10 +2765,10 @@
       "registry_name": "low_stone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/item/low_stone.json",
-          "src/main/resources/data/rd/loot_table/blocks/low_stone.json",
           "src/main/resources/assets/rd/blockstates/low_stone.json",
+          "src/main/resources/assets/rd/models/item/low_stone.json",
           "src/main/java/net/stellarxraven17/rubylands/block/LowStoneBlock.java",
+          "src/main/resources/data/rd/loot_table/blocks/low_stone.json",
           "src/main/resources/assets/rd/models/block/low_stone.json"
         ]
       },
@@ -2783,10 +2783,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/rd/models/block/cobbled_low_stone.json",
-          "src/main/resources/data/rd/loot_table/blocks/cobbled_low_stone.json",
           "src/main/resources/assets/rd/models/item/cobbled_low_stone.json",
           "src/main/resources/assets/rd/blockstates/cobbled_low_stone.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/CobbledLowStoneBlock.java"
+          "src/main/java/net/stellarxraven17/rubylands/block/CobbledLowStoneBlock.java",
+          "src/main/resources/data/rd/loot_table/blocks/cobbled_low_stone.json"
         ]
       },
       "path": "~/Blocks/StoneBlocks/LowStone"
@@ -2800,8 +2800,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/rd/worldgen/configured_feature/low_lily.json",
-          "src/main/resources/data/rd/neoforge/biome_modifier/low_lily_biome_modifier.json",
-          "src/main/resources/data/rd/worldgen/placed_feature/low_lily.json"
+          "src/main/resources/data/rd/worldgen/placed_feature/low_lily.json",
+          "src/main/resources/data/rd/neoforge/biome_modifier/low_lily_biome_modifier.json"
         ]
       },
       "path": "~/Blocks/MiscLilypadBlocks"
@@ -2814,8 +2814,8 @@
       "registry_name": "elderstone_coal_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/blockstates/elderstone_coal_ore.json",
           "src/main/resources/assets/rd/models/block/elderstone_coal_ore.json",
+          "src/main/resources/assets/rd/blockstates/elderstone_coal_ore.json",
           "src/main/java/net/stellarxraven17/rubylands/block/CoalLowStoneOreBlock.java",
           "src/main/resources/assets/rd/models/item/elderstone_coal_ore.json"
         ]
@@ -2846,10 +2846,10 @@
       "registry_name": "low_stone_gold_ore",
       "metadata": {
         "files": [
-          "src/main/java/net/stellarxraven17/rubylands/block/LowStoneGoldOreBlock.java",
-          "src/main/resources/assets/rd/blockstates/low_stone_gold_ore.json",
           "src/main/resources/assets/rd/models/block/low_stone_gold_ore.json",
-          "src/main/resources/assets/rd/models/item/low_stone_gold_ore.json"
+          "src/main/resources/assets/rd/models/item/low_stone_gold_ore.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/LowStoneGoldOreBlock.java",
+          "src/main/resources/assets/rd/blockstates/low_stone_gold_ore.json"
         ]
       },
       "path": "~/Blocks/OreBlocks/Gold"
@@ -2862,10 +2862,10 @@
       "registry_name": "low_stone_diamond_ore",
       "metadata": {
         "files": [
+          "src/main/resources/assets/rd/models/block/low_stone_diamond_ore.json",
           "src/main/resources/assets/rd/models/item/low_stone_diamond_ore.json",
           "src/main/resources/assets/rd/blockstates/low_stone_diamond_ore.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/LowStoneDiamondOreBlock.java",
-          "src/main/resources/assets/rd/models/block/low_stone_diamond_ore.json"
+          "src/main/java/net/stellarxraven17/rubylands/block/LowStoneDiamondOreBlock.java"
         ]
       },
       "path": "~/Blocks/OreBlocks/Diamond"
@@ -2878,11 +2878,11 @@
       "registry_name": "mycon_hyphae",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/block/mycon_hyphae.json",
+          "src/main/resources/assets/rd/models/item/mycon_hyphae.json",
+          "src/main/resources/assets/rd/blockstates/mycon_hyphae.json",
           "src/main/java/net/stellarxraven17/rubylands/block/MyconWoodBlock.java",
           "src/main/resources/data/rd/loot_table/blocks/mycon_hyphae.json",
-          "src/main/resources/assets/rd/blockstates/mycon_hyphae.json",
-          "src/main/resources/assets/rd/models/item/mycon_hyphae.json"
+          "src/main/resources/assets/rd/models/block/mycon_hyphae.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Mycon"
@@ -2896,10 +2896,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/rd/models/block/mycon_stem.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/MyconLogBlock.java",
-          "src/main/resources/assets/rd/models/item/mycon_stem.json",
+          "src/main/resources/data/rd/loot_table/blocks/mycon_stem.json",
           "src/main/resources/assets/rd/blockstates/mycon_stem.json",
-          "src/main/resources/data/rd/loot_table/blocks/mycon_stem.json"
+          "src/main/java/net/stellarxraven17/rubylands/block/MyconLogBlock.java",
+          "src/main/resources/assets/rd/models/item/mycon_stem.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Mycon"
@@ -2912,11 +2912,11 @@
       "registry_name": "mycon_planks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/blockstates/mycon_planks.json",
+          "src/main/resources/data/rd/loot_table/blocks/mycon_planks.json",
           "src/main/java/net/stellarxraven17/rubylands/block/MyconPlanksBlock.java",
-          "src/main/resources/assets/rd/models/item/mycon_planks.json",
+          "src/main/resources/assets/rd/blockstates/mycon_planks.json",
           "src/main/resources/assets/rd/models/block/mycon_planks.json",
-          "src/main/resources/data/rd/loot_table/blocks/mycon_planks.json"
+          "src/main/resources/assets/rd/models/item/mycon_planks.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Mycon"
@@ -2930,10 +2930,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/rd/blockstates/mycon_cap.json",
-          "src/main/resources/data/rd/loot_table/blocks/mycon_cap.json",
-          "src/main/resources/assets/rd/models/block/mycon_cap.json",
+          "src/main/resources/assets/rd/models/item/mycon_cap.json",
           "src/main/java/net/stellarxraven17/rubylands/block/MyconLeavesBlock.java",
-          "src/main/resources/assets/rd/models/item/mycon_cap.json"
+          "src/main/resources/data/rd/loot_table/blocks/mycon_cap.json",
+          "src/main/resources/assets/rd/models/block/mycon_cap.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Mycon"
@@ -2946,13 +2946,13 @@
       "registry_name": "mycon_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/item/mycon_stairs.json",
-          "src/main/resources/assets/rd/models/block/mycon_stairs.json",
           "src/main/java/net/stellarxraven17/rubylands/block/MyconStairsBlock.java",
-          "src/main/resources/assets/rd/blockstates/mycon_stairs.json",
-          "src/main/resources/data/rd/loot_table/blocks/mycon_stairs.json",
+          "src/main/resources/assets/rd/models/block/mycon_stairs.json",
+          "src/main/resources/assets/rd/models/item/mycon_stairs.json",
           "src/main/resources/assets/rd/models/block/mycon_stairs_inner.json",
-          "src/main/resources/assets/rd/models/block/mycon_stairs_outer.json"
+          "src/main/resources/assets/rd/models/block/mycon_stairs_outer.json",
+          "src/main/resources/assets/rd/blockstates/mycon_stairs.json",
+          "src/main/resources/data/rd/loot_table/blocks/mycon_stairs.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Mycon"
@@ -2965,12 +2965,12 @@
       "registry_name": "mycon_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/item/mycon_slab.json",
-          "src/main/resources/assets/rd/models/block/mycon_slab_full.json",
-          "src/main/resources/data/rd/loot_table/blocks/mycon_slab.json",
           "src/main/resources/assets/rd/blockstates/mycon_slab.json",
+          "src/main/resources/assets/rd/models/block/mycon_slab_full.json",
+          "src/main/resources/assets/rd/models/item/mycon_slab.json",
           "src/main/resources/assets/rd/models/block/mycon_slab.json",
           "src/main/java/net/stellarxraven17/rubylands/block/MyconSlabBlock.java",
+          "src/main/resources/data/rd/loot_table/blocks/mycon_slab.json",
           "src/main/resources/assets/rd/models/block/mycon_slab_top.json"
         ]
       },
@@ -2984,13 +2984,13 @@
       "registry_name": "mycon_fence",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/loot_table/blocks/mycon_fence.json",
-          "src/main/resources/assets/rd/models/block/mycon_fence.json",
-          "src/main/resources/assets/rd/blockstates/mycon_fence.json",
           "src/main/resources/assets/rd/models/block/mycon_fence_post.json",
+          "src/main/resources/assets/rd/models/item/mycon_fence.json",
+          "src/main/resources/assets/rd/models/block/mycon_fence.json",
+          "src/main/resources/data/rd/loot_table/blocks/mycon_fence.json",
           "src/main/resources/assets/rd/models/block/mycon_fence_inventory.json",
           "src/main/java/net/stellarxraven17/rubylands/block/MyconFenceBlock.java",
-          "src/main/resources/assets/rd/models/item/mycon_fence.json"
+          "src/main/resources/assets/rd/blockstates/mycon_fence.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Mycon"
@@ -3003,14 +3003,14 @@
       "registry_name": "mycon_fence_gate",
       "metadata": {
         "files": [
-          "src/main/java/net/stellarxraven17/rubylands/block/MyconFenceGateBlock.java",
           "src/main/resources/assets/rd/models/block/mycon_fence_gate_wall.json",
+          "src/main/resources/assets/rd/models/item/mycon_fence_gate.json",
+          "src/main/resources/assets/rd/models/block/mycon_fence_gate.json",
+          "src/main/resources/assets/rd/models/block/mycon_fence_gate_wall_open.json",
+          "src/main/resources/assets/rd/blockstates/mycon_fence_gate.json",
           "src/main/resources/assets/rd/models/block/mycon_fence_gate_open.json",
           "src/main/resources/data/rd/loot_table/blocks/mycon_fence_gate.json",
-          "src/main/resources/assets/rd/models/item/mycon_fence_gate.json",
-          "src/main/resources/assets/rd/blockstates/mycon_fence_gate.json",
-          "src/main/resources/assets/rd/models/block/mycon_fence_gate.json",
-          "src/main/resources/assets/rd/models/block/mycon_fence_gate_wall_open.json"
+          "src/main/java/net/stellarxraven17/rubylands/block/MyconFenceGateBlock.java"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Mycon"
@@ -3024,11 +3024,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/rd/models/item/mycon_pressure_plate.json",
-          "src/main/resources/assets/rd/models/block/mycon_pressure_plate_down.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/MyconPressurePlateBlock.java",
           "src/main/resources/assets/rd/blockstates/mycon_pressure_plate.json",
           "src/main/resources/data/rd/loot_table/blocks/mycon_pressure_plate.json",
-          "src/main/resources/assets/rd/models/block/mycon_pressure_plate.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/MyconPressurePlateBlock.java"
+          "src/main/resources/assets/rd/models/block/mycon_pressure_plate_down.json",
+          "src/main/resources/assets/rd/models/block/mycon_pressure_plate.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Mycon"
@@ -3041,13 +3041,13 @@
       "registry_name": "mycon_button",
       "metadata": {
         "files": [
-          "src/main/java/net/stellarxraven17/rubylands/block/MyconButtonBlock.java",
           "src/main/resources/assets/rd/blockstates/mycon_button.json",
           "src/main/resources/data/rd/loot_table/blocks/mycon_button.json",
-          "src/main/resources/assets/rd/models/block/mycon_button_pressed.json",
-          "src/main/resources/assets/rd/models/block/mycon_button_inventory.json",
+          "src/main/resources/assets/rd/models/block/mycon_button.json",
           "src/main/resources/assets/rd/models/item/mycon_button.json",
-          "src/main/resources/assets/rd/models/block/mycon_button.json"
+          "src/main/resources/assets/rd/models/block/mycon_button_inventory.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/MyconButtonBlock.java",
+          "src/main/resources/assets/rd/models/block/mycon_button_pressed.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Mycon"
@@ -3179,9 +3179,9 @@
         "files": [
           "src/main/resources/assets/rd/blockstates/polished_low_stone.json",
           "src/main/resources/data/rd/loot_table/blocks/polished_low_stone.json",
-          "src/main/resources/assets/rd/models/item/polished_low_stone.json",
           "src/main/resources/assets/rd/models/block/polished_low_stone.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/PolishedLowStoneBlock.java"
+          "src/main/java/net/stellarxraven17/rubylands/block/PolishedLowStoneBlock.java",
+          "src/main/resources/assets/rd/models/item/polished_low_stone.json"
         ]
       },
       "path": "~/Blocks/StoneBlocks/LowStone"
@@ -3194,11 +3194,11 @@
       "registry_name": "low_stone_bricks",
       "metadata": {
         "files": [
+          "src/main/resources/data/rd/loot_table/blocks/low_stone_bricks.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/LowStoneBricksBlock.java",
           "src/main/resources/assets/rd/models/item/low_stone_bricks.json",
           "src/main/resources/assets/rd/blockstates/low_stone_bricks.json",
-          "src/main/resources/assets/rd/models/block/low_stone_bricks.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/LowStoneBricksBlock.java",
-          "src/main/resources/data/rd/loot_table/blocks/low_stone_bricks.json"
+          "src/main/resources/assets/rd/models/block/low_stone_bricks.json"
         ]
       },
       "path": "~/Blocks/StoneBlocks/LowStone"
@@ -3211,11 +3211,11 @@
       "registry_name": "cracked_low_stone_bricks",
       "metadata": {
         "files": [
-          "src/main/java/net/stellarxraven17/rubylands/block/CrackedLowStoneBricksBlock.java",
-          "src/main/resources/assets/rd/models/block/cracked_low_stone_bricks.json",
-          "src/main/resources/data/rd/loot_table/blocks/cracked_low_stone_bricks.json",
+          "src/main/resources/assets/rd/blockstates/cracked_low_stone_bricks.json",
           "src/main/resources/assets/rd/models/item/cracked_low_stone_bricks.json",
-          "src/main/resources/assets/rd/blockstates/cracked_low_stone_bricks.json"
+          "src/main/resources/assets/rd/models/block/cracked_low_stone_bricks.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/CrackedLowStoneBricksBlock.java",
+          "src/main/resources/data/rd/loot_table/blocks/cracked_low_stone_bricks.json"
         ]
       },
       "path": "~/Blocks/StoneBlocks/LowStone"
@@ -3229,8 +3229,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/rd/worldgen/configured_feature/tea_tree.json",
-          "src/main/resources/data/rd/neoforge/biome_modifier/tea_tree_biome_modifier.json",
-          "src/main/resources/data/rd/worldgen/placed_feature/tea_tree.json"
+          "src/main/resources/data/rd/worldgen/placed_feature/tea_tree.json",
+          "src/main/resources/data/rd/neoforge/biome_modifier/tea_tree_biome_modifier.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Tea"
@@ -3243,8 +3243,8 @@
       "registry_name": "pyrite",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/item/pyrite.json",
-          "src/main/java/net/stellarxraven17/rubylands/item/PyriteItem.java"
+          "src/main/java/net/stellarxraven17/rubylands/item/PyriteItem.java",
+          "src/main/resources/assets/rd/models/item/pyrite.json"
         ]
       },
       "path": "~/Blocks/OreBlocks/Pyrite"
@@ -3257,13 +3257,13 @@
       "registry_name": "pyrite_ore",
       "metadata": {
         "files": [
+          "src/main/resources/assets/rd/models/block/pyrite_ore.json",
+          "src/main/resources/data/rd/neoforge/biome_modifier/pyrite_ore_biome_modifier.json",
+          "src/main/resources/data/rd/worldgen/placed_feature/pyrite_ore.json",
+          "src/main/resources/assets/rd/models/item/pyrite_ore.json",
           "src/main/resources/assets/rd/blockstates/pyrite_ore.json",
           "src/main/resources/data/rd/worldgen/configured_feature/pyrite_ore.json",
-          "src/main/resources/assets/rd/models/item/pyrite_ore.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/PyriteOreBlock.java",
-          "src/main/resources/data/rd/worldgen/placed_feature/pyrite_ore.json",
-          "src/main/resources/data/rd/neoforge/biome_modifier/pyrite_ore_biome_modifier.json",
-          "src/main/resources/assets/rd/models/block/pyrite_ore.json"
+          "src/main/java/net/stellarxraven17/rubylands/block/PyriteOreBlock.java"
         ]
       },
       "path": "~/Blocks/OreBlocks/Pyrite"
@@ -3276,11 +3276,11 @@
       "registry_name": "pyrite_block",
       "metadata": {
         "files": [
+          "src/main/resources/assets/rd/models/block/pyrite_block.json",
           "src/main/java/net/stellarxraven17/rubylands/block/PyriteBlockBlock.java",
-          "src/main/resources/assets/rd/blockstates/pyrite_block.json",
-          "src/main/resources/data/rd/loot_table/blocks/pyrite_block.json",
           "src/main/resources/assets/rd/models/item/pyrite_block.json",
-          "src/main/resources/assets/rd/models/block/pyrite_block.json"
+          "src/main/resources/data/rd/loot_table/blocks/pyrite_block.json",
+          "src/main/resources/assets/rd/blockstates/pyrite_block.json"
         ]
       },
       "path": "~/Blocks/OreBlocks/Pyrite"
@@ -3346,13 +3346,13 @@
       "registry_name": "clinohumite_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/neoforge/biome_modifier/clinohumite_ore_biome_modifier.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/ClinohumiteOreBlock.java",
+          "src/main/resources/data/rd/worldgen/placed_feature/clinohumite_ore.json",
+          "src/main/resources/assets/rd/blockstates/clinohumite_ore.json",
           "src/main/resources/assets/rd/models/item/clinohumite_ore.json",
           "src/main/resources/assets/rd/models/block/clinohumite_ore.json",
-          "src/main/resources/data/rd/worldgen/configured_feature/clinohumite_ore.json",
-          "src/main/resources/assets/rd/blockstates/clinohumite_ore.json",
-          "src/main/resources/data/rd/worldgen/placed_feature/clinohumite_ore.json"
+          "src/main/java/net/stellarxraven17/rubylands/block/ClinohumiteOreBlock.java",
+          "src/main/resources/data/rd/neoforge/biome_modifier/clinohumite_ore_biome_modifier.json",
+          "src/main/resources/data/rd/worldgen/configured_feature/clinohumite_ore.json"
         ]
       },
       "path": "~/Blocks/OreBlocks/Clinohumite"
@@ -3365,11 +3365,11 @@
       "registry_name": "clinohumite_block",
       "metadata": {
         "files": [
-          "src/main/java/net/stellarxraven17/rubylands/block/ClinohumiteBlockBlock.java",
-          "src/main/resources/data/rd/loot_table/blocks/clinohumite_block.json",
           "src/main/resources/assets/rd/models/item/clinohumite_block.json",
+          "src/main/resources/assets/rd/blockstates/clinohumite_block.json",
           "src/main/resources/assets/rd/models/block/clinohumite_block.json",
-          "src/main/resources/assets/rd/blockstates/clinohumite_block.json"
+          "src/main/java/net/stellarxraven17/rubylands/block/ClinohumiteBlockBlock.java",
+          "src/main/resources/data/rd/loot_table/blocks/clinohumite_block.json"
         ]
       },
       "path": "~/Blocks/OreBlocks/Clinohumite"
@@ -3435,13 +3435,13 @@
       "registry_name": "lace_agate_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/neoforge/biome_modifier/lace_agate_ore_biome_modifier.json",
-          "src/main/resources/assets/rd/blockstates/lace_agate_ore.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/LaceAgateOreBlock.java",
-          "src/main/resources/data/rd/worldgen/configured_feature/lace_agate_ore.json",
           "src/main/resources/data/rd/worldgen/placed_feature/lace_agate_ore.json",
-          "src/main/resources/assets/rd/models/block/lace_agate_ore.json",
-          "src/main/resources/assets/rd/models/item/lace_agate_ore.json"
+          "src/main/resources/assets/rd/models/item/lace_agate_ore.json",
+          "src/main/resources/assets/rd/blockstates/lace_agate_ore.json",
+          "src/main/resources/data/rd/worldgen/configured_feature/lace_agate_ore.json",
+          "src/main/resources/data/rd/neoforge/biome_modifier/lace_agate_ore_biome_modifier.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/LaceAgateOreBlock.java",
+          "src/main/resources/assets/rd/models/block/lace_agate_ore.json"
         ]
       },
       "path": "~/Blocks/OreBlocks/LaceAgate"
@@ -3454,11 +3454,11 @@
       "registry_name": "lace_agate_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/block/lace_agate_block.json",
           "src/main/resources/data/rd/loot_table/blocks/lace_agate_block.json",
-          "src/main/resources/assets/rd/models/item/lace_agate_block.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/LaceAgateBlockBlock.java",
           "src/main/resources/assets/rd/blockstates/lace_agate_block.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/LaceAgateBlockBlock.java"
+          "src/main/resources/assets/rd/models/item/lace_agate_block.json",
+          "src/main/resources/assets/rd/models/block/lace_agate_block.json"
         ]
       },
       "path": "~/Blocks/OreBlocks/LaceAgate"
@@ -3524,13 +3524,13 @@
       "registry_name": "malachite_ore",
       "metadata": {
         "files": [
-          "src/main/java/net/stellarxraven17/rubylands/block/MalachiteOreBlock.java",
-          "src/main/resources/data/rd/worldgen/configured_feature/malachite_ore.json",
-          "src/main/resources/data/rd/neoforge/biome_modifier/malachite_ore_biome_modifier.json",
-          "src/main/resources/assets/rd/blockstates/malachite_ore.json",
-          "src/main/resources/data/rd/worldgen/placed_feature/malachite_ore.json",
+          "src/main/resources/assets/rd/models/block/malachite_ore.json",
           "src/main/resources/assets/rd/models/item/malachite_ore.json",
-          "src/main/resources/assets/rd/models/block/malachite_ore.json"
+          "src/main/resources/assets/rd/blockstates/malachite_ore.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/MalachiteOreBlock.java",
+          "src/main/resources/data/rd/worldgen/placed_feature/malachite_ore.json",
+          "src/main/resources/data/rd/neoforge/biome_modifier/malachite_ore_biome_modifier.json",
+          "src/main/resources/data/rd/worldgen/configured_feature/malachite_ore.json"
         ]
       },
       "path": "~/Blocks/OreBlocks/Malachite"
@@ -3543,11 +3543,11 @@
       "registry_name": "malachite_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/item/malachite_block.json",
+          "src/main/resources/assets/rd/blockstates/malachite_block.json",
           "src/main/resources/data/rd/loot_table/blocks/malachite_block.json",
+          "src/main/resources/assets/rd/models/item/malachite_block.json",
           "src/main/resources/assets/rd/models/block/malachite_block.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/MalachiteBlockBlock.java",
-          "src/main/resources/assets/rd/blockstates/malachite_block.json"
+          "src/main/java/net/stellarxraven17/rubylands/block/MalachiteBlockBlock.java"
         ]
       },
       "path": "~/Blocks/OreBlocks/Malachite"
@@ -3600,10 +3600,10 @@
       "metadata": {
         "files": [
           "src/main/resources/data/rd/loot_table/blocks/low_mycelium.json",
-          "src/main/resources/assets/rd/models/item/low_mycelium.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/ElderMyceliumBlock.java",
+          "src/main/resources/assets/rd/blockstates/low_mycelium.json",
           "src/main/resources/assets/rd/models/block/low_mycelium.json",
-          "src/main/resources/assets/rd/blockstates/low_mycelium.json"
+          "src/main/java/net/stellarxraven17/rubylands/block/ElderMyceliumBlock.java",
+          "src/main/resources/assets/rd/models/item/low_mycelium.json"
         ]
       },
       "path": "~/Blocks/StoneBlocks/LowStone"
@@ -3616,13 +3616,13 @@
       "registry_name": "deepslate_lace_agate_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/neoforge/biome_modifier/deepslate_lace_agate_ore_biome_modifier.json",
           "src/main/resources/assets/rd/models/item/deepslate_lace_agate_ore.json",
-          "src/main/resources/data/rd/worldgen/placed_feature/deepslate_lace_agate_ore.json",
           "src/main/java/net/stellarxraven17/rubylands/block/DeepslateLaceAgateOreBlock.java",
-          "src/main/resources/assets/rd/blockstates/deepslate_lace_agate_ore.json",
+          "src/main/resources/data/rd/worldgen/configured_feature/deepslate_lace_agate_ore.json",
+          "src/main/resources/data/rd/neoforge/biome_modifier/deepslate_lace_agate_ore_biome_modifier.json",
+          "src/main/resources/data/rd/worldgen/placed_feature/deepslate_lace_agate_ore.json",
           "src/main/resources/assets/rd/models/block/deepslate_lace_agate_ore.json",
-          "src/main/resources/data/rd/worldgen/configured_feature/deepslate_lace_agate_ore.json"
+          "src/main/resources/assets/rd/blockstates/deepslate_lace_agate_ore.json"
         ]
       },
       "path": "~/Blocks/OreBlocks/LaceAgate"
@@ -3635,13 +3635,13 @@
       "registry_name": "low_lace_agate_ore",
       "metadata": {
         "files": [
-          "src/main/java/net/stellarxraven17/rubylands/block/LowStoneLaceAgateOreBlock.java",
-          "src/main/resources/data/rd/worldgen/configured_feature/low_lace_agate_ore.json",
-          "src/main/resources/assets/rd/blockstates/low_lace_agate_ore.json",
           "src/main/resources/data/rd/worldgen/placed_feature/low_lace_agate_ore.json",
+          "src/main/resources/data/rd/worldgen/configured_feature/low_lace_agate_ore.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/LowStoneLaceAgateOreBlock.java",
           "src/main/resources/assets/rd/models/block/low_lace_agate_ore.json",
-          "src/main/resources/data/rd/neoforge/biome_modifier/low_lace_agate_ore_biome_modifier.json",
-          "src/main/resources/assets/rd/models/item/low_lace_agate_ore.json"
+          "src/main/resources/assets/rd/blockstates/low_lace_agate_ore.json",
+          "src/main/resources/assets/rd/models/item/low_lace_agate_ore.json",
+          "src/main/resources/data/rd/neoforge/biome_modifier/low_lace_agate_ore_biome_modifier.json"
         ]
       },
       "path": "~/Blocks/OreBlocks/LaceAgate"
@@ -3654,13 +3654,13 @@
       "registry_name": "deepslate_malachite_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/neoforge/biome_modifier/deepslate_malachite_ore_biome_modifier.json",
-          "src/main/resources/data/rd/worldgen/configured_feature/deepslate_malachite_ore.json",
-          "src/main/resources/data/rd/worldgen/placed_feature/deepslate_malachite_ore.json",
-          "src/main/resources/assets/rd/models/item/deepslate_malachite_ore.json",
-          "src/main/resources/assets/rd/models/block/deepslate_malachite_ore.json",
           "src/main/java/net/stellarxraven17/rubylands/block/DeepslateMalachiteOreBlock.java",
-          "src/main/resources/assets/rd/blockstates/deepslate_malachite_ore.json"
+          "src/main/resources/assets/rd/models/item/deepslate_malachite_ore.json",
+          "src/main/resources/assets/rd/blockstates/deepslate_malachite_ore.json",
+          "src/main/resources/data/rd/worldgen/placed_feature/deepslate_malachite_ore.json",
+          "src/main/resources/data/rd/worldgen/configured_feature/deepslate_malachite_ore.json",
+          "src/main/resources/assets/rd/models/block/deepslate_malachite_ore.json",
+          "src/main/resources/data/rd/neoforge/biome_modifier/deepslate_malachite_ore_biome_modifier.json"
         ]
       },
       "path": "~/Blocks/OreBlocks/Malachite"
@@ -3673,13 +3673,13 @@
       "registry_name": "low_malachite_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/worldgen/configured_feature/low_malachite_ore.json",
-          "src/main/resources/assets/rd/blockstates/low_malachite_ore.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/LowStoneMalachiteOreBlock.java",
           "src/main/resources/data/rd/neoforge/biome_modifier/low_malachite_ore_biome_modifier.json",
-          "src/main/resources/data/rd/worldgen/placed_feature/low_malachite_ore.json",
+          "src/main/resources/assets/rd/blockstates/low_malachite_ore.json",
+          "src/main/resources/data/rd/worldgen/configured_feature/low_malachite_ore.json",
           "src/main/resources/assets/rd/models/item/low_malachite_ore.json",
           "src/main/resources/assets/rd/models/block/low_malachite_ore.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/LowStoneMalachiteOreBlock.java"
+          "src/main/resources/data/rd/worldgen/placed_feature/low_malachite_ore.json"
         ]
       },
       "path": "~/Blocks/OreBlocks/Malachite"
@@ -3705,13 +3705,13 @@
       "registry_name": "deepslate_pyrite_ore",
       "metadata": {
         "files": [
-          "src/main/java/net/stellarxraven17/rubylands/block/DeepslatePyriteOreBlock.java",
           "src/main/resources/assets/rd/models/item/deepslate_pyrite_ore.json",
-          "src/main/resources/assets/rd/models/block/deepslate_pyrite_ore.json",
-          "src/main/resources/assets/rd/blockstates/deepslate_pyrite_ore.json",
-          "src/main/resources/data/rd/worldgen/configured_feature/deepslate_pyrite_ore.json",
           "src/main/resources/data/rd/neoforge/biome_modifier/deepslate_pyrite_ore_biome_modifier.json",
-          "src/main/resources/data/rd/worldgen/placed_feature/deepslate_pyrite_ore.json"
+          "src/main/resources/assets/rd/blockstates/deepslate_pyrite_ore.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/DeepslatePyriteOreBlock.java",
+          "src/main/resources/data/rd/worldgen/placed_feature/deepslate_pyrite_ore.json",
+          "src/main/resources/data/rd/worldgen/configured_feature/deepslate_pyrite_ore.json",
+          "src/main/resources/assets/rd/models/block/deepslate_pyrite_ore.json"
         ]
       },
       "path": "~/Blocks/OreBlocks/Pyrite"
@@ -3724,12 +3724,12 @@
       "registry_name": "low_pyrite_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/worldgen/placed_feature/low_pyrite_ore.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/LowPyriteOreBlock.java",
-          "src/main/resources/data/rd/neoforge/biome_modifier/low_pyrite_ore_biome_modifier.json",
           "src/main/resources/assets/rd/models/block/low_pyrite_ore.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/LowPyriteOreBlock.java",
+          "src/main/resources/data/rd/worldgen/placed_feature/low_pyrite_ore.json",
           "src/main/resources/assets/rd/models/item/low_pyrite_ore.json",
           "src/main/resources/assets/rd/blockstates/low_pyrite_ore.json",
+          "src/main/resources/data/rd/neoforge/biome_modifier/low_pyrite_ore_biome_modifier.json",
           "src/main/resources/data/rd/worldgen/configured_feature/low_pyrite_ore.json"
         ]
       },
@@ -3743,12 +3743,12 @@
       "registry_name": "deepslate_clinohumite_ore",
       "metadata": {
         "files": [
-          "src/main/java/net/stellarxraven17/rubylands/block/DeepslateClinohumiteOreBlock.java",
-          "src/main/resources/assets/rd/models/item/deepslate_clinohumite_ore.json",
-          "src/main/resources/assets/rd/blockstates/deepslate_clinohumite_ore.json",
-          "src/main/resources/assets/rd/models/block/deepslate_clinohumite_ore.json",
           "src/main/resources/data/rd/worldgen/placed_feature/deepslate_clinohumite_ore.json",
+          "src/main/resources/assets/rd/models/block/deepslate_clinohumite_ore.json",
+          "src/main/resources/assets/rd/models/item/deepslate_clinohumite_ore.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/DeepslateClinohumiteOreBlock.java",
           "src/main/resources/data/rd/neoforge/biome_modifier/deepslate_clinohumite_ore_biome_modifier.json",
+          "src/main/resources/assets/rd/blockstates/deepslate_clinohumite_ore.json",
           "src/main/resources/data/rd/worldgen/configured_feature/deepslate_clinohumite_ore.json"
         ]
       },
@@ -3762,13 +3762,13 @@
       "registry_name": "low_clinohumite_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/worldgen/placed_feature/low_clinohumite_ore.json",
           "src/main/resources/data/rd/neoforge/biome_modifier/low_clinohumite_ore_biome_modifier.json",
-          "src/main/resources/assets/rd/models/item/low_clinohumite_ore.json",
-          "src/main/resources/data/rd/worldgen/configured_feature/low_clinohumite_ore.json",
           "src/main/java/net/stellarxraven17/rubylands/block/LowClinohumiteOreBlock.java",
+          "src/main/resources/data/rd/worldgen/configured_feature/low_clinohumite_ore.json",
           "src/main/resources/assets/rd/blockstates/low_clinohumite_ore.json",
-          "src/main/resources/assets/rd/models/block/low_clinohumite_ore.json"
+          "src/main/resources/assets/rd/models/block/low_clinohumite_ore.json",
+          "src/main/resources/assets/rd/models/item/low_clinohumite_ore.json",
+          "src/main/resources/data/rd/worldgen/placed_feature/low_clinohumite_ore.json"
         ]
       },
       "path": "~/Blocks/OreBlocks/Clinohumite"
@@ -3809,8 +3809,8 @@
       "registry_name": "salt_brick_stairs_cutting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/advancement/recipes/salt_brick_stairs_cutting.json",
-          "src/main/resources/data/rd/recipe/salt_brick_stairs_cutting.json"
+          "src/main/resources/data/rd/recipe/salt_brick_stairs_cutting.json",
+          "src/main/resources/data/rd/advancement/recipes/salt_brick_stairs_cutting.json"
         ]
       },
       "path": "~/Blocks/StoneBlocks/Salt"
@@ -3837,8 +3837,8 @@
       "registry_name": "salt_brick_wall_cutting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/advancement/recipes/salt_brick_wall_cutting.json",
-          "src/main/resources/data/rd/recipe/salt_brick_wall_cutting.json"
+          "src/main/resources/data/rd/recipe/salt_brick_wall_cutting.json",
+          "src/main/resources/data/rd/advancement/recipes/salt_brick_wall_cutting.json"
         ]
       },
       "path": "~/Blocks/StoneBlocks/Salt"
@@ -4032,8 +4032,8 @@
       "registry_name": "obsidian_sword_crafting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/advancement/recipes/obsidian_sword_crafting.json",
-          "src/main/resources/data/rd/recipe/obsidian_sword_crafting.json"
+          "src/main/resources/data/rd/recipe/obsidian_sword_crafting.json",
+          "src/main/resources/data/rd/advancement/recipes/obsidian_sword_crafting.json"
         ]
       },
       "path": "~/Items/Gear/Obsidian"
@@ -4060,8 +4060,8 @@
       "registry_name": "obsidian_axe_crafting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/recipe/obsidian_axe_crafting.json",
-          "src/main/resources/data/rd/advancement/recipes/obsidian_axe_crafting.json"
+          "src/main/resources/data/rd/advancement/recipes/obsidian_axe_crafting.json",
+          "src/main/resources/data/rd/recipe/obsidian_axe_crafting.json"
         ]
       },
       "path": "~/Items/Gear/Obsidian"
@@ -4116,8 +4116,8 @@
       "registry_name": "obsidian_hoe_crafting_alt",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/advancement/recipes/obsidian_hoe_crafting_alt.json",
-          "src/main/resources/data/rd/recipe/obsidian_hoe_crafting_alt.json"
+          "src/main/resources/data/rd/recipe/obsidian_hoe_crafting_alt.json",
+          "src/main/resources/data/rd/advancement/recipes/obsidian_hoe_crafting_alt.json"
         ]
       },
       "path": "~/Items/Gear/Obsidian"
@@ -4130,8 +4130,8 @@
       "registry_name": "obsidian_ingot_blasting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/advancement/recipes/obsidian_ingot_blasting.json",
-          "src/main/resources/data/rd/recipe/obsidian_ingot_blasting.json"
+          "src/main/resources/data/rd/recipe/obsidian_ingot_blasting.json",
+          "src/main/resources/data/rd/advancement/recipes/obsidian_ingot_blasting.json"
         ]
       },
       "path": "~/Items/Gear/Obsidian"
@@ -4183,11 +4183,11 @@
       "registry_name": "petrified_wood",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/blockstates/petrified_wood.json",
-          "src/main/resources/assets/rd/models/block/petrified_wood.json",
-          "src/main/resources/data/rd/loot_table/blocks/petrified_wood.json",
           "src/main/resources/assets/rd/models/item/petrified_wood.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/PetrifiedWoodBlock.java"
+          "src/main/resources/assets/rd/blockstates/petrified_wood.json",
+          "src/main/resources/data/rd/loot_table/blocks/petrified_wood.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/PetrifiedWoodBlock.java",
+          "src/main/resources/assets/rd/models/block/petrified_wood.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks"
@@ -4280,13 +4280,13 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/rd/models/item/essence_transformer.json",
-          "src/main/resources/data/rd/loot_table/blocks/essence_transformer.json",
-          "src/main/resources/assets/rd/blockstates/essence_transformer.json",
+          "src/main/resources/assets/rd/models/block/essence_transformer.json",
           "src/main/java/net/stellarxraven17/rubylands/block/EssenceTransformerBlock.java",
-          "src/main/resources/assets/rd/models/block/essence_transformer.json"
+          "src/main/resources/data/rd/loot_table/blocks/essence_transformer.json",
+          "src/main/resources/assets/rd/blockstates/essence_transformer.json"
         ]
       },
-      "path": "~/CodeStuff/EssenceExchange"
+      "path": "~/MiscFeatures/EssenceExchange"
     },
     {
       "name": "EssenceTransformerUI",
@@ -4300,7 +4300,7 @@
           "src/main/java/net/stellarxraven17/rubylands/client/gui/EssenceTransformerUIScreen.java"
         ]
       },
-      "path": "~/CodeStuff/EssenceExchange"
+      "path": "~/MiscFeatures/EssenceExchange"
     },
     {
       "name": "SprucePillar",
@@ -4310,11 +4310,11 @@
       "registry_name": "spruce_pillar",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/block/spruce_pillar.json",
-          "src/main/resources/data/rd/loot_table/blocks/spruce_pillar.json",
           "src/main/resources/assets/rd/blockstates/spruce_pillar.json",
           "src/main/resources/assets/rd/models/item/spruce_pillar.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/SprucePillarBlock.java"
+          "src/main/java/net/stellarxraven17/rubylands/block/SprucePillarBlock.java",
+          "src/main/resources/data/rd/loot_table/blocks/spruce_pillar.json",
+          "src/main/resources/assets/rd/models/block/spruce_pillar.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Spruce"
@@ -4327,11 +4327,11 @@
       "registry_name": "birch_pillar",
       "metadata": {
         "files": [
-          "src/main/java/net/stellarxraven17/rubylands/block/BirchPillarBlock.java",
-          "src/main/resources/assets/rd/models/item/birch_pillar.json",
-          "src/main/resources/data/rd/loot_table/blocks/birch_pillar.json",
           "src/main/resources/assets/rd/blockstates/birch_pillar.json",
-          "src/main/resources/assets/rd/models/block/birch_pillar.json"
+          "src/main/resources/assets/rd/models/block/birch_pillar.json",
+          "src/main/resources/assets/rd/models/item/birch_pillar.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/BirchPillarBlock.java",
+          "src/main/resources/data/rd/loot_table/blocks/birch_pillar.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Birch"
@@ -4344,11 +4344,11 @@
       "registry_name": "jungle_pillar",
       "metadata": {
         "files": [
-          "src/main/java/net/stellarxraven17/rubylands/block/JunglePillarBlock.java",
-          "src/main/resources/data/rd/loot_table/blocks/jungle_pillar.json",
           "src/main/resources/assets/rd/models/item/jungle_pillar.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/JunglePillarBlock.java",
+          "src/main/resources/assets/rd/blockstates/jungle_pillar.json",
           "src/main/resources/assets/rd/models/block/jungle_pillar.json",
-          "src/main/resources/assets/rd/blockstates/jungle_pillar.json"
+          "src/main/resources/data/rd/loot_table/blocks/jungle_pillar.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Jungle"
@@ -4361,11 +4361,11 @@
       "registry_name": "acacia_pillar",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/loot_table/blocks/acacia_pillar.json",
-          "src/main/resources/assets/rd/models/block/acacia_pillar.json",
           "src/main/java/net/stellarxraven17/rubylands/block/AcaciaPillarBlock.java",
           "src/main/resources/assets/rd/blockstates/acacia_pillar.json",
-          "src/main/resources/assets/rd/models/item/acacia_pillar.json"
+          "src/main/resources/assets/rd/models/item/acacia_pillar.json",
+          "src/main/resources/data/rd/loot_table/blocks/acacia_pillar.json",
+          "src/main/resources/assets/rd/models/block/acacia_pillar.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Acacia"
@@ -4379,9 +4379,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/rd/models/block/dark_oak_pillar.json",
-          "src/main/resources/assets/rd/blockstates/dark_oak_pillar.json",
           "src/main/resources/assets/rd/models/item/dark_oak_pillar.json",
           "src/main/java/net/stellarxraven17/rubylands/block/DarkOakPillarBlock.java",
+          "src/main/resources/assets/rd/blockstates/dark_oak_pillar.json",
           "src/main/resources/data/rd/loot_table/blocks/dark_oak_pillar.json"
         ]
       },
@@ -4395,11 +4395,11 @@
       "registry_name": "crimson_pillar",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/block/crimson_pillar.json",
-          "src/main/resources/data/rd/loot_table/blocks/crimson_pillar.json",
-          "src/main/resources/assets/rd/models/item/crimson_pillar.json",
           "src/main/resources/assets/rd/blockstates/crimson_pillar.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/CrimsonPillarBlock.java"
+          "src/main/java/net/stellarxraven17/rubylands/block/CrimsonPillarBlock.java",
+          "src/main/resources/assets/rd/models/item/crimson_pillar.json",
+          "src/main/resources/assets/rd/models/block/crimson_pillar.json",
+          "src/main/resources/data/rd/loot_table/blocks/crimson_pillar.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Crimson"
@@ -4412,11 +4412,11 @@
       "registry_name": "warped_pillar",
       "metadata": {
         "files": [
+          "src/main/java/net/stellarxraven17/rubylands/block/WarpedPillarBlock.java",
           "src/main/resources/data/rd/loot_table/blocks/warped_pillar.json",
           "src/main/resources/assets/rd/models/block/warped_pillar.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/WarpedPillarBlock.java",
-          "src/main/resources/assets/rd/blockstates/warped_pillar.json",
-          "src/main/resources/assets/rd/models/item/warped_pillar.json"
+          "src/main/resources/assets/rd/models/item/warped_pillar.json",
+          "src/main/resources/assets/rd/blockstates/warped_pillar.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Warped"
@@ -4431,9 +4431,9 @@
         "files": [
           "src/main/resources/assets/rd/models/item/flamewood_pillar.json",
           "src/main/resources/assets/rd/blockstates/flamewood_pillar.json",
+          "src/main/resources/data/rd/loot_table/blocks/flamewood_pillar.json",
           "src/main/resources/assets/rd/models/block/flamewood_pillar.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/FlamewoodPillarBlock.java",
-          "src/main/resources/data/rd/loot_table/blocks/flamewood_pillar.json"
+          "src/main/java/net/stellarxraven17/rubylands/block/FlamewoodPillarBlock.java"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Flamewood"
@@ -4459,7 +4459,7 @@
           }
         ]
       },
-      "path": "~/CodeStuff"
+      "path": "~/MiscFeatures"
     },
     {
       "name": "Lodestone",
@@ -4497,8 +4497,8 @@
       "registry_name": "cactus_sword_crafting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/advancement/recipes/cactus_sword_crafting.json",
-          "src/main/resources/data/rd/recipe/cactus_sword_crafting.json"
+          "src/main/resources/data/rd/recipe/cactus_sword_crafting.json",
+          "src/main/resources/data/rd/advancement/recipes/cactus_sword_crafting.json"
         ]
       },
       "path": "~/Items/Gear/MiscWeapons"
@@ -4511,11 +4511,11 @@
       "registry_name": "cactus_planks",
       "metadata": {
         "files": [
-          "src/main/java/net/stellarxraven17/rubylands/block/CactusPlanksBlock.java",
           "src/main/resources/assets/rd/models/item/cactus_planks.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/CactusPlanksBlock.java",
+          "src/main/resources/data/rd/loot_table/blocks/cactus_planks.json",
           "src/main/resources/assets/rd/blockstates/cactus_planks.json",
-          "src/main/resources/assets/rd/models/block/cactus_planks.json",
-          "src/main/resources/data/rd/loot_table/blocks/cactus_planks.json"
+          "src/main/resources/assets/rd/models/block/cactus_planks.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Cactus"
@@ -4528,13 +4528,13 @@
       "registry_name": "cactus_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/block/cactus_stairs.json",
-          "src/main/resources/assets/rd/models/block/cactus_stairs_outer.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/CactusStairsBlock.java",
-          "src/main/resources/assets/rd/models/item/cactus_stairs.json",
           "src/main/resources/data/rd/loot_table/blocks/cactus_stairs.json",
           "src/main/resources/assets/rd/blockstates/cactus_stairs.json",
-          "src/main/resources/assets/rd/models/block/cactus_stairs_inner.json"
+          "src/main/resources/assets/rd/models/block/cactus_stairs.json",
+          "src/main/resources/assets/rd/models/item/cactus_stairs.json",
+          "src/main/resources/assets/rd/models/block/cactus_stairs_inner.json",
+          "src/main/resources/assets/rd/models/block/cactus_stairs_outer.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/CactusStairsBlock.java"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Cactus"
@@ -4547,13 +4547,13 @@
       "registry_name": "cactus_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/block/cactus_slab_full.json",
           "src/main/resources/assets/rd/models/block/cactus_slab_top.json",
-          "src/main/resources/assets/rd/blockstates/cactus_slab.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/CactusSlabBlock.java",
           "src/main/resources/data/rd/loot_table/blocks/cactus_slab.json",
           "src/main/resources/assets/rd/models/item/cactus_slab.json",
-          "src/main/resources/assets/rd/models/block/cactus_slab.json"
+          "src/main/resources/assets/rd/models/block/cactus_slab.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/CactusSlabBlock.java",
+          "src/main/resources/assets/rd/models/block/cactus_slab_full.json",
+          "src/main/resources/assets/rd/blockstates/cactus_slab.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Cactus"
@@ -4566,13 +4566,13 @@
       "registry_name": "cactus_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/block/cactus_fence_post.json",
-          "src/main/resources/assets/rd/models/block/cactus_fence_inventory.json",
-          "src/main/resources/assets/rd/models/item/cactus_fence.json",
-          "src/main/resources/data/rd/loot_table/blocks/cactus_fence.json",
           "src/main/resources/assets/rd/blockstates/cactus_fence.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/CactusFenceBlock.java",
+          "src/main/resources/data/rd/loot_table/blocks/cactus_fence.json",
+          "src/main/resources/assets/rd/models/block/cactus_fence_inventory.json",
           "src/main/resources/assets/rd/models/block/cactus_fence.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/CactusFenceBlock.java"
+          "src/main/resources/assets/rd/models/block/cactus_fence_post.json",
+          "src/main/resources/assets/rd/models/item/cactus_fence.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Cactus"
@@ -4585,14 +4585,14 @@
       "registry_name": "cactus_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/loot_table/blocks/cactus_fence_gate.json",
-          "src/main/resources/assets/rd/models/block/cactus_fence_gate_wall_open.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/CactusFenceGateBlock.java",
           "src/main/resources/assets/rd/blockstates/cactus_fence_gate.json",
-          "src/main/resources/assets/rd/models/block/cactus_fence_gate_open.json",
-          "src/main/resources/assets/rd/models/item/cactus_fence_gate.json",
+          "src/main/resources/assets/rd/models/block/cactus_fence_gate_wall_open.json",
+          "src/main/resources/data/rd/loot_table/blocks/cactus_fence_gate.json",
           "src/main/resources/assets/rd/models/block/cactus_fence_gate_wall.json",
-          "src/main/resources/assets/rd/models/block/cactus_fence_gate.json"
+          "src/main/resources/assets/rd/models/block/cactus_fence_gate.json",
+          "src/main/resources/assets/rd/models/block/cactus_fence_gate_open.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/CactusFenceGateBlock.java",
+          "src/main/resources/assets/rd/models/item/cactus_fence_gate.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Cactus"
@@ -4605,12 +4605,12 @@
       "registry_name": "cactus_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/block/cactus_pressure_plate_down.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/CactusPressurePlateBlock.java",
+          "src/main/resources/assets/rd/models/block/cactus_pressure_plate.json",
           "src/main/resources/assets/rd/blockstates/cactus_pressure_plate.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/CactusPressurePlateBlock.java",
           "src/main/resources/assets/rd/models/item/cactus_pressure_plate.json",
           "src/main/resources/data/rd/loot_table/blocks/cactus_pressure_plate.json",
-          "src/main/resources/assets/rd/models/block/cactus_pressure_plate.json"
+          "src/main/resources/assets/rd/models/block/cactus_pressure_plate_down.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Cactus"
@@ -4623,13 +4623,13 @@
       "registry_name": "cactus_button",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/block/cactus_button_pressed.json",
-          "src/main/resources/assets/rd/blockstates/cactus_button.json",
-          "src/main/resources/data/rd/loot_table/blocks/cactus_button.json",
           "src/main/resources/assets/rd/models/item/cactus_button.json",
+          "src/main/resources/assets/rd/models/block/cactus_button_pressed.json",
           "src/main/resources/assets/rd/models/block/cactus_button_inventory.json",
-          "src/main/resources/assets/rd/models/block/cactus_button.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/CactusButtonBlock.java"
+          "src/main/resources/data/rd/loot_table/blocks/cactus_button.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/CactusButtonBlock.java",
+          "src/main/resources/assets/rd/blockstates/cactus_button.json",
+          "src/main/resources/assets/rd/models/block/cactus_button.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Cactus"
@@ -4736,7 +4736,7 @@
           "src/main/java/net/stellarxraven17/rubylands/command/SetHubAddressCommand.java"
         ]
       },
-      "path": "~/CodeStuff/Hub"
+      "path": "~/MiscFeatures/Hub"
     },
     {
       "name": "HubAddressSetter",
@@ -4771,7 +4771,7 @@
           }
         ]
       },
-      "path": "~/CodeStuff/Hub"
+      "path": "~/MiscFeatures/Hub"
     },
     {
       "name": "IndividualHubSetupBS",
@@ -4785,7 +4785,7 @@
         ],
         "dependencies": []
       },
-      "path": "~/CodeStuff/Hub"
+      "path": "~/MiscFeatures/Hub"
     },
     {
       "name": "SetWhoLoggedInAs",
@@ -4805,7 +4805,7 @@
           }
         ]
       },
-      "path": "~/CodeStuff/Dev"
+      "path": "~/MiscFeatures/Dev"
     },
     {
       "name": "SetOnline",
@@ -4820,7 +4820,7 @@
         ],
         "dependencies": []
       },
-      "path": "~/CodeStuff/Dev"
+      "path": "~/MiscFeatures/Dev"
     },
     {
       "name": "SetHubConnected",
@@ -4835,7 +4835,7 @@
         ],
         "dependencies": []
       },
-      "path": "~/CodeStuff/Dev"
+      "path": "~/MiscFeatures/Dev"
     },
     {
       "name": "ReturnDebugMode",
@@ -4850,7 +4850,7 @@
         ],
         "dependencies": []
       },
-      "path": "~/CodeStuff/Dev"
+      "path": "~/MiscFeatures/Dev"
     },
     {
       "name": "HardenedCactusStem",
@@ -4860,11 +4860,11 @@
       "registry_name": "hardened_cactus_stem",
       "metadata": {
         "files": [
-          "src/main/java/net/stellarxraven17/rubylands/block/HardenedCactusStemBlock.java",
-          "src/main/resources/assets/rd/models/item/hardened_cactus_stem.json",
           "src/main/resources/assets/rd/models/block/hardened_cactus_stem.json",
-          "src/main/resources/data/rd/loot_table/blocks/hardened_cactus_stem.json",
-          "src/main/resources/assets/rd/blockstates/hardened_cactus_stem.json"
+          "src/main/resources/assets/rd/blockstates/hardened_cactus_stem.json",
+          "src/main/resources/assets/rd/models/item/hardened_cactus_stem.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/HardenedCactusStemBlock.java",
+          "src/main/resources/data/rd/loot_table/blocks/hardened_cactus_stem.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Cactus"
@@ -4877,11 +4877,11 @@
       "registry_name": "hardened_cactus_arm",
       "metadata": {
         "files": [
-          "src/main/java/net/stellarxraven17/rubylands/block/HardenedCactusArmBlock.java",
           "src/main/resources/data/rd/loot_table/blocks/hardened_cactus_arm.json",
-          "src/main/resources/assets/rd/blockstates/hardened_cactus_arm.json",
           "src/main/resources/assets/rd/models/block/hardened_cactus_arm.json",
-          "src/main/resources/assets/rd/models/item/hardened_cactus_arm.json"
+          "src/main/java/net/stellarxraven17/rubylands/block/HardenedCactusArmBlock.java",
+          "src/main/resources/assets/rd/models/item/hardened_cactus_arm.json",
+          "src/main/resources/assets/rd/blockstates/hardened_cactus_arm.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Cactus"
@@ -4907,8 +4907,8 @@
       "registry_name": "hardened_cactus_stem_crafting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/advancement/recipes/hardened_cactus_stem_crafting.json",
-          "src/main/resources/data/rd/recipe/hardened_cactus_stem_crafting.json"
+          "src/main/resources/data/rd/recipe/hardened_cactus_stem_crafting.json",
+          "src/main/resources/data/rd/advancement/recipes/hardened_cactus_stem_crafting.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Cactus"
@@ -4997,8 +4997,8 @@
       "registry_name": "copper_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/item/copper_sword.json",
-          "src/main/java/net/stellarxraven17/rubylands/item/CopperSwordItem.java"
+          "src/main/java/net/stellarxraven17/rubylands/item/CopperSwordItem.java",
+          "src/main/resources/assets/rd/models/item/copper_sword.json"
         ]
       },
       "path": "~/Items/Gear/Copper"
@@ -5067,8 +5067,8 @@
       "registry_name": "copper_sword_crafting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/recipe/copper_sword_crafting.json",
-          "src/main/resources/data/rd/advancement/recipes/copper_sword_crafting.json"
+          "src/main/resources/data/rd/advancement/recipes/copper_sword_crafting.json",
+          "src/main/resources/data/rd/recipe/copper_sword_crafting.json"
         ]
       },
       "path": "~/Items/Gear/Copper"
@@ -5135,8 +5135,8 @@
       "registry_name": "copper_pickaxe_crafting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/advancement/recipes/copper_pickaxe_crafting.json",
-          "src/main/resources/data/rd/recipe/copper_pickaxe_crafting.json"
+          "src/main/resources/data/rd/recipe/copper_pickaxe_crafting.json",
+          "src/main/resources/data/rd/advancement/recipes/copper_pickaxe_crafting.json"
         ]
       },
       "path": "~/Items/Gear/Copper"
@@ -5162,8 +5162,8 @@
       "registry_name": "copper_shovel_crafting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/recipe/copper_shovel_crafting.json",
-          "src/main/resources/data/rd/advancement/recipes/copper_shovel_crafting.json"
+          "src/main/resources/data/rd/advancement/recipes/copper_shovel_crafting.json",
+          "src/main/resources/data/rd/recipe/copper_shovel_crafting.json"
         ]
       },
       "path": "~/Items/Gear/Copper"
@@ -5189,8 +5189,8 @@
       "registry_name": "copper_hoe_crafting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/recipe/copper_hoe_crafting.json",
-          "src/main/resources/data/rd/advancement/recipes/copper_hoe_crafting.json"
+          "src/main/resources/data/rd/advancement/recipes/copper_hoe_crafting.json",
+          "src/main/resources/data/rd/recipe/copper_hoe_crafting.json"
         ]
       },
       "path": "~/Items/Gear/Copper"
@@ -5203,8 +5203,8 @@
       "registry_name": "copper_hoe_crafting_alt",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/recipe/copper_hoe_crafting_alt.json",
-          "src/main/resources/data/rd/advancement/recipes/copper_hoe_crafting_alt.json"
+          "src/main/resources/data/rd/advancement/recipes/copper_hoe_crafting_alt.json",
+          "src/main/resources/data/rd/recipe/copper_hoe_crafting_alt.json"
         ]
       },
       "path": "~/Items/Gear/Copper"
@@ -5299,11 +5299,11 @@
       "registry_name": "greenstone_brick",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/item/greenstone_brick.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/GreenstoneBrickBlock.java",
-          "src/main/resources/data/rd/loot_table/blocks/greenstone_brick.json",
+          "src/main/resources/assets/rd/models/block/greenstone_brick.json",
           "src/main/resources/assets/rd/blockstates/greenstone_brick.json",
-          "src/main/resources/assets/rd/models/block/greenstone_brick.json"
+          "src/main/resources/assets/rd/models/item/greenstone_brick.json",
+          "src/main/resources/data/rd/loot_table/blocks/greenstone_brick.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/GreenstoneBrickBlock.java"
         ]
       },
       "path": "~/Blocks/OreBlocks/Greenstone"
@@ -5316,8 +5316,8 @@
       "registry_name": "greenstone_brick_crafting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/recipe/greenstone_brick_crafting.json",
-          "src/main/resources/data/rd/advancement/recipes/greenstone_brick_crafting.json"
+          "src/main/resources/data/rd/advancement/recipes/greenstone_brick_crafting.json",
+          "src/main/resources/data/rd/recipe/greenstone_brick_crafting.json"
         ]
       },
       "path": "~/Blocks/OreBlocks/Greenstone"
@@ -5330,11 +5330,11 @@
       "registry_name": "cherry_pillar",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/block/cherry_pillar.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/CherryPillarBlock.java",
           "src/main/resources/data/rd/loot_table/blocks/cherry_pillar.json",
+          "src/main/resources/assets/rd/models/block/cherry_pillar.json",
           "src/main/resources/assets/rd/models/item/cherry_pillar.json",
-          "src/main/resources/assets/rd/blockstates/cherry_pillar.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/CherryPillarBlock.java"
+          "src/main/resources/assets/rd/blockstates/cherry_pillar.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Cherry"
@@ -5392,8 +5392,8 @@
       "registry_name": "jungle_pillar_crafting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/recipe/jungle_pillar_crafting.json",
-          "src/main/resources/data/rd/advancement/recipes/jungle_pillar_crafting.json"
+          "src/main/resources/data/rd/advancement/recipes/jungle_pillar_crafting.json",
+          "src/main/resources/data/rd/recipe/jungle_pillar_crafting.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Jungle"
@@ -5406,8 +5406,8 @@
       "registry_name": "acacia_pillar_crafting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/advancement/recipes/acacia_pillar_crafting.json",
-          "src/main/resources/data/rd/recipe/acacia_pillar_crafting.json"
+          "src/main/resources/data/rd/recipe/acacia_pillar_crafting.json",
+          "src/main/resources/data/rd/advancement/recipes/acacia_pillar_crafting.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Acacia"
@@ -5469,11 +5469,11 @@
       "registry_name": "copper",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/item/copper_helmet.json",
-          "src/main/resources/assets/rd/models/item/copper_boots.json",
-          "src/main/java/net/stellarxraven17/rubylands/item/CopperItem.java",
           "src/main/resources/assets/rd/models/item/copper_leggings.json",
-          "src/main/resources/assets/rd/models/item/copper_chestplate.json"
+          "src/main/resources/assets/rd/models/item/copper_chestplate.json",
+          "src/main/java/net/stellarxraven17/rubylands/item/CopperItem.java",
+          "src/main/resources/assets/rd/models/item/copper_boots.json",
+          "src/main/resources/assets/rd/models/item/copper_helmet.json"
         ]
       },
       "path": "~/Items/Gear/Copper"
@@ -5528,8 +5528,8 @@
       "registry_name": "copper_boots_crafting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/recipe/copper_boots_crafting.json",
-          "src/main/resources/data/rd/advancement/recipes/copper_boots_crafting.json"
+          "src/main/resources/data/rd/advancement/recipes/copper_boots_crafting.json",
+          "src/main/resources/data/rd/recipe/copper_boots_crafting.json"
         ]
       },
       "path": "~/Items/Gear/Copper"
@@ -5555,7 +5555,7 @@
           "src/main/java/net/stellarxraven17/rubylands/procedures/CheckIfLookingAtPaintingProcedure.java"
         ]
       },
-      "path": "~/CodeStuff/PaintingNameView"
+      "path": "~/MiscFeatures/PaintingNameView"
     },
     {
       "name": "ReturnLookingAtPaintingTrue",
@@ -5570,7 +5570,7 @@
           "src/main/java/net/stellarxraven17/rubylands/procedures/ReturnLookingAtPaintingTrueProcedure.java"
         ]
       },
-      "path": "~/CodeStuff/PaintingNameView"
+      "path": "~/MiscFeatures/PaintingNameView"
     },
     {
       "name": "Mushroomstew",
@@ -5580,8 +5580,8 @@
       "registry_name": "mushroomstew",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/advancement/recipes/mushroomstew.json",
-          "src/main/resources/data/minecraft/recipe/mushroom_stew.json"
+          "src/main/resources/data/minecraft/recipe/mushroom_stew.json",
+          "src/main/resources/data/rd/advancement/recipes/mushroomstew.json"
         ]
       },
       "path": "~/VanillaRecipeOverrides"
@@ -5620,8 +5620,8 @@
       "registry_name": "fryshroom",
       "metadata": {
         "files": [
-          "src/main/java/net/stellarxraven17/rubylands/item/FryshroomItem.java",
-          "src/main/resources/assets/rd/models/item/fryshroom.json"
+          "src/main/resources/assets/rd/models/item/fryshroom.json",
+          "src/main/java/net/stellarxraven17/rubylands/item/FryshroomItem.java"
         ]
       },
       "path": "~/Items/Consumables/Food"
@@ -5634,8 +5634,8 @@
       "registry_name": "limedye",
       "metadata": {
         "files": [
-          "src/main/resources/data/minecraft/recipe/lime_dye.json",
-          "src/main/resources/data/rd/advancement/recipes/limedye.json"
+          "src/main/resources/data/rd/advancement/recipes/limedye.json",
+          "src/main/resources/data/minecraft/recipe/lime_dye.json"
         ]
       },
       "path": "~/VanillaRecipeOverrides/DyeRecipes"
@@ -5728,8 +5728,8 @@
       "registry_name": "shroom_smoking",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/recipe/shroom_smoking.json",
-          "src/main/resources/data/rd/advancement/recipes/shroom_smoking.json"
+          "src/main/resources/data/rd/advancement/recipes/shroom_smoking.json",
+          "src/main/resources/data/rd/recipe/shroom_smoking.json"
         ]
       },
       "path": "~/Items/Consumables/Food"
@@ -5757,10 +5757,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/rd/models/item/debug.json",
-          "src/main/resources/assets/rd/models/block/debug.json",
           "src/main/java/net/stellarxraven17/rubylands/block/DebugBlock.java",
           "src/main/resources/assets/rd/blockstates/debug.json",
-          "src/main/resources/data/rd/loot_table/blocks/debug.json"
+          "src/main/resources/data/rd/loot_table/blocks/debug.json",
+          "src/main/resources/assets/rd/models/block/debug.json"
         ]
       },
       "path": "~/Blocks/HubBlocks"
@@ -5815,8 +5815,8 @@
       "registry_name": "cherry_pillar_crafting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/advancement/recipes/cherry_pillar_crafting.json",
-          "src/main/resources/data/rd/recipe/cherry_pillar_crafting.json"
+          "src/main/resources/data/rd/recipe/cherry_pillar_crafting.json",
+          "src/main/resources/data/rd/advancement/recipes/cherry_pillar_crafting.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Cherry"
@@ -5829,11 +5829,11 @@
       "registry_name": "bamboo_pillar",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/loot_table/blocks/bamboo_pillar.json",
           "src/main/java/net/stellarxraven17/rubylands/block/BambooPillarBlock.java",
-          "src/main/resources/assets/rd/models/block/bamboo_pillar.json",
           "src/main/resources/assets/rd/blockstates/bamboo_pillar.json",
-          "src/main/resources/assets/rd/models/item/bamboo_pillar.json"
+          "src/main/resources/assets/rd/models/item/bamboo_pillar.json",
+          "src/main/resources/assets/rd/models/block/bamboo_pillar.json",
+          "src/main/resources/data/rd/loot_table/blocks/bamboo_pillar.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Bamboo"
@@ -5846,8 +5846,8 @@
       "registry_name": "bamboo_pillar_crafting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/advancement/recipes/bamboo_pillar_crafting.json",
-          "src/main/resources/data/rd/recipe/bamboo_pillar_crafting.json"
+          "src/main/resources/data/rd/recipe/bamboo_pillar_crafting.json",
+          "src/main/resources/data/rd/advancement/recipes/bamboo_pillar_crafting.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Bamboo"
@@ -5860,8 +5860,8 @@
       "registry_name": "flamewood_pillar_crafting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/recipe/flamewood_pillar_crafting.json",
-          "src/main/resources/data/rd/advancement/recipes/flamewood_pillar_crafting.json"
+          "src/main/resources/data/rd/advancement/recipes/flamewood_pillar_crafting.json",
+          "src/main/resources/data/rd/recipe/flamewood_pillar_crafting.json"
         ]
       },
       "path": "~/Blocks/WoodBlocks/Flamewood"
@@ -5887,8 +5887,8 @@
       "registry_name": "leather_scrap",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/advancement/recipes/leather_scrap.json",
-          "src/main/resources/data/rd/recipe/leather_scrap.json"
+          "src/main/resources/data/rd/recipe/leather_scrap.json",
+          "src/main/resources/data/rd/advancement/recipes/leather_scrap.json"
         ]
       },
       "path": "~/VanillaRecipeOverrides"
@@ -5901,8 +5901,8 @@
       "registry_name": "enchantingtable",
       "metadata": {
         "files": [
-          "src/main/resources/data/rd/advancement/recipes/enchantingtable.json",
-          "src/main/resources/data/minecraft/recipe/enchanting_table.json"
+          "src/main/resources/data/minecraft/recipe/enchanting_table.json",
+          "src/main/resources/data/rd/advancement/recipes/enchantingtable.json"
         ]
       },
       "path": "~/VanillaRecipeOverrides"
@@ -5915,18 +5915,18 @@
       "registry_name": "ice_door",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/block/ice_door_top_right.json",
-          "src/main/resources/assets/rd/models/block/ice_door_top_right_open.json",
-          "src/main/resources/assets/rd/models/block/ice_door_top_left.json",
-          "src/main/resources/assets/rd/blockstates/ice_door.json",
-          "src/main/java/net/stellarxraven17/rubylands/block/IceDoorBlock.java",
-          "src/main/resources/assets/rd/models/block/ice_door_bottom_left_open.json",
-          "src/main/resources/assets/rd/models/block/ice_door_bottom_right_open.json",
+          "src/main/resources/assets/rd/models/block/ice_door_bottom_left.json",
           "src/main/resources/assets/rd/models/item/ice_door.json",
           "src/main/resources/assets/rd/models/block/ice_door_top_left_open.json",
+          "src/main/resources/assets/rd/blockstates/ice_door.json",
+          "src/main/resources/assets/rd/models/block/ice_door_bottom_left_open.json",
           "src/main/resources/data/rd/loot_table/blocks/ice_door.json",
-          "src/main/resources/assets/rd/models/block/ice_door_bottom_left.json",
-          "src/main/resources/assets/rd/models/block/ice_door_bottom_right.json"
+          "src/main/resources/assets/rd/models/block/ice_door_bottom_right.json",
+          "src/main/resources/assets/rd/models/block/ice_door_bottom_right_open.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/IceDoorBlock.java",
+          "src/main/resources/assets/rd/models/block/ice_door_top_left.json",
+          "src/main/resources/assets/rd/models/block/ice_door_top_right.json",
+          "src/main/resources/assets/rd/models/block/ice_door_top_right_open.json"
         ]
       },
       "path": "~/Blocks/FrostBlocks"
@@ -5940,10 +5940,10 @@
       "metadata": {
         "files": [
           "src/main/resources/data/rd/loot_table/blocks/freezer.json",
-          "src/main/resources/assets/rd/models/block/freezer.json",
+          "src/main/resources/assets/rd/blockstates/freezer.json",
           "src/main/java/net/stellarxraven17/rubylands/block/FreezerBlock.java",
           "src/main/resources/assets/rd/models/item/freezer.json",
-          "src/main/resources/assets/rd/blockstates/freezer.json"
+          "src/main/resources/assets/rd/models/block/freezer.json"
         ]
       },
       "path": "~/Blocks/FrostBlocks"
@@ -5956,8 +5956,8 @@
       "registry_name": "raw_flesh",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rd/models/item/raw_flesh.json",
-          "src/main/java/net/stellarxraven17/rubylands/item/FleshItem.java"
+          "src/main/java/net/stellarxraven17/rubylands/item/FleshItem.java",
+          "src/main/resources/assets/rd/models/item/raw_flesh.json"
         ]
       },
       "path": "~/Items/Consumables/Food"
@@ -5977,24 +5977,11 @@
       "path": "~/Items/Consumables/Food"
     },
     {
-      "name": "Peeling",
-      "type": "enchantment",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "peeling",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rd/enchantment/peeling.json"
-        ]
-      },
-      "path": "~/Enchantments"
-    },
-    {
       "name": "PeelingEnchantment",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "peeling_enchantment",
+      "registry_name": "cannibalism",
       "metadata": {
         "dependencies": [
           {
@@ -6014,7 +6001,7 @@
           "src/main/java/net/stellarxraven17/rubylands/procedures/PeelingEnchantmentProcedure.java"
         ]
       },
-      "path": "~/Enchantments"
+      "path": "~/MiscFeatures"
     },
     {
       "name": "BuiltinResourcePacksRegistrar",
@@ -6039,7 +6026,7 @@
           "src/main/java/net/stellarxraven17/rubylands/recipe/brewing/EssenceBottleBrewingBrewingRecipe.java"
         ]
       },
-      "path": "~/CodeStuff"
+      "path": "~/MiscFeatures"
     },
     {
       "name": "TeaBrewing",
@@ -6181,6 +6168,416 @@
         "files": []
       },
       "path": "~/Items/Essence"
+    },
+    {
+      "name": "MushroomPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/loot_table/blocks/mushroom_planks.json",
+          "src/main/resources/assets/rd/models/item/mushroom_planks.json",
+          "src/main/resources/assets/rd/blockstates/mushroom_planks.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/MushroomPlanksBlock.java",
+          "src/main/resources/assets/rd/models/block/mushroom_planks.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "MushroomStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/loot_table/blocks/mushroom_stairs.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/MushroomStairsBlock.java",
+          "src/main/resources/assets/rd/models/block/mushroom_stairs_inner.json",
+          "src/main/resources/assets/rd/models/block/mushroom_stairs.json",
+          "src/main/resources/assets/rd/models/item/mushroom_stairs.json",
+          "src/main/resources/assets/rd/blockstates/mushroom_stairs.json",
+          "src/main/resources/assets/rd/models/block/mushroom_stairs_outer.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "MushroomSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rd/models/block/mushroom_slab_full.json",
+          "src/main/resources/assets/rd/models/block/mushroom_slab_top.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/MushroomSlabBlock.java",
+          "src/main/resources/data/rd/loot_table/blocks/mushroom_slab.json",
+          "src/main/resources/assets/rd/models/item/mushroom_slab.json",
+          "src/main/resources/assets/rd/blockstates/mushroom_slab.json",
+          "src/main/resources/assets/rd/models/block/mushroom_slab.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "MushroomFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_fence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/stellarxraven17/rubylands/block/MushroomFenceBlock.java",
+          "src/main/resources/assets/rd/models/block/mushroom_fence_post.json",
+          "src/main/resources/data/rd/loot_table/blocks/mushroom_fence.json",
+          "src/main/resources/assets/rd/models/block/mushroom_fence.json",
+          "src/main/resources/assets/rd/models/block/mushroom_fence_inventory.json",
+          "src/main/resources/assets/rd/models/item/mushroom_fence.json",
+          "src/main/resources/assets/rd/blockstates/mushroom_fence.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "MushroomFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/stellarxraven17/rubylands/block/MushroomFenceGateBlock.java",
+          "src/main/resources/assets/rd/models/item/mushroom_fence_gate.json",
+          "src/main/resources/assets/rd/blockstates/mushroom_fence_gate.json",
+          "src/main/resources/assets/rd/models/block/mushroom_fence_gate_open.json",
+          "src/main/resources/assets/rd/models/block/mushroom_fence_gate_wall_open.json",
+          "src/main/resources/assets/rd/models/block/mushroom_fence_gate.json",
+          "src/main/resources/data/rd/loot_table/blocks/mushroom_fence_gate.json",
+          "src/main/resources/assets/rd/models/block/mushroom_fence_gate_wall.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "MushroomPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rd/models/block/mushroom_pressure_plate_down.json",
+          "src/main/resources/assets/rd/blockstates/mushroom_pressure_plate.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/MushroomPressurePlateBlock.java",
+          "src/main/resources/data/rd/loot_table/blocks/mushroom_pressure_plate.json",
+          "src/main/resources/assets/rd/models/block/mushroom_pressure_plate.json",
+          "src/main/resources/assets/rd/models/item/mushroom_pressure_plate.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "MushroomButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rd/models/item/mushroom_button.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/MushroomButtonBlock.java",
+          "src/main/resources/assets/rd/blockstates/mushroom_button.json",
+          "src/main/resources/assets/rd/models/block/mushroom_button_inventory.json",
+          "src/main/resources/assets/rd/models/block/mushroom_button.json",
+          "src/main/resources/assets/rd/models/block/mushroom_button_pressed.json",
+          "src/main/resources/data/rd/loot_table/blocks/mushroom_button.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "MushroomPlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/recipe/mushroom_planks_recipe.json",
+          "src/main/resources/data/rd/advancement/recipes/mushroom_planks_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "MushroomStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/advancement/recipes/mushroom_stairs_recipe.json",
+          "src/main/resources/data/rd/recipe/mushroom_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "MushroomSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/recipe/mushroom_slab_recipe.json",
+          "src/main/resources/data/rd/advancement/recipes/mushroom_slab_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "MushroomFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/recipe/mushroom_fence_recipe.json",
+          "src/main/resources/data/rd/advancement/recipes/mushroom_fence_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "MushroomFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/recipe/mushroom_fence_gate_recipe.json",
+          "src/main/resources/data/rd/advancement/recipes/mushroom_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "MushroomPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/advancement/recipes/mushroom_pressure_plate_recipe.json",
+          "src/main/resources/data/rd/recipe/mushroom_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "MushroomButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/recipe/mushroom_button_recipe.json",
+          "src/main/resources/data/rd/advancement/recipes/mushroom_button_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "SugarCookie",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sugar_cookie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rd/models/item/sugar_cookie.json",
+          "src/main/java/net/stellarxraven17/rubylands/item/SugarCookieItem.java"
+        ]
+      },
+      "path": "~/Items/Consumables/Food"
+    },
+    {
+      "name": "SugarCookieCookin",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sugar_cookie_cookin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/recipe/sugar_cookie_cookin.json"
+        ]
+      },
+      "path": "~/Items/Consumables/Food"
+    },
+    {
+      "name": "CobwebToString",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobweb_to_string",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/recipe/cobweb_to_string.json"
+        ]
+      },
+      "path": "~/VanillaRecipeOverrides"
+    },
+    {
+      "name": "SaddleCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saddle_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/recipe/saddle_crafting.json",
+          "src/main/resources/data/rd/advancement/recipes/saddle_crafting.json"
+        ]
+      },
+      "path": "~/VanillaRecipeOverrides"
+    },
+    {
+      "name": "UnlockSaddleRecipe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unlock_saddle_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/stellarxraven17/rubylands/procedures/UnlockSaddleRecipeProcedure.java"
+        ]
+      },
+      "path": "~/VanillaRecipeOverrides"
+    },
+    {
+      "name": "StrippedMyconLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_mycon_stem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/stellarxraven17/rubylands/block/StrippedMyconLogBlock.java",
+          "src/main/resources/assets/rd/blockstates/stripped_mycon_stem.json",
+          "src/main/resources/assets/rd/models/item/stripped_mycon_stem.json",
+          "src/main/resources/data/rd/loot_table/blocks/stripped_mycon_stem.json",
+          "src/main/resources/assets/rd/models/block/stripped_mycon_stem.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mycon"
+    },
+    {
+      "name": "StrippedMyconWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_mycon_hyphae",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rd/blockstates/stripped_mycon_hyphae.json",
+          "src/main/resources/assets/rd/models/block/stripped_mycon_hyphae.json",
+          "src/main/java/net/stellarxraven17/rubylands/block/StrippedMyconWoodBlock.java",
+          "src/main/resources/assets/rd/models/item/stripped_mycon_hyphae.json",
+          "src/main/resources/data/rd/loot_table/blocks/stripped_mycon_hyphae.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mycon"
+    },
+    {
+      "name": "MyconLogStripping",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mycon_log_stripping",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/stellarxraven17/rubylands/procedures/MyconLogStrippingProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mycon"
+    },
+    {
+      "name": "MyconWoodStripping",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mycon_wood_stripping",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/stellarxraven17/rubylands/procedures/MyconWoodStrippingProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mycon"
     }
   ],
   "variable_elements": [
@@ -6294,9 +6691,7 @@
     ],
     "ITEMS:minecraft:flowers": [
       "CUSTOM:GlowingFlower",
-      "CUSTOM:GlowingFlowerInfBasic",
-      "CUSTOM:GoldenFlowerInfGold",
-      "CUSTOM:GlowingFlowerInfObsidian"
+      "CUSTOM:ElderLily"
     ],
     "ITEMS:minecraft:hoes": [
       "~CUSTOM:CopperHoe",
@@ -6314,7 +6709,6 @@
       "CUSTOM:MyconLog",
       "CUSTOM:MyconWood",
       "Blocks.MUSHROOM_STEM",
-      "Blocks.CACTUS",
       "CUSTOM:HardenedCactusStem",
       "CUSTOM:HardenedCactusArm"
     ],
@@ -6335,7 +6729,8 @@
       "#minecraft:is_beach",
       "#minecraft:is_ocean",
       "#minecraft:is_river",
-      "EXTERNAL:moderner_beta:alpha"
+      "EXTERNAL:moderner_beta:alpha",
+      "EXTERNAL:moderner_beta:infdev"
     ],
     "BLOCKS:minecraft:saplings": [
       "~CUSTOM:TeaSapling"
@@ -6354,6 +6749,7 @@
       "CUSTOM:Observer"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:MushroomSlab",
       "~CUSTOM:CactusSlab",
       "~CUSTOM:MyconSlab",
       "~CUSTOM:TeaSlab",
@@ -6378,6 +6774,7 @@
       "Blocks.END_STONE"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:MushroomStairs",
       "~CUSTOM:CactusStairs",
       "~CUSTOM:MyconStairs",
       "~CUSTOM:TeaStairs",
@@ -6392,7 +6789,8 @@
     "BLOCKS:minecraft:doors": [
       "CUSTOM:FlamewoodDoor",
       "CUSTOM:HubDoor",
-      "CUSTOM:TeaDoor"
+      "CUSTOM:TeaDoor",
+      "CUSTOM:IceDoor"
     ],
     "ITEMS:minecraft:head_armor": [
       "~CUSTOM:Copper.helmet",
@@ -6402,7 +6800,8 @@
       "CUSTOM:FlamewoodPlanks",
       "CUSTOM:TeaPlanks",
       "CUSTOM:MyconPlanks",
-      "CUSTOM:CactusPlanks"
+      "CUSTOM:CactusPlanks",
+      "CUSTOM:MushroomPlanks"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
       "~CUSTOM:GreenstoneBrick",
@@ -6433,10 +6832,8 @@
       "~CUSTOM:AltMojangHypostasisAnemo",
       "~CUSTOM:DimensionWallBlock"
     ],
-    "ENTITIES:minecraft:undead": [
-      "~CUSTOM:Observer"
-    ],
     "BLOCKS:minecraft:wooden_fences": [
+      "~CUSTOM:MushroomFence",
       "~CUSTOM:MyconFence",
       "CUSTOM:FlamewoodFence",
       "CUSTOM:TeaFence",
@@ -6509,6 +6906,9 @@
       "~CUSTOM:EssenceCache"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:StrippedMyconWood",
+      "~CUSTOM:StrippedMyconLog",
+      "~CUSTOM:MushroomPlanks",
       "~CUSTOM:HardenedCactusArm",
       "~CUSTOM:HardenedCactusStem",
       "~CUSTOM:CactusPlanks",
@@ -6532,9 +6932,15 @@
     ],
     "BIOMES:mod:salt_pillar_spawnable": [
       "#minecraft:is_beach",
-      "EXTERNAL:moderner_beta:alpha"
+      "EXTERNAL:moderner_beta:alpha",
+      "EXTERNAL:moderner_beta:infdev"
     ],
-    "BLOCKS:minecraft:fences": [],
+    "BLOCKS:minecraft:fences": [
+      "CUSTOM:FlamewoodFence",
+      "CUSTOM:TeaFence",
+      "CUSTOM:MyconFence",
+      "CUSTOM:CactusFence"
+    ],
     "BLOCKS:minecraft:walls": [
       "~CUSTOM:SaltBricksWall"
     ],
@@ -6559,26 +6965,147 @@
       "~CUSTOM:Copper.legs",
       "~CUSTOM:Obsidian.legs"
     ],
-    "ITEMS:minecraft:provides_trim_material": [
-      "CUSTOM:Malachite",
-      "CUSTOM:Clinohumite",
-      "CUSTOM:LaceAgate",
-      "CUSTOM:Pyrite",
-      "CUSTOM:ObsidianIngot"
-    ],
     "BIOMES:mod:flamewood_tree_spawnable": [
       "forest",
       "mutated_forest",
-      "EXTERNAL:moderner_beta:alpha"
+      "EXTERNAL:moderner_beta:alpha",
+      "EXTERNAL:moderner_beta:infdev"
     ],
-    "ENCHANTMENTS:minecraft:tradeable": [
-      "~CUSTOM:Peeling"
+    "BLOCKS:minecraft:planks": [
+      "CUSTOM:FlamewoodPlanks",
+      "CUSTOM:TeaPlanks",
+      "CUSTOM:MyconPlanks",
+      "CUSTOM:CactusPlanks",
+      "CUSTOM:MushroomPlanks"
     ],
-    "ENCHANTMENTS:minecraft:on_random_loot": [
-      "~CUSTOM:Peeling"
+    "ENTITIES:minecraft:undead": [
+      "~CUSTOM:Observer"
     ],
-    "ENCHANTMENTS:minecraft:non_treasure": [
-      "~CUSTOM:Peeling"
+    "ITEMS:c:foods/raw_meat": [
+      "CUSTOM:Flesh"
+    ],
+    "ITEMS:c:foods/cooked_meat": [
+      "CUSTOM:CookedFlesh"
+    ],
+    "ITEMS:c:foods": [
+      "CUSTOM:ApplePie",
+      "CUSTOM:Flesh",
+      "CUSTOM:CookedFlesh"
+    ],
+    "ITEMS:c:foods/pie": [
+      "CUSTOM:ApplePie"
+    ],
+    "BLOCKS:minecraft:wooden_doors": [
+      "~CUSTOM:IceDoor",
+      "CUSTOM:FlamewoodDoor",
+      "CUSTOM:TeaDoor"
+    ],
+    "BLOCKS:minecraft:trapdoors": [
+      "CUSTOM:FlamewoodTrapdoor",
+      "CUSTOM:TeaTrapdoor"
+    ],
+    "BLOCKS:mod:lilies": [
+      "CUSTOM:GlowingFlower",
+      "CUSTOM:GlowingFlowerInfBasic",
+      "CUSTOM:GoldenFlowerInfGold",
+      "CUSTOM:GlowingFlowerInfObsidian",
+      "CUSTOM:ElderLily"
+    ],
+    "BLOCKS:mod:lilies/infused": [
+      "CUSTOM:GlowingFlowerInfBasic",
+      "CUSTOM:GoldenFlowerInfGold",
+      "CUSTOM:GlowingFlowerInfObsidian"
+    ],
+    "ITEMS:minecraft:logs": [
+      "CUSTOM:FlamewoodLog",
+      "CUSTOM:StrippedFlamewoodLog",
+      "CUSTOM:TeaLog",
+      "CUSTOM:StrippedTeaLog",
+      "CUSTOM:MyconLog",
+      "CUSTOM:FlamewoodWood",
+      "CUSTOM:StrippedFlamewoodWood",
+      "CUSTOM:TeaWood",
+      "CUSTOM:StrippedTeaWood",
+      "CUSTOM:MyconWood"
+    ],
+    "ITEMS:minecraft:meat": [
+      "CUSTOM:Flesh",
+      "CUSTOM:CookedFlesh"
+    ],
+    "ITEMS:c:nuggets": [
+      "CUSTOM:CopperNugget"
+    ],
+    "ITEMS:c:nuggets/copper": [
+      "CUSTOM:CopperNugget"
+    ],
+    "ITEMS:c:ingots": [
+      "CUSTOM:ObsidianIngot"
+    ],
+    "ITEMS:minecraft:trim_materials": [
+      "CUSTOM:Malachite",
+      "CUSTOM:Clinohumite",
+      "CUSTOM:Pyrite",
+      "CUSTOM:LaceAgate",
+      "CUSTOM:ObsidianIngot"
+    ],
+    "ITEMS:minecraft:doors": [
+      "CUSTOM:HubDoor",
+      "CUSTOM:FlamewoodDoor",
+      "CUSTOM:TeaDoor",
+      "CUSTOM:IceDoor"
+    ],
+    "ITEMS:minecraft:wooden_doors": [
+      "CUSTOM:FlamewoodDoor",
+      "CUSTOM:TeaDoor"
+    ],
+    "ITEMS:mod:pillars": [
+      "CUSTOM:WoodenPillar",
+      "CUSTOM:SprucePillar",
+      "CUSTOM:BirchPillar",
+      "CUSTOM:JunglePillar",
+      "CUSTOM:AcaciaPillar",
+      "CUSTOM:DarkOakPillar",
+      "CUSTOM:CrimsonPillar",
+      "CUSTOM:WarpedPillar",
+      "CUSTOM:FlamewoodPillar",
+      "CUSTOM:CherryPillar",
+      "CUSTOM:BambooPillar",
+      "Blocks.QUARTZ_BLOCK#2",
+      "Blocks.PURPUR_PILLAR"
+    ],
+    "ITEMS:mod:pillars/wooden": [
+      "CUSTOM:WoodenPillar",
+      "CUSTOM:SprucePillar",
+      "CUSTOM:BirchPillar",
+      "CUSTOM:JunglePillar",
+      "CUSTOM:AcaciaPillar",
+      "CUSTOM:DarkOakPillar",
+      "CUSTOM:CrimsonPillar",
+      "CUSTOM:WarpedPillar",
+      "CUSTOM:FlamewoodPillar",
+      "CUSTOM:CherryPillar",
+      "CUSTOM:BambooPillar"
+    ],
+    "BLOCKS:minecraft:wooden_pressure_plates": [
+      "~CUSTOM:MushroomPressurePlate",
+      "~CUSTOM:CactusPressurePlate",
+      "~CUSTOM:MyconPressurePlate",
+      "~CUSTOM:TeaPressurePlate",
+      "~CUSTOM:FlamewoodPressurePlate"
+    ],
+    "BLOCKS:minecraft:wooden_buttons": [
+      "~CUSTOM:MushroomButton",
+      "~CUSTOM:CactusButton",
+      "~CUSTOM:MyconButton",
+      "~CUSTOM:TeaButton",
+      "~CUSTOM:FlamewoodButton"
+    ],
+    "BLOCKS:minecraft:mob_interactable_doors": [
+      "~CUSTOM:HubDoor"
+    ],
+    "BLOCKS:minecraft:wooden_trapdoors": [
+      "~CUSTOM:TeaTrapdoor",
+      "~CUSTOM:FlamewoodTrapdoor"
     ]
   },
   "tab_element_order": {
@@ -6683,7 +7210,16 @@
       "LowPyriteOre",
       "DeepslateClinohumiteOre",
       "LowClinohumiteOre",
-      "MyconWood"
+      "MyconWood",
+      "MushroomPlanks",
+      "MushroomStairs",
+      "MushroomSlab",
+      "MushroomFence",
+      "MushroomFenceGate",
+      "MushroomPressurePlate",
+      "MushroomButton",
+      "StrippedMyconLog",
+      "StrippedMyconWood"
     ],
     "DECORATIONS": [
       "GlowingFlower",
@@ -6979,9 +7515,18 @@
       "gui.rd.overlay_thingies.label_minecraft_1211_neoforge": "Minecraft RubyLands Version 0.1.0",
       "block.rd.ice_door": "Ice Door",
       "block.rd.freezer": "Freezer",
-      "item.rd.raw_flesh": "Flesh",
+      "item.rd.raw_flesh": "Raw Flesh",
       "item.rd.cooked_flesh": "Cooked Flesh",
-      "enchantment.rd.peeling": "Peeling"
+      "block.rd.mushroom_planks": "Mushroom Planks",
+      "block.rd.mushroom_stairs": "Mushroom Stairs",
+      "block.rd.mushroom_slab": "Mushroom Slab",
+      "block.rd.mushroom_fence": "Mushroom Fence",
+      "block.rd.mushroom_fence_gate": "Mushroom Fence Gate",
+      "block.rd.mushroom_pressure_plate": "Mushroom Pressure Plate",
+      "block.rd.mushroom_button": "Mushroom Button",
+      "item.rd.sugar_cookie": "Sugar Cookie",
+      "block.rd.stripped_mycon_stem": "Stripped Mycon Stem",
+      "block.rd.stripped_mycon_hyphae": "Stripped Mycon Hyphae"
     },
     "pt_br": {
       "subtitles.music.low_river": "",
@@ -7246,22 +7791,22 @@
       "block.rd.freezer": "Freezer",
       "item.rd.raw_flesh": "Flesh",
       "item.rd.cooked_flesh": "Cooked Flesh",
-      "enchantment.rd.peeling": "Peeling"
+      "block.rd.mushroom_planks": "Mushroom Planks",
+      "block.rd.mushroom_stairs": "Mushroom Stairs",
+      "block.rd.mushroom_slab": "Mushroom Slab",
+      "block.rd.mushroom_fence": "Mushroom Fence",
+      "block.rd.mushroom_fence_gate": "Mushroom Fence Gate",
+      "block.rd.mushroom_pressure_plate": "Mushroom Pressure Plate",
+      "block.rd.mushroom_button": "Mushroom Button",
+      "item.rd.sugar_cookie": "Sugar Cookie",
+      "block.rd.stripped_mycon_stem": "Mycon Stem",
+      "block.rd.stripped_mycon_hyphae": "Mycon Hyphae"
     }
   },
   "metadata": {
     "files": [
-      "src/main/java/net/stellarxraven17/rubylands/init/RdModModels.java",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/net/stellarxraven17/rubylands/network/RdModVariables.java",
-      "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/java/net/stellarxraven17/rubylands/RdMod.java",
-      "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/assets/rd/sounds.json",
-      "src/main/java/net/stellarxraven17/rubylands/init/RdModSounds.java",
-      "src/main/java/net/stellarxraven17/rubylands/init/RdModTabs.java",
-      "src/main/java/net/stellarxraven17/rubylands/network/MenuStateUpdateMessage.java",
       "src/main/java/net/stellarxraven17/rubylands/init/RdModMenus.java",
+      "src/main/java/net/stellarxraven17/rubylands/network/MenuStateUpdateMessage.java",
       "src/main/java/net/stellarxraven17/rubylands/init/RdModScreens.java",
       "src/main/java/net/stellarxraven17/rubylands/init/RdModFuels.java",
       "src/main/resources/data/neoforge/data_maps/entity_type/monster_room_mobs.json",
@@ -7270,7 +7815,16 @@
       "src/main/java/net/stellarxraven17/rubylands/init/RdModBlocks.java",
       "src/main/java/net/stellarxraven17/rubylands/init/RdModItems.java",
       "src/main/java/net/stellarxraven17/rubylands/init/RdModEntityRenderers.java",
-      "src/main/java/net/stellarxraven17/rubylands/init/RdModEntities.java"
+      "src/main/java/net/stellarxraven17/rubylands/init/RdModEntities.java",
+      "src/main/resources/assets/rd/sounds.json",
+      "src/main/java/net/stellarxraven17/rubylands/network/RdModVariables.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/stellarxraven17/rubylands/init/RdModTabs.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/stellarxraven17/rubylands/init/RdModSounds.java",
+      "src/main/java/net/stellarxraven17/rubylands/init/RdModModels.java",
+      "src/main/java/net/stellarxraven17/rubylands/RdMod.java",
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {
@@ -7502,7 +8056,7 @@
         ]
       },
       {
-        "name": "CodeStuff",
+        "name": "MiscFeatures",
         "children": [
           {
             "name": "Hub",
@@ -7531,7 +8085,7 @@
   "workspaceSettings": {
     "modid": "rd",
     "modName": "Minecraft: Rubylands",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "A fresh coat of paint on the block game you know and love.",
     "author": "StellarXRaven17",
     "websiteURL": "https://modrinth.com/mod/minecraft-rubylands",
@@ -7550,5 +8104,5 @@
     "credits": "Based on Minecraft Alpha 1.0.16 Versions, made with MCreator.",
     "modElementsPackage": "net.stellarxraven17.rubylands"
   },
-  "mcreatorVersion": 202500228610
+  "mcreatorVersion": 202500345720
 }

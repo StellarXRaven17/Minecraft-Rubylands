@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "rd:tea_button",
+    "rd:mushroom_button",
+    "rd:cactus_button",
+    "rd:flamewood_button",
+    "rd:mycon_button"
+  ]
+}

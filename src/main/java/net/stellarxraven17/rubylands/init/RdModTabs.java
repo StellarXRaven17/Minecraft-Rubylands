@@ -14,7 +14,7 @@ import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.core.registries.Registries;
 
-@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber
 public class RdModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, RdMod.MODID);
 
@@ -27,6 +27,9 @@ public class RdModTabs {
 			tabData.accept(RdModBlocks.FLAMEWOOD_TRAPDOOR.get().asItem());
 			tabData.accept(RdModBlocks.TEA_DOOR.get().asItem());
 			tabData.accept(RdModBlocks.TEA_TRAPDOOR.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+			tabData.accept(RdModItems.RAW_FLESH.get());
+			tabData.accept(RdModItems.COOKED_FLESH.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(RdModItems.COPPER_NUGGET.get());
 			tabData.accept(RdModBlocks.BLUE_FIRE_IDK.get().asItem());
@@ -128,6 +131,15 @@ public class RdModTabs {
 			tabData.accept(RdModBlocks.DEEPSLATE_CLINOHUMITE_ORE.get().asItem());
 			tabData.accept(RdModBlocks.LOW_CLINOHUMITE_ORE.get().asItem());
 			tabData.accept(RdModBlocks.MYCON_HYPHAE.get().asItem());
+			tabData.accept(RdModBlocks.MUSHROOM_PLANKS.get().asItem());
+			tabData.accept(RdModBlocks.MUSHROOM_STAIRS.get().asItem());
+			tabData.accept(RdModBlocks.MUSHROOM_SLAB.get().asItem());
+			tabData.accept(RdModBlocks.MUSHROOM_FENCE.get().asItem());
+			tabData.accept(RdModBlocks.MUSHROOM_FENCE_GATE.get().asItem());
+			tabData.accept(RdModBlocks.MUSHROOM_PRESSURE_PLATE.get().asItem());
+			tabData.accept(RdModBlocks.MUSHROOM_BUTTON.get().asItem());
+			tabData.accept(RdModBlocks.STRIPPED_MYCON_STEM.get().asItem());
+			tabData.accept(RdModBlocks.STRIPPED_MYCON_HYPHAE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(RdModBlocks.WATER_LILY.get().asItem());
 			tabData.accept(RdModBlocks.LOW_LILY.get().asItem());

@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_fence_gate_open",
+  "textures": {
+    "texture": "rd:block/mushroom_planks",
+    "particle": "rd:block/mushroom_planks"
+  },
+  "render_type": "solid"
+}

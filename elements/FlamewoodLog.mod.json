@@ -4,10 +4,10 @@
   "definition": {
     "texture": "flamewood_log_top",
     "textureTop": "flamewood_log_top",
-    "textureLeft": "flamewood_log_side",
-    "textureFront": "flamewood_log_side",
-    "textureRight": "flamewood_log_side",
-    "textureBack": "flamewood_log_side",
+    "textureLeft": "flamewood_log",
+    "textureFront": "flamewood_log",
+    "textureRight": "flamewood_log",
+    "textureBack": "flamewood_log",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 5,
@@ -58,6 +58,8 @@
       "value": ""
     },
     "dropAmount": 1,
+    "xpAmountMin": 0,
+    "xpAmountMax": 0,
     "useLootTableForDrops": false,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
@@ -131,6 +133,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "FlamewoodLogStripping"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

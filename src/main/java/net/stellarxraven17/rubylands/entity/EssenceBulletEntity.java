@@ -1,6 +1,5 @@
 package net.stellarxraven17.rubylands.entity;
 
-import net.stellarxraven17.rubylands.procedures.DropEssenceBulletProcedure;
 import net.stellarxraven17.rubylands.procedures.DropEssenceBulletBlockProcedure;
 import net.stellarxraven17.rubylands.init.RdModItems;
 import net.stellarxraven17.rubylands.init.RdModEntities;
@@ -9,7 +8,6 @@ import net.neoforged.api.distmarker.OnlyIn;
 import net.neoforged.api.distmarker.Dist;
 
 import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.phys.EntityHitResult;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.enchantment.Enchantments;
@@ -17,7 +15,6 @@ import net.minecraft.world.item.enchantment.EnchantmentHelper;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.ItemSupplier;
 import net.minecraft.world.entity.projectile.AbstractArrow;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
@@ -83,18 +80,6 @@ public class EssenceBulletEntity extends AbstractArrow implements ItemSupplier {
 		} else { // knockback might be set by firedFromWeapon passed into constructor
 			super.doKnockback(livingEntity, damageSource);
 		}
-	}
-
-	@Override
-	public void playerTouch(Player entity) {
-		super.playerTouch(entity);
-		DropEssenceBulletProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), entity, this, this.getOwner());
-	}
-
-	@Override
-	public void onHitEntity(EntityHitResult entityHitResult) {
-		super.onHitEntity(entityHitResult);
-		DropEssenceBulletProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), entityHitResult.getEntity(), this, this.getOwner());
 	}
 
 	@Override

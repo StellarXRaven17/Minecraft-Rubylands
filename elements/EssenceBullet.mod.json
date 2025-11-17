@@ -20,12 +20,6 @@
     "modelHeight": 0.5,
     "onHitsBlock": {
       "name": "DropEssenceBulletBlock"
-    },
-    "onHitsPlayer": {
-      "name": "DropEssenceBullet"
-    },
-    "onHitsEntity": {
-      "name": "DropEssenceBullet"
     }
   }
 }

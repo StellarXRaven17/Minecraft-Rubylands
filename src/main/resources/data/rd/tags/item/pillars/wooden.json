@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "rd:birch_pillar",
+    "rd:acacia_pillar",
+    "rd:flamewood_pillar",
+    "rd:bamboo_pillar",
+    "rd:warped_pillar",
+    "rd:oak_pillar",
+    "rd:spruce_pillar",
+    "rd:jungle_pillar",
+    "rd:dark_oak_pillar",
+    "rd:crimson_pillar",
+    "rd:cherry_pillar"
+  ]
+}

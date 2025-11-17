@@ -123,11 +123,6 @@ public class RecruiterEntity extends Monster {
 	}
 
 	@Override
-	public boolean fireImmune() {
-		return true;
-	}
-
-	@Override
 	public void die(DamageSource source) {
 		super.die(source);
 		RecruiterDisconnectProcedure.execute(this.level(), this);

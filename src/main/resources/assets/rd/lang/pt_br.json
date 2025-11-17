@@ -261,5 +261,14 @@
   "block.rd.freezer": "Freezer",
   "item.rd.raw_flesh": "Flesh",
   "item.rd.cooked_flesh": "Cooked Flesh",
-  "enchantment.rd.peeling": "Peeling"
+  "block.rd.mushroom_planks": "Mushroom Planks",
+  "block.rd.mushroom_stairs": "Mushroom Stairs",
+  "block.rd.mushroom_slab": "Mushroom Slab",
+  "block.rd.mushroom_fence": "Mushroom Fence",
+  "block.rd.mushroom_fence_gate": "Mushroom Fence Gate",
+  "block.rd.mushroom_pressure_plate": "Mushroom Pressure Plate",
+  "block.rd.mushroom_button": "Mushroom Button",
+  "item.rd.sugar_cookie": "Sugar Cookie",
+  "block.rd.stripped_mycon_stem": "Mycon Stem",
+  "block.rd.stripped_mycon_hyphae": "Mycon Hyphae"
 }

@@ -34,7 +34,7 @@ public class HerobrineSpawnsProcedure {
 				&& (world.getBlockState(BlockPos.containing(x - 1, y - 2, z + 1))).getBlock() == Blocks.GOLD_BLOCK && (world.getBlockState(BlockPos.containing(x + 1, y - 2, z - 1))).getBlock() == Blocks.GOLD_BLOCK
 				&& (world.getBlockState(BlockPos.containing(x - 1, y - 2, z - 1))).getBlock() == Blocks.GOLD_BLOCK && RdModVariables.MapVariables.get(world).nebulaHappening == false) {
 			RdModVariables.MapVariables.get(world).herobrineJoined = true;
-			RdModVariables.MapVariables.get(world).syncData(world);
+			RdModVariables.MapVariables.get(world).markSyncDirty();
 			HerobrineJoinsProcedure.execute(world);
 		}
 	}

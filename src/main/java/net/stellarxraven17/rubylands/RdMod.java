@@ -4,12 +4,7 @@ import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
 import net.stellarxraven17.rubylands.network.RdModVariables;
-import net.stellarxraven17.rubylands.init.RdModTabs;
-import net.stellarxraven17.rubylands.init.RdModSounds;
-import net.stellarxraven17.rubylands.init.RdModMenus;
-import net.stellarxraven17.rubylands.init.RdModItems;
-import net.stellarxraven17.rubylands.init.RdModEntities;
-import net.stellarxraven17.rubylands.init.RdModBlocks;
+import net.stellarxraven17.rubylands.init.*;
 
 import net.neoforged.neoforge.network.registration.PayloadRegistrar;
 import net.neoforged.neoforge.network.handling.IPayloadHandler;
@@ -45,14 +40,11 @@ public class RdMod {
 		modEventBus.addListener(this::registerNetworking);
 		RdModSounds.REGISTRY.register(modEventBus);
 		RdModBlocks.REGISTRY.register(modEventBus);
-
 		RdModItems.REGISTRY.register(modEventBus);
 		RdModEntities.REGISTRY.register(modEventBus);
 		RdModTabs.REGISTRY.register(modEventBus);
 		RdModVariables.ATTACHMENT_TYPES.register(modEventBus);
-
 		RdModMenus.REGISTRY.register(modEventBus);
-
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

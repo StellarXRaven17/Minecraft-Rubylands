@@ -2,12 +2,12 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "pillarblock_dark_oak_top",
-    "textureTop": "pillarblock_dark_oak_top",
-    "textureLeft": "pillarblock_dark_oak",
-    "textureFront": "pillarblock_dark_oak",
-    "textureRight": "pillarblock_dark_oak",
-    "textureBack": "pillarblock_dark_oak",
+    "texture": "dark_oak_pillar_top",
+    "textureTop": "dark_oak_pillar_top",
+    "textureLeft": "dark_oak_pillar",
+    "textureFront": "dark_oak_pillar",
+    "textureRight": "dark_oak_pillar",
+    "textureBack": "dark_oak_pillar",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 5,
@@ -58,6 +58,8 @@
       "value": ""
     },
     "dropAmount": 1,
+    "xpAmountMin": 0,
+    "xpAmountMax": 0,
     "useLootTableForDrops": false,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
@@ -112,6 +114,9 @@
     "isBonemealable": false,
     "sensitiveToVibration": false,
     "vibrationalEvents": [],
+    "vibrationSensitivityRadius": {
+      "fixedValue": 7.0
+    },
     "hasInventory": false,
     "openGUIOnRightClick": false,
     "inventorySize": 9,

@@ -3,10 +3,10 @@
   "textures": {
     "down": "rd:block/flamewood_log_top",
     "up": "rd:block/flamewood_log_top",
-    "north": "rd:block/flamewood_log_side",
-    "east": "rd:block/flamewood_log_side",
-    "south": "rd:block/flamewood_log_side",
-    "west": "rd:block/flamewood_log_side",
+    "north": "rd:block/flamewood_log",
+    "east": "rd:block/flamewood_log",
+    "south": "rd:block/flamewood_log",
+    "west": "rd:block/flamewood_log",
     "particle": "rd:block/flamewood_log_top"
   },
   "render_type": "solid"

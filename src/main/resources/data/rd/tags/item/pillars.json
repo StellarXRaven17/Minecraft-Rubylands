@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "rd:flamewood_pillar",
+    "minecraft:purpur_pillar",
+    "rd:spruce_pillar",
+    "rd:jungle_pillar",
+    "rd:dark_oak_pillar",
+    "rd:cherry_pillar",
+    "rd:birch_pillar",
+    "rd:acacia_pillar",
+    "rd:bamboo_pillar",
+    "rd:warped_pillar",
+    "rd:oak_pillar",
+    "minecraft:quartz_pillar",
+    "rd:crimson_pillar"
+  ]
+}

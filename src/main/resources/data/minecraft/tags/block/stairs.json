@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "rd:mushroom_stairs",
     "rd:salt_brick_stairs",
     "rd:mycon_stairs",
     "rd:tea_stairs",

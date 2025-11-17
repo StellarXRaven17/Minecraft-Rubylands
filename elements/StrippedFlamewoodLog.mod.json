@@ -4,10 +4,10 @@
   "definition": {
     "texture": "stripped_flamewood_log_top",
     "textureTop": "stripped_flamewood_log_top",
-    "textureLeft": "stripped_flamewood_log_side",
-    "textureFront": "stripped_flamewood_log_side",
-    "textureRight": "stripped_flamewood_log_side",
-    "textureBack": "stripped_flamewood_log_side",
+    "textureLeft": "stripped_flamewood_log",
+    "textureFront": "stripped_flamewood_log",
+    "textureRight": "stripped_flamewood_log",
+    "textureBack": "stripped_flamewood_log",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 5,
@@ -58,6 +58,8 @@
       "value": ""
     },
     "dropAmount": 1,
+    "xpAmountMin": 0,
+    "xpAmountMax": 0,
     "useLootTableForDrops": false,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,

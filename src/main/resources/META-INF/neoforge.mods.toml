@@ -4,7 +4,7 @@ license="Not specified"
 
 [[mods]]
 modId="rd"
-version="0.1.1"
+version="0.1.2"
 displayName="Minecraft: Rubylands"
 displayURL="https://modrinth.com/mod/minecraft-rubylands"
 logoFile="logo.png"
@@ -22,7 +22,7 @@ description="A fresh coat of paint on the block game you know and love."
 [[dependencies.rd]]
     modId="neoforge"
     type="required"
-    versionRange="[21.1.176,)"
+    versionRange="[21.1.190,)"
     ordering="AFTER"
     side="BOTH"
 

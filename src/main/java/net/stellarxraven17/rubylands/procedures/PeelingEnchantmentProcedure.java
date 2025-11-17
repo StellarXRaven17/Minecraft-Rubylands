@@ -42,7 +42,7 @@ public class PeelingEnchantmentProcedure {
 		if (entity == null || sourceentity == null)
 			return;
 		if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
-				.getEnchantmentLevel(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(ResourceKey.create(Registries.ENCHANTMENT, ResourceLocation.parse("rd:peeling")))) >= 1) {
+				.getEnchantmentLevel(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(ResourceKey.create(Registries.ENCHANTMENT, ResourceLocation.parse("rd:deleted_mod_element")))) >= 1) {
 			if (entity instanceof Villager || entity instanceof Player) {
 				if (entity instanceof LivingEntity _entity)
 					_entity.setHealth((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) - 3);

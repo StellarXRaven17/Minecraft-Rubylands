@@ -1,0 +1,8 @@
+{
+  "parent": "block/pressure_plate_up",
+  "textures": {
+    "texture": "rd:block/mushroom_planks",
+    "particle": "rd:block/mushroom_planks"
+  },
+  "render_type": "solid"
+}

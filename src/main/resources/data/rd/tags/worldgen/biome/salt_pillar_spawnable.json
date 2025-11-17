@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     {
+      "id": "moderner_beta:infdev",
+      "required": false
+    },
+    {
       "id": "moderner_beta:alpha",
       "required": false
     },
