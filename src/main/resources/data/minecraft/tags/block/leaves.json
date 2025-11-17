@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "rd:tea_leaves",
+    "rd:highwood_leaves",
     "rd:flamewood_leaves"
   ]
 }

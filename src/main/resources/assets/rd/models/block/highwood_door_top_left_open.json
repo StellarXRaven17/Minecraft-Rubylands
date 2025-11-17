@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_left_open",
+  "textures": {
+    "particle": "rd:block/highwood_door_bottom",
+    "bottom": "rd:block/highwood_door_bottom",
+    "top": "rd:block/highwood_door_top"
+  },
+  "render_type": "cutout"
+}

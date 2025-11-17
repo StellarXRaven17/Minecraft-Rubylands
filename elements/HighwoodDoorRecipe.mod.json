@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "wooden_door",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:HighwoodPlanks"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "REDSTONE",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:HighwoodPlanks"
+      },
+      {
+        "value": "CUSTOM:HighwoodPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:HighwoodPlanks"
+      },
+      {
+        "value": "CUSTOM:HighwoodPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:HighwoodPlanks"
+      },
+      {
+        "value": "CUSTOM:HighwoodPlanks"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:HighwoodDoor"
+    },
+    "name": "highwood_door_recipe",
+    "namespace": "mod"
+  }
+}

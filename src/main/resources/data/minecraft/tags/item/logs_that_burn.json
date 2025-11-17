@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#rd:highwood_logs",
+      "required": false
+    },
+    {
+      "id": "#rd:flamewood_logs",
+      "required": false
+    }
+  ]
+}

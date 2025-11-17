@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "rd:block/highwood_planks",
+    "bottom": "rd:block/highwood_planks",
+    "top": "rd:block/highwood_planks",
+    "side": "rd:block/highwood_planks"
+  },
+  "render_type": "solid"
+}

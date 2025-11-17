@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "rd:block/fake_dirt",
+    "top": "rd:block/fake_grass_top",
+    "side": "rd:block/fake_grass_side",
+    "overlay": "rd:block/fake_grass_side",
+    "particle": "rd:block/fake_dirt"
+  },
+  "render_type": "solid"
+}

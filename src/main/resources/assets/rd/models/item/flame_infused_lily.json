@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "rd:block/flame_infused_lily"
+    "layer0": "rd:item/flame_infused_lily"
   },
   "render_type": "translucent"
 }

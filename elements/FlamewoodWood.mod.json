@@ -18,6 +18,9 @@
     "itemTexture": "",
     "particleTexture": "",
     "blockSetType": "OAK",
+    "pottedPlant": {
+      "value": ""
+    },
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -80,6 +83,9 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
+    "strippingResult": {
+      "value": "CUSTOM:StrippedFlamewoodWood"
+    },
     "ignitedByLava": true,
     "flammability": 0,
     "fireSpreadSpeed": 0,

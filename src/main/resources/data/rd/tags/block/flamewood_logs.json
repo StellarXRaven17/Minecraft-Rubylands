@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "rd:stripped_flamewood_wood",
+    "rd:flamewood_log",
+    "rd:flamewood_wood",
+    "rd:stripped_flamewood_log"
+  ]
+}

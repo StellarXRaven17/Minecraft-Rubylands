@@ -1,6 +1,6 @@
 modLoader="javafml"
 loaderVersion="[4,)"
-license="Not specified"
+license="All Rights Reserved"
 
 [[mods]]
 modId="rd"
@@ -42,6 +42,12 @@ description="A fresh coat of paint on the block game you know and love."
 
 [[dependencies.rd]]
     modId="moderner_beta"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.rd]]
+    modId="everycomp"
     type="optional"
     versionRange="[0,)"
     ordering="NONE"

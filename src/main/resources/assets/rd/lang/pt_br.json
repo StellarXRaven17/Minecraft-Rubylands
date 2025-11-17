@@ -270,5 +270,21 @@
   "block.rd.mushroom_button": "Mushroom Button",
   "item.rd.sugar_cookie": "Sugar Cookie",
   "block.rd.stripped_mycon_stem": "Mycon Stem",
-  "block.rd.stripped_mycon_hyphae": "Mycon Hyphae"
+  "block.rd.stripped_mycon_hyphae": "Mycon Hyphae",
+  "block.rd.fake_dirt": "Fake Dirt",
+  "block.rd.fake_grass": "Fake Dirt",
+  "block.rd.highwood_log": "Highwood Log",
+  "block.rd.highwood_wood": "Highwood Wood",
+  "block.rd.stripped_highwood_log": "Stripped Highwood Log",
+  "block.rd.stripped_highwood_wood": "Stripped Highwood Wood",
+  "block.rd.highwood_planks": "Highwood Planks",
+  "block.rd.highwood_leaves": "Highwood Leaves",
+  "block.rd.highwood_stairs": "Highwood Stairs",
+  "block.rd.highwood_slab": "Highwood Slab",
+  "block.rd.highwood_fence": "Highwood Fence",
+  "block.rd.highwood_fence_gate": "Highwood Fence Gate",
+  "block.rd.highwood_door": "Highwood Door",
+  "block.rd.highwood_trapdoor": "Highwood Trapdoor",
+  "block.rd.highwood_pressure_plate": "Highwood Pressure Plate",
+  "block.rd.highwood_button": "Highwood Button"
 }

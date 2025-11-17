@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "rd:highwood_button",
     "rd:tea_button",
     "rd:mushroom_button",
     "rd:cactus_button",

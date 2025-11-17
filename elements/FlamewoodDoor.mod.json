@@ -19,6 +19,9 @@
     "particleTexture": "",
     "blockBase": "Door",
     "blockSetType": "OAK",
+    "pottedPlant": {
+      "value": ""
+    },
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
@@ -51,7 +54,7 @@
     "immuneToFire": true,
     "creativeTabs": [
       {
-        "value": "TRANSPORTATION"
+        "value": "BUILDING_BLOCKS"
       }
     ],
     "destroyTool": "axe",
@@ -81,6 +84,9 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "WALKABLE_DOOR",
+    "strippingResult": {
+      "value": ""
+    },
     "ignitedByLava": true,
     "flammability": 0,
     "fireSpreadSpeed": 0,

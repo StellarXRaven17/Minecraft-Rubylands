@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "rd:highwood_wood",
+    "rd:stripped_highwood_wood",
+    "rd:stripped_highwood_log",
+    "rd:highwood_log"
+  ]
+}
