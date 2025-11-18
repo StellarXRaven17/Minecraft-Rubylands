@@ -2125,17 +2125,6 @@
       "path": "~/Blocks/WoodBlocks/Flamewood"
     },
     {
-      "name": "FlamewoodSaplingTrade",
-      "type": "villagertrade",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "new_villager_trades",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/MiscFeatures"
-    },
-    {
       "name": "TeaWood",
       "type": "block",
       "compiles": true,
@@ -8144,7 +8133,6 @@
       "src/main/java/com/fauxjang/rubylands/init/RdModFuels.java",
       "src/main/resources/data/neoforge/data_maps/entity_type/monster_room_mobs.json",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
-      "src/main/java/com/fauxjang/rubylands/init/RdModTrades.java",
       "src/main/java/com/fauxjang/rubylands/init/RdModBlocks.java",
       "src/main/java/com/fauxjang/rubylands/init/RdModItems.java",
       "src/main/java/com/fauxjang/rubylands/init/RdModEntityRenderers.java",
