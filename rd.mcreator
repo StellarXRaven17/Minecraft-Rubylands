@@ -5793,20 +5793,7 @@
       "locked_code": false,
       "registry_name": "cannibalism",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ],
+        "dependencies": [],
         "files": [
           "src/main/java/com/fauxjang/rubylands/procedures/PeelingEnchantmentProcedure.java"
         ]
