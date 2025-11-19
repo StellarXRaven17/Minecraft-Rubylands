@@ -529,7 +529,7 @@
       "name": "BlueFireIdk",
       "type": "block",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "blue_fire_idk",
       "metadata": {
         "files": [
@@ -561,7 +561,7 @@
       "name": "GlowingFlowerInfBasic",
       "type": "block",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "flame_infused_lily",
       "metadata": {
         "files": [
@@ -679,7 +679,7 @@
       "name": "GoldenFlowerInfGold",
       "type": "block",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "gold_infused_lily",
       "metadata": {
         "files": [
@@ -696,7 +696,7 @@
       "name": "GlowingFlowerInfObsidian",
       "type": "block",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "obsidian_infused_lily",
       "metadata": {
         "files": [
@@ -5153,7 +5153,7 @@
       "name": "GlowingFlower",
       "type": "block",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "water_lily",
       "metadata": {
         "files": [
