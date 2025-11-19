@@ -4,7 +4,7 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="rd"
-version="0.1.2"
+version="0.1.3"
 displayName="Minecraft: Rubylands"
 displayURL="https://modrinth.com/mod/minecraft-rubylands"
 logoFile="logo.png"
