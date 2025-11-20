@@ -200,6 +200,7 @@ public class RdModItems {
 	public static final DeferredItem<Item> TEA_TRAPDOOR;
 	public static final DeferredItem<Item> TEA_PRESSURE_PLATE;
 	public static final DeferredItem<Item> TEA_BUTTON;
+	public static final DeferredItem<Item> TEA_PILLAR;
 	static {
 		ESSENCE = REGISTRY.register("essence", EssenceItem::new);
 		OAK_PILLAR = block(RdModBlocks.OAK_PILLAR);
@@ -382,6 +383,7 @@ public class RdModItems {
 		TEA_TRAPDOOR = block(RdModBlocks.TEA_TRAPDOOR);
 		TEA_PRESSURE_PLATE = block(RdModBlocks.TEA_PRESSURE_PLATE);
 		TEA_BUTTON = block(RdModBlocks.TEA_BUTTON);
+		TEA_PILLAR = block(RdModBlocks.TEA_PILLAR, new Item.Properties().fireResistant());
 	}
 
 	// Start of user code block custom items

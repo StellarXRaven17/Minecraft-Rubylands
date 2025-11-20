@@ -152,6 +152,7 @@ public class RdModTabs {
 			tabData.accept(RdModBlocks.LOW_PYRITE_ORE.get().asItem());
 			tabData.accept(RdModBlocks.DEEPSLATE_CLINOHUMITE_ORE.get().asItem());
 			tabData.accept(RdModBlocks.LOW_CLINOHUMITE_ORE.get().asItem());
+			tabData.accept(RdModBlocks.TEA_PILLAR.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(RdModBlocks.WATER_LILY.get().asItem());
 			tabData.accept(RdModBlocks.LOW_LILY.get().asItem());

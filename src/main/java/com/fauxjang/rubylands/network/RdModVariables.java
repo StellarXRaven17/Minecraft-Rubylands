@@ -80,7 +80,6 @@ public class RdModVariables {
 	public static class WorldVariables extends SavedData {
 		public static final String DATA_NAME = "rd_worldvars";
 		boolean _syncDirty = false;
-		public boolean herobrineJoinMessageSent = false;
 
 		public static WorldVariables load(CompoundTag tag, HolderLookup.Provider lookupProvider) {
 			WorldVariables data = new WorldVariables();
@@ -89,12 +88,10 @@ public class RdModVariables {
 		}
 
 		public void read(CompoundTag nbt, HolderLookup.Provider lookupProvider) {
-			herobrineJoinMessageSent = nbt.getBoolean("herobrineJoinMessageSent");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt, HolderLookup.Provider lookupProvider) {
-			nbt.putBoolean("herobrineJoinMessageSent", herobrineJoinMessageSent);
 			return nbt;
 		}
 
@@ -117,7 +114,6 @@ public class RdModVariables {
 	public static class MapVariables extends SavedData {
 		public static final String DATA_NAME = "rd_mapvars";
 		boolean _syncDirty = false;
-		public boolean herobrineJoined = false;
 		public boolean nebulaHappening = false;
 		public boolean newPlayer = true;
 
@@ -128,14 +124,12 @@ public class RdModVariables {
 		}
 
 		public void read(CompoundTag nbt, HolderLookup.Provider lookupProvider) {
-			herobrineJoined = nbt.getBoolean("herobrineJoined");
 			nebulaHappening = nbt.getBoolean("nebulaHappening");
 			newPlayer = nbt.getBoolean("newPlayer");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt, HolderLookup.Provider lookupProvider) {
-			nbt.putBoolean("herobrineJoined", herobrineJoined);
 			nbt.putBoolean("nebulaHappening", nebulaHappening);
 			nbt.putBoolean("newPlayer", newPlayer);
 			return nbt;

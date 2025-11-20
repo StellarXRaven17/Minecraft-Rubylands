@@ -163,6 +163,7 @@ public class RdModBlocks {
 	public static final DeferredBlock<Block> TEA_TRAPDOOR;
 	public static final DeferredBlock<Block> TEA_PRESSURE_PLATE;
 	public static final DeferredBlock<Block> TEA_BUTTON;
+	public static final DeferredBlock<Block> TEA_PILLAR;
 	static {
 		OAK_PILLAR = REGISTRY.register("oak_pillar", WoodenPillarBlock::new);
 		ESSENCE_CACHE = REGISTRY.register("essence_cache", EssenceCacheBlock::new);
@@ -310,6 +311,7 @@ public class RdModBlocks {
 		TEA_TRAPDOOR = REGISTRY.register("tea_trapdoor", TeaTrapdoorBlock::new);
 		TEA_PRESSURE_PLATE = REGISTRY.register("tea_pressure_plate", TeaPressurePlateBlock::new);
 		TEA_BUTTON = REGISTRY.register("tea_button", TeaButtonBlock::new);
+		TEA_PILLAR = REGISTRY.register("tea_pillar", TeaPillarBlock::new);
 	}
 
 	// Start of user code block custom blocks

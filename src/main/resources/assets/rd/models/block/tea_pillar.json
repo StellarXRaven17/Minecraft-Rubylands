@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rd:block/tea_pillar_top",
+    "up": "rd:block/tea_pillar_top",
+    "north": "rd:block/tea_pillar",
+    "east": "rd:block/tea_pillar",
+    "south": "rd:block/tea_pillar",
+    "west": "rd:block/tea_pillar",
+    "particle": "rd:block/tea_pillar_top"
+  },
+  "render_type": "solid"
+}

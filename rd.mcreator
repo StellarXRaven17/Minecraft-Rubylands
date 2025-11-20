@@ -1556,56 +1556,6 @@
       "path": "~/MiscFeatures/Hub"
     },
     {
-      "name": "HerobrineJoins",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "herobrine_joins",
-      "metadata": {
-        "files": [
-          "src/main/java/com/fauxjang/rubylands/procedures/HerobrineJoinsProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/MiscFeatures"
-    },
-    {
-      "name": "HerobrineSpawns",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "herobrine_spawns",
-      "metadata": {
-        "files": [
-          "src/main/java/com/fauxjang/rubylands/procedures/HerobrineSpawnsProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/MiscFeatures"
-    },
-    {
       "name": "RecruiterDisconnect",
       "type": "procedure",
       "compiles": true,
@@ -6807,21 +6757,85 @@
         ]
       },
       "path": "~/Blocks/WoodBlocks/Tea"
+    },
+    {
+      "name": "TeaPillar",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_pillar",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/loot_table/blocks/tea_pillar.json",
+          "src/main/resources/assets/rd/models/block/tea_pillar.json",
+          "src/main/resources/assets/rd/blockstates/tea_pillar.json",
+          "src/main/resources/assets/rd/models/item/tea_pillar.json",
+          "src/main/java/com/fauxjang/rubylands/block/TeaPillarBlock.java"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Tea"
+    },
+    {
+      "name": "TeaPillarCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_pillar_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/advancement/recipes/tea_pillar_crafting.json",
+          "src/main/resources/data/rd/recipe/tea_pillar_crafting.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Tea"
+    },
+    {
+      "name": "SuperSecretAdvancements",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_secret_advancements",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/advancement/super_secret_advancements.json"
+        ]
+      },
+      "path": "~/Advancements/SuperSecret"
+    },
+    {
+      "name": "TBSEnabled",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "super_secret_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/advancement/super_secret_1.json"
+        ]
+      },
+      "path": "~/Advancements/SuperSecret/TBS"
+    },
+    {
+      "name": "UnlockTBSAchivement",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unlock_super_secret_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/com/fauxjang/rubylands/procedures/UnlockTBSAchivementProcedure.java"
+        ]
+      },
+      "path": "~/Advancements/SuperSecret/TBS"
     }
   ],
   "variable_elements": [
-    {
-      "name": "herobrineJoined",
-      "type": "logic",
-      "scope": "map",
-      "value": "false"
-    },
-    {
-      "name": "herobrineJoinMessageSent",
-      "type": "logic",
-      "scope": "world",
-      "value": "false"
-    },
     {
       "name": "hubAddress",
       "type": "string",
@@ -7525,7 +7539,8 @@
       "DeepslatePyriteOre",
       "LowPyriteOre",
       "DeepslateClinohumiteOre",
-      "LowClinohumiteOre"
+      "LowClinohumiteOre",
+      "TeaPillar"
     ],
     "DECORATIONS": [
       "GlowingFlower",
@@ -7849,7 +7864,12 @@
       "block.rd.tea_door": "Tea Door",
       "block.rd.tea_trapdoor": "Tea Trapdoor",
       "block.rd.tea_pressure_plate": "Tea Pressure Plate",
-      "block.rd.tea_button": "Tea Button"
+      "block.rd.tea_button": "Tea Button",
+      "block.rd.tea_pillar": "Flamewood Pillar",
+      "advancements.super_secret_advancements.descr": "Advancements that you can\u0027t get through normal gameplay.",
+      "advancements.super_secret_advancements.title": "Super Secret Advancements",
+      "advancements.super_secret_1.descr": "Play with The Broken Script installed.",
+      "advancements.super_secret_1.title": "Integrity and Dev0 at the Olympic Games"
     },
     "pt_br": {
       "subtitles.music.low_river": "",
@@ -8139,7 +8159,12 @@
       "block.rd.tea_door": "Tea Door",
       "block.rd.tea_trapdoor": "Tea Trapdoor",
       "block.rd.tea_pressure_plate": "Tea Pressure Plate",
-      "block.rd.tea_button": "Tea Button"
+      "block.rd.tea_button": "Tea Button",
+      "block.rd.tea_pillar": "Flamewood Pillar",
+      "advancements.super_secret_advancements.descr": "Advancements that you can\u0027t get through normal gameplay.",
+      "advancements.super_secret_advancements.title": "Super Secret Advancements",
+      "advancements.super_secret_1.descr": "Play with The Broken Script installed.",
+      "advancements.super_secret_1.title": "Integrity and Dev0 at the Olympic Games"
     }
   },
   "metadata": {
@@ -8421,6 +8446,20 @@
       {
         "name": "Enchantments",
         "children": []
+      },
+      {
+        "name": "Advancements",
+        "children": [
+          {
+            "name": "SuperSecret",
+            "children": [
+              {
+                "name": "TBS",
+                "children": []
+              }
+            ]
+          }
+        ]
       }
     ]
   },

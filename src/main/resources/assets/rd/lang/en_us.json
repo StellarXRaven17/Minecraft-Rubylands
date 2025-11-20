@@ -286,5 +286,10 @@
   "block.rd.tea_door": "Tea Door",
   "block.rd.tea_trapdoor": "Tea Trapdoor",
   "block.rd.tea_pressure_plate": "Tea Pressure Plate",
-  "block.rd.tea_button": "Tea Button"
+  "block.rd.tea_button": "Tea Button",
+  "block.rd.tea_pillar": "Flamewood Pillar",
+  "advancements.super_secret_advancements.descr": "Advancements that you can\u0027t get through normal gameplay.",
+  "advancements.super_secret_advancements.title": "Super Secret Advancements",
+  "advancements.super_secret_1.descr": "Play with The Broken Script installed.",
+  "advancements.super_secret_1.title": "Integrity and Dev0 at the Olympic Games"
 }
