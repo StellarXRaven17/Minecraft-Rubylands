@@ -1,5 +1,5 @@
 {
-  "parent": "block/leaves",
+  "parent": "block/cube_all",
   "textures": {
     "all": "rd:block/tea_leaves",
     "particle": "rd:block/tea_leaves"

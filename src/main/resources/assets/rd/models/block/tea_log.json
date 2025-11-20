@@ -3,10 +3,10 @@
   "textures": {
     "down": "rd:block/tea_log_top",
     "up": "rd:block/tea_log_top",
-    "north": "rd:block/tea_log_side",
-    "east": "rd:block/tea_log_side",
-    "south": "rd:block/tea_log_side",
-    "west": "rd:block/tea_log_side",
+    "north": "rd:block/tea_log",
+    "east": "rd:block/tea_log",
+    "south": "rd:block/tea_log",
+    "west": "rd:block/tea_log",
     "particle": "rd:block/tea_log_top"
   },
   "render_type": "solid"

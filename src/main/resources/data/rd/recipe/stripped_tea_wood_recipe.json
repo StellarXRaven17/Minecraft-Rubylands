@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "rd:stripped_tea_log"
+    }
+  },
+  "result": {
+    "id": "rd:stripped_tea_wood",
+    "count": 3
+  }
+}

@@ -4,12 +4,8 @@
     "rd:mycon_hyphae",
     "rd:stripped_flamewood_wood",
     "rd:flamewood_log",
-    "rd:tea_log",
-    "rd:stripped_tea_wood",
-    "rd:stripped_tea_log",
     "rd:mycon_stem",
     "rd:flamewood_wood",
-    "rd:stripped_flamewood_log",
-    "rd:tea_wood"
+    "rd:stripped_flamewood_log"
   ]
 }

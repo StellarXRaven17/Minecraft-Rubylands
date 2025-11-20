@@ -60,20 +60,6 @@ public class RdModBlocks {
 	public static final DeferredBlock<Block> SALT_BRICK_SLAB;
 	public static final DeferredBlock<Block> SALT_BRICK_STAIRS;
 	public static final DeferredBlock<Block> SALT_BRICK_WALL;
-	public static final DeferredBlock<Block> TEA_WOOD;
-	public static final DeferredBlock<Block> TEA_LOG;
-	public static final DeferredBlock<Block> TEA_PLANKS;
-	public static final DeferredBlock<Block> TEA_LEAVES;
-	public static final DeferredBlock<Block> TEA_STAIRS;
-	public static final DeferredBlock<Block> TEA_SLAB;
-	public static final DeferredBlock<Block> TEA_FENCE;
-	public static final DeferredBlock<Block> TEA_FENCE_GATE;
-	public static final DeferredBlock<Block> TEA_PRESSURE_PLATE;
-	public static final DeferredBlock<Block> TEA_BUTTON;
-	public static final DeferredBlock<Block> TEA_DOOR;
-	public static final DeferredBlock<Block> TEA_TRAPDOOR;
-	public static final DeferredBlock<Block> STRIPPED_TEA_WOOD;
-	public static final DeferredBlock<Block> STRIPPED_TEA_LOG;
 	public static final DeferredBlock<Block> TEA_SAPLING;
 	public static final DeferredBlock<Block> LOW_STONE;
 	public static final DeferredBlock<Block> COBBLED_LOW_STONE;
@@ -163,6 +149,20 @@ public class RdModBlocks {
 	public static final DeferredBlock<Block> HIGHWOOD_TRAPDOOR;
 	public static final DeferredBlock<Block> HIGHWOOD_PRESSURE_PLATE;
 	public static final DeferredBlock<Block> HIGHWOOD_BUTTON;
+	public static final DeferredBlock<Block> TEA_LOG;
+	public static final DeferredBlock<Block> TEA_WOOD;
+	public static final DeferredBlock<Block> STRIPPED_TEA_LOG;
+	public static final DeferredBlock<Block> STRIPPED_TEA_WOOD;
+	public static final DeferredBlock<Block> TEA_PLANKS;
+	public static final DeferredBlock<Block> TEA_LEAVES;
+	public static final DeferredBlock<Block> TEA_STAIRS;
+	public static final DeferredBlock<Block> TEA_SLAB;
+	public static final DeferredBlock<Block> TEA_FENCE;
+	public static final DeferredBlock<Block> TEA_FENCE_GATE;
+	public static final DeferredBlock<Block> TEA_DOOR;
+	public static final DeferredBlock<Block> TEA_TRAPDOOR;
+	public static final DeferredBlock<Block> TEA_PRESSURE_PLATE;
+	public static final DeferredBlock<Block> TEA_BUTTON;
 	static {
 		OAK_PILLAR = REGISTRY.register("oak_pillar", WoodenPillarBlock::new);
 		ESSENCE_CACHE = REGISTRY.register("essence_cache", EssenceCacheBlock::new);
@@ -207,20 +207,6 @@ public class RdModBlocks {
 		SALT_BRICK_SLAB = REGISTRY.register("salt_brick_slab", SaltBricksSlabBlock::new);
 		SALT_BRICK_STAIRS = REGISTRY.register("salt_brick_stairs", SaltBricksStairsBlock::new);
 		SALT_BRICK_WALL = REGISTRY.register("salt_brick_wall", SaltBricksWallBlock::new);
-		TEA_WOOD = REGISTRY.register("tea_wood", TeaWoodBlock::new);
-		TEA_LOG = REGISTRY.register("tea_log", TeaLogBlock::new);
-		TEA_PLANKS = REGISTRY.register("tea_planks", TeaPlanksBlock::new);
-		TEA_LEAVES = REGISTRY.register("tea_leaves", TeaLeavesBlock::new);
-		TEA_STAIRS = REGISTRY.register("tea_stairs", TeaStairsBlock::new);
-		TEA_SLAB = REGISTRY.register("tea_slab", TeaSlabBlock::new);
-		TEA_FENCE = REGISTRY.register("tea_fence", TeaFenceBlock::new);
-		TEA_FENCE_GATE = REGISTRY.register("tea_fence_gate", TeaFenceGateBlock::new);
-		TEA_PRESSURE_PLATE = REGISTRY.register("tea_pressure_plate", TeaPressurePlateBlock::new);
-		TEA_BUTTON = REGISTRY.register("tea_button", TeaButtonBlock::new);
-		TEA_DOOR = REGISTRY.register("tea_door", TeaDoorBlock::new);
-		TEA_TRAPDOOR = REGISTRY.register("tea_trapdoor", TeaTrapdoorBlock::new);
-		STRIPPED_TEA_WOOD = REGISTRY.register("stripped_tea_wood", StrippedTeaWoodBlock::new);
-		STRIPPED_TEA_LOG = REGISTRY.register("stripped_tea_log", StrippedTeaLogBlock::new);
 		TEA_SAPLING = REGISTRY.register("tea_sapling", TeaSaplingBlock::new);
 		LOW_STONE = REGISTRY.register("low_stone", LowStoneBlock::new);
 		COBBLED_LOW_STONE = REGISTRY.register("cobbled_low_stone", CobbledLowStoneBlock::new);
@@ -310,6 +296,20 @@ public class RdModBlocks {
 		HIGHWOOD_TRAPDOOR = REGISTRY.register("highwood_trapdoor", HighwoodTrapdoorBlock::new);
 		HIGHWOOD_PRESSURE_PLATE = REGISTRY.register("highwood_pressure_plate", HighwoodPressurePlateBlock::new);
 		HIGHWOOD_BUTTON = REGISTRY.register("highwood_button", HighwoodButtonBlock::new);
+		TEA_LOG = REGISTRY.register("tea_log", TeaLogBlock::new);
+		TEA_WOOD = REGISTRY.register("tea_wood", TeaWoodBlock::new);
+		STRIPPED_TEA_LOG = REGISTRY.register("stripped_tea_log", StrippedTeaLogBlock::new);
+		STRIPPED_TEA_WOOD = REGISTRY.register("stripped_tea_wood", StrippedTeaWoodBlock::new);
+		TEA_PLANKS = REGISTRY.register("tea_planks", TeaPlanksBlock::new);
+		TEA_LEAVES = REGISTRY.register("tea_leaves", TeaLeavesBlock::new);
+		TEA_STAIRS = REGISTRY.register("tea_stairs", TeaStairsBlock::new);
+		TEA_SLAB = REGISTRY.register("tea_slab", TeaSlabBlock::new);
+		TEA_FENCE = REGISTRY.register("tea_fence", TeaFenceBlock::new);
+		TEA_FENCE_GATE = REGISTRY.register("tea_fence_gate", TeaFenceGateBlock::new);
+		TEA_DOOR = REGISTRY.register("tea_door", TeaDoorBlock::new);
+		TEA_TRAPDOOR = REGISTRY.register("tea_trapdoor", TeaTrapdoorBlock::new);
+		TEA_PRESSURE_PLATE = REGISTRY.register("tea_pressure_plate", TeaPressurePlateBlock::new);
+		TEA_BUTTON = REGISTRY.register("tea_button", TeaButtonBlock::new);
 	}
 
 	// Start of user code block custom blocks
@@ -319,7 +319,6 @@ public class RdModBlocks {
 		@SubscribeEvent
 		public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
 			StonePathBlock.blockColorLoad(event);
-			TeaLeavesBlock.blockColorLoad(event);
 		}
 	}
 }

@@ -3,13 +3,13 @@
   "_type": "block",
   "definition": {
     "texture": "tea_trapdoor",
-    "textureTop": "flamewood_door_top",
+    "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -19,6 +19,9 @@
     "particleTexture": "",
     "blockBase": "TrapDoor",
     "blockSetType": "OAK",
+    "pottedPlant": {
+      "value": ""
+    },
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
@@ -51,7 +54,7 @@
     "immuneToFire": false,
     "creativeTabs": [
       {
-        "value": "TRANSPORTATION"
+        "value": "BUILDING_BLOCKS"
       }
     ],
     "destroyTool": "axe",
@@ -80,7 +83,10 @@
       "value": ""
     },
     "offsetType": "NONE",
-    "aiPathNodeType": "TRAPDOOR",
+    "aiPathNodeType": "DEFAULT",
+    "strippingResult": {
+      "value": ""
+    },
     "ignitedByLava": true,
     "flammability": 0,
     "fireSpreadSpeed": 0,
@@ -121,7 +127,7 @@
     "hasInventory": false,
     "openGUIOnRightClick": false,
     "inventorySize": 9,
-    "inventoryStackSize": 64,
+    "inventoryStackSize": 99,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],

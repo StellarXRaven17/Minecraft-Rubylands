@@ -4,50 +4,50 @@
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 3,
-    "group": "bark",
+    "group": "wooden_door",
     "unlockingItems": [
       {
-        "value": "CUSTOM:TeaLog"
+        "value": "CUSTOM:TeaPlanks"
       }
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "BUILDING",
+    "craftingBookCategory": "REDSTONE",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:TeaLog"
+        "value": "CUSTOM:TeaPlanks"
       },
       {
-        "value": "CUSTOM:TeaLog"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:TeaLog"
-      },
-      {
-        "value": "CUSTOM:TeaLog"
+        "value": "CUSTOM:TeaPlanks"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:TeaPlanks"
+      },
+      {
+        "value": "CUSTOM:TeaPlanks"
       },
       {
         "value": ""
+      },
+      {
+        "value": "CUSTOM:TeaPlanks"
+      },
+      {
+        "value": "CUSTOM:TeaPlanks"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:TeaWood"
+      "value": "CUSTOM:TeaDoor"
     },
-    "name": "tea_wood_recipe",
+    "name": "tea_door_recipe",
     "namespace": "mod"
   }
 }

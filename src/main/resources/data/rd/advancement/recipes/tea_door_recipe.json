@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "rd:tea_sign_crafting"
+        "recipe": "rd:tea_door_recipe"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": "rd:deleted_mod_element"
+            "items": "rd:tea_planks"
           }
         ]
       },
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "rd:tea_sign_crafting"
+      "rd:tea_door_recipe"
     ]
   }
 }

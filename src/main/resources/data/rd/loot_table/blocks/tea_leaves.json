@@ -1,52 +1,20 @@
 {
   "type": "minecraft:block",
+  "random_sequence": "rd:blocks/tea_leaves",
   "pools": [
     {
-      "rolls": {
-        "min": 0,
-        "max": 1
-      },
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "rd:tea_sapling",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0,
-                "max": 1
-              }
-            },
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:stick",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            },
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
-            }
-          ]
+          "name": "rd:tea_leaves"
         }
       ]
     }
-  ],
-  "random_sequence": "rd:blocks/tea_leaves"
+  ]
 }

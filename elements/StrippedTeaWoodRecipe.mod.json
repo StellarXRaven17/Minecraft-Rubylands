@@ -3,29 +3,33 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 4,
-    "group": "planks",
-    "unlockingItems": [],
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:StrippedTeaLog"
+      }
+    ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "BUILDING",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:StrippedTeaLog"
+      },
+      {
+        "value": "CUSTOM:StrippedTeaLog"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:StrippedTeaLog"
       },
       {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:TeaLog"
+        "value": "CUSTOM:StrippedTeaLog"
       },
       {
         "value": ""
@@ -41,9 +45,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:TeaPlanks"
+      "value": "CUSTOM:StrippedTeaWood"
     },
-    "name": "tea_planks_log_recipe",
+    "name": "stripped_tea_wood_recipe",
     "namespace": "mod"
   }
 }

@@ -22,9 +22,6 @@ public class RdModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(RdModItems.OBSERVER_SPAWN_EGG.get());
-		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
-			tabData.accept(RdModBlocks.TEA_DOOR.get().asItem());
-			tabData.accept(RdModBlocks.TEA_TRAPDOOR.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(RdModItems.RAW_FLESH.get());
 			tabData.accept(RdModItems.COOKED_FLESH.get());
@@ -63,6 +60,19 @@ public class RdModTabs {
 			tabData.accept(RdModBlocks.FLAMEWOOD_PRESSURE_PLATE.get().asItem());
 			tabData.accept(RdModBlocks.FLAMEWOOD_BUTTON.get().asItem());
 			tabData.accept(RdModBlocks.FLAMEWOOD_PILLAR.get().asItem());
+			tabData.accept(RdModBlocks.TEA_LOG.get().asItem());
+			tabData.accept(RdModBlocks.TEA_WOOD.get().asItem());
+			tabData.accept(RdModBlocks.STRIPPED_TEA_LOG.get().asItem());
+			tabData.accept(RdModBlocks.STRIPPED_TEA_WOOD.get().asItem());
+			tabData.accept(RdModBlocks.TEA_PLANKS.get().asItem());
+			tabData.accept(RdModBlocks.TEA_STAIRS.get().asItem());
+			tabData.accept(RdModBlocks.TEA_SLAB.get().asItem());
+			tabData.accept(RdModBlocks.TEA_FENCE.get().asItem());
+			tabData.accept(RdModBlocks.TEA_FENCE_GATE.get().asItem());
+			tabData.accept(RdModBlocks.TEA_DOOR.get().asItem());
+			tabData.accept(RdModBlocks.TEA_TRAPDOOR.get().asItem());
+			tabData.accept(RdModBlocks.TEA_PRESSURE_PLATE.get().asItem());
+			tabData.accept(RdModBlocks.TEA_BUTTON.get().asItem());
 			tabData.accept(RdModBlocks.HIGHWOOD_LOG.get().asItem());
 			tabData.accept(RdModBlocks.HIGHWOOD_WOOD.get().asItem());
 			tabData.accept(RdModBlocks.STRIPPED_HIGHWOOD_LOG.get().asItem());
@@ -115,17 +125,6 @@ public class RdModTabs {
 			tabData.accept(RdModBlocks.SALT_BRICK_SLAB.get().asItem());
 			tabData.accept(RdModBlocks.SALT_BRICK_STAIRS.get().asItem());
 			tabData.accept(RdModBlocks.SALT_BRICK_WALL.get().asItem());
-			tabData.accept(RdModBlocks.TEA_LOG.get().asItem());
-			tabData.accept(RdModBlocks.TEA_WOOD.get().asItem());
-			tabData.accept(RdModBlocks.STRIPPED_TEA_LOG.get().asItem());
-			tabData.accept(RdModBlocks.STRIPPED_TEA_WOOD.get().asItem());
-			tabData.accept(RdModBlocks.TEA_PLANKS.get().asItem());
-			tabData.accept(RdModBlocks.TEA_STAIRS.get().asItem());
-			tabData.accept(RdModBlocks.TEA_SLAB.get().asItem());
-			tabData.accept(RdModBlocks.TEA_FENCE.get().asItem());
-			tabData.accept(RdModBlocks.TEA_FENCE_GATE.get().asItem());
-			tabData.accept(RdModBlocks.TEA_PRESSURE_PLATE.get().asItem());
-			tabData.accept(RdModBlocks.TEA_BUTTON.get().asItem());
 			tabData.accept(RdModBlocks.MYCON_STEM.get().asItem());
 			tabData.accept(RdModBlocks.MYCON_HYPHAE.get().asItem());
 			tabData.accept(RdModBlocks.STRIPPED_MYCON_STEM.get().asItem());
@@ -162,10 +161,10 @@ public class RdModTabs {
 			tabData.accept(RdModBlocks.FLAMEWOOD_SAPLING.get().asItem());
 			tabData.accept(RdModBlocks.FLAMEWOOD_LEAVES.get().asItem());
 			tabData.accept(RdModBlocks.SALT_BLOCK.get().asItem());
-			tabData.accept(RdModBlocks.TEA_LEAVES.get().asItem());
 			tabData.accept(RdModBlocks.TEA_SAPLING.get().asItem());
 			tabData.accept(RdModBlocks.MYCON_CAP.get().asItem());
 			tabData.accept(RdModBlocks.HIGHWOOD_LEAVES.get().asItem());
+			tabData.accept(RdModBlocks.TEA_LEAVES.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(RdModItems.CACTUS_SWORD.get());
 			tabData.accept(RdModItems.COPPER_SWORD.get());

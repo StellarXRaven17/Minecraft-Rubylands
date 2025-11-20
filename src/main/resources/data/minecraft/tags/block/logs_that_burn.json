@@ -6,6 +6,10 @@
       "required": false
     },
     {
+      "id": "#rd:tea_logs",
+      "required": false
+    },
+    {
       "id": "#rd:flamewood_logs",
       "required": false
     }

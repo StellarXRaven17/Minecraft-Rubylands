@@ -2,8 +2,8 @@
   "replace": false,
   "values": [
     "rd:highwood_slab",
-    "rd:mushroom_slab",
     "rd:tea_slab",
+    "rd:mushroom_slab",
     "rd:salt_brick_slab",
     "rd:cactus_slab",
     "rd:flamewood_slab",

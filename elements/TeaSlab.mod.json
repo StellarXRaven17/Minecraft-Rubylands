@@ -19,6 +19,9 @@
     "particleTexture": "",
     "blockBase": "Slab",
     "blockSetType": "OAK",
+    "pottedPlant": {
+      "value": ""
+    },
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -54,7 +57,7 @@
         "value": "BUILDING_BLOCKS"
       }
     ],
-    "destroyTool": "Not specified",
+    "destroyTool": "axe",
     "customDrop": {
       "value": ""
     },
@@ -81,9 +84,12 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
+    "strippingResult": {
+      "value": ""
+    },
     "ignitedByLava": true,
-    "flammability": 5,
-    "fireSpreadSpeed": 0,
+    "flammability": 20,
+    "fireSpreadSpeed": 5,
     "isLadder": false,
     "slipperiness": 0.6,
     "speedFactor": 1.0,
@@ -115,10 +121,13 @@
     "isBonemealable": false,
     "sensitiveToVibration": false,
     "vibrationalEvents": [],
+    "vibrationSensitivityRadius": {
+      "fixedValue": 7.0
+    },
     "hasInventory": false,
     "openGUIOnRightClick": false,
     "inventorySize": 9,
-    "inventoryStackSize": 64,
+    "inventoryStackSize": 99,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],

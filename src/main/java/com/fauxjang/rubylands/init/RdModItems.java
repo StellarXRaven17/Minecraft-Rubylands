@@ -77,20 +77,6 @@ public class RdModItems {
 	public static final DeferredItem<Item> OBSIDIAN_SHOVEL;
 	public static final DeferredItem<Item> OBSIDIAN_HOE;
 	public static final DeferredItem<Item> ESSENCE_RIFLE;
-	public static final DeferredItem<Item> TEA_WOOD;
-	public static final DeferredItem<Item> TEA_LOG;
-	public static final DeferredItem<Item> TEA_PLANKS;
-	public static final DeferredItem<Item> TEA_LEAVES;
-	public static final DeferredItem<Item> TEA_STAIRS;
-	public static final DeferredItem<Item> TEA_SLAB;
-	public static final DeferredItem<Item> TEA_FENCE;
-	public static final DeferredItem<Item> TEA_FENCE_GATE;
-	public static final DeferredItem<Item> TEA_PRESSURE_PLATE;
-	public static final DeferredItem<Item> TEA_BUTTON;
-	public static final DeferredItem<Item> TEA_DOOR;
-	public static final DeferredItem<Item> TEA_TRAPDOOR;
-	public static final DeferredItem<Item> STRIPPED_TEA_WOOD;
-	public static final DeferredItem<Item> STRIPPED_TEA_LOG;
 	public static final DeferredItem<Item> TEA_SAPLING;
 	public static final DeferredItem<Item> LOW_STONE;
 	public static final DeferredItem<Item> COBBLED_LOW_STONE;
@@ -200,6 +186,20 @@ public class RdModItems {
 	public static final DeferredItem<Item> HIGHWOOD_TRAPDOOR;
 	public static final DeferredItem<Item> HIGHWOOD_PRESSURE_PLATE;
 	public static final DeferredItem<Item> HIGHWOOD_BUTTON;
+	public static final DeferredItem<Item> TEA_LOG;
+	public static final DeferredItem<Item> TEA_WOOD;
+	public static final DeferredItem<Item> STRIPPED_TEA_LOG;
+	public static final DeferredItem<Item> STRIPPED_TEA_WOOD;
+	public static final DeferredItem<Item> TEA_PLANKS;
+	public static final DeferredItem<Item> TEA_LEAVES;
+	public static final DeferredItem<Item> TEA_STAIRS;
+	public static final DeferredItem<Item> TEA_SLAB;
+	public static final DeferredItem<Item> TEA_FENCE;
+	public static final DeferredItem<Item> TEA_FENCE_GATE;
+	public static final DeferredItem<Item> TEA_DOOR;
+	public static final DeferredItem<Item> TEA_TRAPDOOR;
+	public static final DeferredItem<Item> TEA_PRESSURE_PLATE;
+	public static final DeferredItem<Item> TEA_BUTTON;
 	static {
 		ESSENCE = REGISTRY.register("essence", EssenceItem::new);
 		OAK_PILLAR = block(RdModBlocks.OAK_PILLAR);
@@ -259,20 +259,6 @@ public class RdModItems {
 		OBSIDIAN_SHOVEL = REGISTRY.register("obsidian_shovel", ObsidianShovelItem::new);
 		OBSIDIAN_HOE = REGISTRY.register("obsidian_hoe", ObsidianHoeItem::new);
 		ESSENCE_RIFLE = REGISTRY.register("essence_rifle", EssenceRifleItem::new);
-		TEA_WOOD = block(RdModBlocks.TEA_WOOD);
-		TEA_LOG = block(RdModBlocks.TEA_LOG);
-		TEA_PLANKS = block(RdModBlocks.TEA_PLANKS);
-		TEA_LEAVES = block(RdModBlocks.TEA_LEAVES);
-		TEA_STAIRS = block(RdModBlocks.TEA_STAIRS);
-		TEA_SLAB = block(RdModBlocks.TEA_SLAB);
-		TEA_FENCE = block(RdModBlocks.TEA_FENCE);
-		TEA_FENCE_GATE = block(RdModBlocks.TEA_FENCE_GATE);
-		TEA_PRESSURE_PLATE = block(RdModBlocks.TEA_PRESSURE_PLATE);
-		TEA_BUTTON = block(RdModBlocks.TEA_BUTTON);
-		TEA_DOOR = doubleBlock(RdModBlocks.TEA_DOOR);
-		TEA_TRAPDOOR = block(RdModBlocks.TEA_TRAPDOOR);
-		STRIPPED_TEA_WOOD = block(RdModBlocks.STRIPPED_TEA_WOOD);
-		STRIPPED_TEA_LOG = block(RdModBlocks.STRIPPED_TEA_LOG);
 		TEA_SAPLING = block(RdModBlocks.TEA_SAPLING);
 		LOW_STONE = block(RdModBlocks.LOW_STONE);
 		COBBLED_LOW_STONE = block(RdModBlocks.COBBLED_LOW_STONE);
@@ -382,6 +368,20 @@ public class RdModItems {
 		HIGHWOOD_TRAPDOOR = block(RdModBlocks.HIGHWOOD_TRAPDOOR);
 		HIGHWOOD_PRESSURE_PLATE = block(RdModBlocks.HIGHWOOD_PRESSURE_PLATE);
 		HIGHWOOD_BUTTON = block(RdModBlocks.HIGHWOOD_BUTTON);
+		TEA_LOG = block(RdModBlocks.TEA_LOG);
+		TEA_WOOD = block(RdModBlocks.TEA_WOOD);
+		STRIPPED_TEA_LOG = block(RdModBlocks.STRIPPED_TEA_LOG);
+		STRIPPED_TEA_WOOD = block(RdModBlocks.STRIPPED_TEA_WOOD);
+		TEA_PLANKS = block(RdModBlocks.TEA_PLANKS);
+		TEA_LEAVES = block(RdModBlocks.TEA_LEAVES);
+		TEA_STAIRS = block(RdModBlocks.TEA_STAIRS);
+		TEA_SLAB = block(RdModBlocks.TEA_SLAB);
+		TEA_FENCE = block(RdModBlocks.TEA_FENCE);
+		TEA_FENCE_GATE = block(RdModBlocks.TEA_FENCE_GATE);
+		TEA_DOOR = doubleBlock(RdModBlocks.TEA_DOOR);
+		TEA_TRAPDOOR = block(RdModBlocks.TEA_TRAPDOOR);
+		TEA_PRESSURE_PLATE = block(RdModBlocks.TEA_PRESSURE_PLATE);
+		TEA_BUTTON = block(RdModBlocks.TEA_BUTTON);
 	}
 
 	// Start of user code block custom items

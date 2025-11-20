@@ -19,6 +19,9 @@
     "particleTexture": "",
     "blockBase": "PressurePlate",
     "blockSetType": "OAK",
+    "pottedPlant": {
+      "value": ""
+    },
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -41,8 +44,8 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 2.0,
-    "resistance": 3.0,
+    "hardness": 0.5,
+    "resistance": 0.5,
     "hasGravity": false,
     "isWaterloggable": false,
     "hasBlockItem": true,
@@ -54,7 +57,7 @@
         "value": "BUILDING_BLOCKS"
       }
     ],
-    "destroyTool": "Not specified",
+    "destroyTool": "axe",
     "customDrop": {
       "value": ""
     },
@@ -81,15 +84,18 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
+    "strippingResult": {
+      "value": ""
+    },
     "ignitedByLava": true,
-    "flammability": 5,
+    "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "NORMAL",
-    "isNotColidable": false,
+    "reactionToPushing": "DESTROY",
+    "isNotColidable": true,
     "isCustomSoundType": false,
     "soundOnStep": {
       "value": "WOOD"
@@ -115,10 +121,13 @@
     "isBonemealable": false,
     "sensitiveToVibration": false,
     "vibrationalEvents": [],
+    "vibrationSensitivityRadius": {
+      "fixedValue": 7.0
+    },
     "hasInventory": false,
     "openGUIOnRightClick": false,
     "inventorySize": 9,
-    "inventoryStackSize": 64,
+    "inventoryStackSize": 99,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],

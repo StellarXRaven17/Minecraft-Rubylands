@@ -56,6 +56,11 @@ public class TeaLogBlock extends Block {
 	}
 
 	@Override
+	public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+		return 5;
+	}
+
+	@Override
 	public BlockState getToolModifiedState(BlockState blockstate, UseOnContext context, ItemAbility itemAbility, boolean simulate) {
 		if (ItemAbilities.AXE_STRIP == itemAbility && context.getItemInHand().canPerformAction(itemAbility)) {
 			return RdModBlocks.STRIPPED_TEA_LOG.get().withPropertiesOf(blockstate);

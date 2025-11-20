@@ -12,12 +12,12 @@ import net.minecraft.core.BlockPos;
 
 public class TeaStairsBlock extends StairBlock {
 	public TeaStairsBlock() {
-		super(Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(3f, 2f).ignitedByLava().instrument(NoteBlockInstrument.BASS));
+		super(Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(2f, 3f).ignitedByLava().instrument(NoteBlockInstrument.BASS));
 	}
 
 	@Override
 	public float getExplosionResistance() {
-		return 2f;
+		return 3f;
 	}
 
 	@Override
@@ -27,6 +27,11 @@ public class TeaStairsBlock extends StairBlock {
 
 	@Override
 	public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+		return 20;
+	}
+
+	@Override
+	public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
 		return 5;
 	}
 }

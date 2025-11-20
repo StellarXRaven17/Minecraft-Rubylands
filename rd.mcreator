@@ -2125,387 +2125,6 @@
       "path": "~/Blocks/WoodBlocks/Flamewood"
     },
     {
-      "name": "TeaWood",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tea_wood",
-      "metadata": {
-        "files": [
-          "src/main/java/com/fauxjang/rubylands/block/TeaWoodBlock.java",
-          "src/main/resources/assets/rd/blockstates/tea_wood.json",
-          "src/main/resources/assets/rd/models/block/tea_wood.json",
-          "src/main/resources/data/rd/loot_table/blocks/tea_wood.json",
-          "src/main/resources/assets/rd/models/item/tea_wood.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Tea"
-    },
-    {
-      "name": "TeaLog",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tea_log",
-      "metadata": {
-        "files": [
-          "src/main/java/com/fauxjang/rubylands/block/TeaLogBlock.java",
-          "src/main/resources/assets/rd/models/item/tea_log.json",
-          "src/main/resources/assets/rd/models/block/tea_log.json",
-          "src/main/resources/assets/rd/blockstates/tea_log.json",
-          "src/main/resources/data/rd/loot_table/blocks/tea_log.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Tea"
-    },
-    {
-      "name": "TeaPlanks",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tea_planks",
-      "metadata": {
-        "files": [
-          "src/main/java/com/fauxjang/rubylands/block/TeaPlanksBlock.java",
-          "src/main/resources/data/rd/loot_table/blocks/tea_planks.json",
-          "src/main/resources/assets/rd/models/block/tea_planks.json",
-          "src/main/resources/assets/rd/models/item/tea_planks.json",
-          "src/main/resources/assets/rd/blockstates/tea_planks.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Tea"
-    },
-    {
-      "name": "TeaLeaves",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tea_leaves",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/rd/models/block/tea_leaves.json",
-          "src/main/resources/assets/rd/models/item/tea_leaves.json",
-          "src/main/java/com/fauxjang/rubylands/block/TeaLeavesBlock.java",
-          "src/main/resources/assets/rd/blockstates/tea_leaves.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Tea"
-    },
-    {
-      "name": "TeaStairs",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tea_stairs",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rd/loot_table/blocks/tea_stairs.json",
-          "src/main/java/com/fauxjang/rubylands/block/TeaStairsBlock.java",
-          "src/main/resources/assets/rd/models/block/tea_stairs.json",
-          "src/main/resources/assets/rd/blockstates/tea_stairs.json",
-          "src/main/resources/assets/rd/models/block/tea_stairs_outer.json",
-          "src/main/resources/assets/rd/models/item/tea_stairs.json",
-          "src/main/resources/assets/rd/models/block/tea_stairs_inner.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Tea"
-    },
-    {
-      "name": "TeaSlab",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tea_slab",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/rd/models/item/tea_slab.json",
-          "src/main/resources/assets/rd/models/block/tea_slab_top.json",
-          "src/main/java/com/fauxjang/rubylands/block/TeaSlabBlock.java",
-          "src/main/resources/data/rd/loot_table/blocks/tea_slab.json",
-          "src/main/resources/assets/rd/models/block/tea_slab_full.json",
-          "src/main/resources/assets/rd/models/block/tea_slab.json",
-          "src/main/resources/assets/rd/blockstates/tea_slab.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Tea"
-    },
-    {
-      "name": "TeaFence",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tea_fence",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/rd/models/block/tea_fence_inventory.json",
-          "src/main/java/com/fauxjang/rubylands/block/TeaFenceBlock.java",
-          "src/main/resources/assets/rd/blockstates/tea_fence.json",
-          "src/main/resources/assets/rd/models/item/tea_fence.json",
-          "src/main/resources/data/rd/loot_table/blocks/tea_fence.json",
-          "src/main/resources/assets/rd/models/block/tea_fence.json",
-          "src/main/resources/assets/rd/models/block/tea_fence_post.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Tea"
-    },
-    {
-      "name": "TeaFenceGate",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tea_fence_gate",
-      "metadata": {
-        "files": [
-          "src/main/java/com/fauxjang/rubylands/block/TeaFenceGateBlock.java",
-          "src/main/resources/assets/rd/models/block/tea_fence_gate.json",
-          "src/main/resources/assets/rd/models/block/tea_fence_gate_wall_open.json",
-          "src/main/resources/data/rd/loot_table/blocks/tea_fence_gate.json",
-          "src/main/resources/assets/rd/models/block/tea_fence_gate_wall.json",
-          "src/main/resources/assets/rd/models/item/tea_fence_gate.json",
-          "src/main/resources/assets/rd/blockstates/tea_fence_gate.json",
-          "src/main/resources/assets/rd/models/block/tea_fence_gate_open.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Tea"
-    },
-    {
-      "name": "TeaPressurePlate",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tea_pressure_plate",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/rd/models/block/tea_pressure_plate.json",
-          "src/main/resources/assets/rd/models/item/tea_pressure_plate.json",
-          "src/main/resources/assets/rd/models/block/tea_pressure_plate_down.json",
-          "src/main/resources/assets/rd/blockstates/tea_pressure_plate.json",
-          "src/main/resources/data/rd/loot_table/blocks/tea_pressure_plate.json",
-          "src/main/java/com/fauxjang/rubylands/block/TeaPressurePlateBlock.java"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Tea"
-    },
-    {
-      "name": "TeaButton",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tea_button",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/rd/models/item/tea_button.json",
-          "src/main/resources/assets/rd/models/block/tea_button_pressed.json",
-          "src/main/resources/assets/rd/models/block/tea_button_inventory.json",
-          "src/main/resources/data/rd/loot_table/blocks/tea_button.json",
-          "src/main/resources/assets/rd/models/block/tea_button.json",
-          "src/main/java/com/fauxjang/rubylands/block/TeaButtonBlock.java",
-          "src/main/resources/assets/rd/blockstates/tea_button.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Tea"
-    },
-    {
-      "name": "TeaWoodRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tea_wood_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rd/recipe/tea_wood_recipe.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Tea"
-    },
-    {
-      "name": "TeaPlanksLogRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tea_planks_log_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rd/recipe/tea_planks_log_recipe.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Tea"
-    },
-    {
-      "name": "TeaPlanksWoodRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tea_planks_wood_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rd/recipe/tea_planks_wood_recipe.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Tea"
-    },
-    {
-      "name": "TeaStairsRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tea_stairs_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rd/recipe/tea_stairs_recipe.json",
-          "src/main/resources/data/rd/advancement/recipes/tea_stairs_recipe.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Tea"
-    },
-    {
-      "name": "TeaSlabRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tea_slab_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rd/advancement/recipes/tea_slab_recipe.json",
-          "src/main/resources/data/rd/recipe/tea_slab_recipe.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Tea"
-    },
-    {
-      "name": "TeaFenceRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tea_fence_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rd/recipe/tea_fence_recipe.json",
-          "src/main/resources/data/rd/advancement/recipes/tea_fence_recipe.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Tea"
-    },
-    {
-      "name": "TeaFenceGateRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tea_fence_gate_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rd/advancement/recipes/tea_fence_gate_recipe.json",
-          "src/main/resources/data/rd/recipe/tea_fence_gate_recipe.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Tea"
-    },
-    {
-      "name": "TeaPressurePlateRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tea_pressure_plate_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rd/recipe/tea_pressure_plate_recipe.json",
-          "src/main/resources/data/rd/advancement/recipes/tea_pressure_plate_recipe.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Tea"
-    },
-    {
-      "name": "TeaButtonRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tea_button_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rd/advancement/recipes/tea_button_recipe.json",
-          "src/main/resources/data/rd/recipe/tea_button_recipe.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Tea"
-    },
-    {
-      "name": "TeaDoor",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tea_door",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/rd/blockstates/tea_door.json",
-          "src/main/resources/assets/rd/models/block/tea_door_bottom_right_open.json",
-          "src/main/resources/assets/rd/models/block/tea_door_bottom_left_open.json",
-          "src/main/resources/assets/rd/models/block/tea_door_bottom_right.json",
-          "src/main/resources/assets/rd/models/block/tea_door_top_left_open.json",
-          "src/main/resources/data/rd/loot_table/blocks/tea_door.json",
-          "src/main/resources/assets/rd/models/block/tea_door_top_left.json",
-          "src/main/java/com/fauxjang/rubylands/block/TeaDoorBlock.java",
-          "src/main/resources/assets/rd/models/item/tea_door.json",
-          "src/main/resources/assets/rd/models/block/tea_door_top_right.json",
-          "src/main/resources/assets/rd/models/block/tea_door_top_right_open.json",
-          "src/main/resources/assets/rd/models/block/tea_door_bottom_left.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Tea"
-    },
-    {
-      "name": "TeaTrapdoor",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tea_trapdoor",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/rd/models/block/tea_trapdoor_open.json",
-          "src/main/resources/data/rd/loot_table/blocks/tea_trapdoor.json",
-          "src/main/resources/assets/rd/blockstates/tea_trapdoor.json",
-          "src/main/resources/assets/rd/models/block/tea_trapdoor.json",
-          "src/main/java/com/fauxjang/rubylands/block/TeaTrapdoorBlock.java",
-          "src/main/resources/assets/rd/models/block/tea_trapdoor_top.json",
-          "src/main/resources/assets/rd/models/item/tea_trapdoor.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Tea"
-    },
-    {
-      "name": "StrippedTeaWood",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stripped_tea_wood",
-      "metadata": {
-        "files": [
-          "src/main/java/com/fauxjang/rubylands/block/StrippedTeaWoodBlock.java",
-          "src/main/resources/assets/rd/models/block/stripped_tea_wood.json",
-          "src/main/resources/assets/rd/models/item/stripped_tea_wood.json",
-          "src/main/resources/assets/rd/blockstates/stripped_tea_wood.json",
-          "src/main/resources/data/rd/loot_table/blocks/stripped_tea_wood.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Tea"
-    },
-    {
-      "name": "StrippedTeaLog",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stripped_tea_log",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/rd/blockstates/stripped_tea_log.json",
-          "src/main/resources/assets/rd/models/block/stripped_tea_log.json",
-          "src/main/resources/assets/rd/models/item/stripped_tea_log.json",
-          "src/main/java/com/fauxjang/rubylands/block/StrippedTeaLogBlock.java",
-          "src/main/resources/data/rd/loot_table/blocks/stripped_tea_log.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Tea"
-    },
-    {
       "name": "FlamewoodSignCrafting",
       "type": "recipe",
       "compiles": true,
@@ -5823,7 +5442,7 @@
           "src/main/java/com/fauxjang/rubylands/recipe/brewing/EssenceBottleBrewingBrewingRecipe.java"
         ]
       },
-      "path": "~/MiscFeatures"
+      "path": "~/Items/Essence"
     },
     {
       "name": "TeaBrewing",
@@ -6754,18 +6373,6 @@
       "path": "~/Blocks/WoodBlocks/Highwood"
     },
     {
-      "name": "RegisterUndetectedWoodTypes",
-      "type": "code",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "register_undetected_wood_types",
-      "metadata": {
-        "files": [
-          "src/main/java/com/fauxjang/rubylands/RegisterUndetectedWoodTypes.java"
-        ]
-      }
-    },
-    {
       "name": "GiveMapOnSpawn",
       "type": "procedure",
       "compiles": true,
@@ -6787,6 +6394,419 @@
         ]
       },
       "path": "~/MiscFeatures"
+    },
+    {
+      "name": "TeaLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_log",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fauxjang/rubylands/block/TeaLogBlock.java",
+          "src/main/resources/assets/rd/models/item/tea_log.json",
+          "src/main/resources/assets/rd/models/block/tea_log.json",
+          "src/main/resources/assets/rd/blockstates/tea_log.json",
+          "src/main/resources/data/rd/loot_table/blocks/tea_log.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Tea"
+    },
+    {
+      "name": "TeaWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fauxjang/rubylands/block/TeaWoodBlock.java",
+          "src/main/resources/assets/rd/blockstates/tea_wood.json",
+          "src/main/resources/assets/rd/models/block/tea_wood.json",
+          "src/main/resources/data/rd/loot_table/blocks/tea_wood.json",
+          "src/main/resources/assets/rd/models/item/tea_wood.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Tea"
+    },
+    {
+      "name": "StrippedTeaLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_tea_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rd/blockstates/stripped_tea_log.json",
+          "src/main/resources/assets/rd/models/block/stripped_tea_log.json",
+          "src/main/resources/assets/rd/models/item/stripped_tea_log.json",
+          "src/main/java/com/fauxjang/rubylands/block/StrippedTeaLogBlock.java",
+          "src/main/resources/data/rd/loot_table/blocks/stripped_tea_log.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Tea"
+    },
+    {
+      "name": "StrippedTeaWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_tea_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fauxjang/rubylands/block/StrippedTeaWoodBlock.java",
+          "src/main/resources/assets/rd/models/block/stripped_tea_wood.json",
+          "src/main/resources/assets/rd/models/item/stripped_tea_wood.json",
+          "src/main/resources/assets/rd/blockstates/stripped_tea_wood.json",
+          "src/main/resources/data/rd/loot_table/blocks/stripped_tea_wood.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Tea"
+    },
+    {
+      "name": "TeaPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fauxjang/rubylands/block/TeaPlanksBlock.java",
+          "src/main/resources/data/rd/loot_table/blocks/tea_planks.json",
+          "src/main/resources/assets/rd/models/block/tea_planks.json",
+          "src/main/resources/assets/rd/models/item/tea_planks.json",
+          "src/main/resources/assets/rd/blockstates/tea_planks.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Tea"
+    },
+    {
+      "name": "TeaLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rd/models/block/tea_leaves.json",
+          "src/main/resources/data/rd/loot_table/blocks/tea_leaves.json",
+          "src/main/resources/assets/rd/models/item/tea_leaves.json",
+          "src/main/java/com/fauxjang/rubylands/block/TeaLeavesBlock.java",
+          "src/main/resources/assets/rd/blockstates/tea_leaves.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Tea"
+    },
+    {
+      "name": "TeaStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/loot_table/blocks/tea_stairs.json",
+          "src/main/java/com/fauxjang/rubylands/block/TeaStairsBlock.java",
+          "src/main/resources/assets/rd/models/block/tea_stairs.json",
+          "src/main/resources/assets/rd/blockstates/tea_stairs.json",
+          "src/main/resources/assets/rd/models/block/tea_stairs_outer.json",
+          "src/main/resources/assets/rd/models/item/tea_stairs.json",
+          "src/main/resources/assets/rd/models/block/tea_stairs_inner.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Tea"
+    },
+    {
+      "name": "TeaSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rd/models/item/tea_slab.json",
+          "src/main/resources/assets/rd/models/block/tea_slab_top.json",
+          "src/main/java/com/fauxjang/rubylands/block/TeaSlabBlock.java",
+          "src/main/resources/data/rd/loot_table/blocks/tea_slab.json",
+          "src/main/resources/assets/rd/models/block/tea_slab_full.json",
+          "src/main/resources/assets/rd/models/block/tea_slab.json",
+          "src/main/resources/assets/rd/blockstates/tea_slab.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Tea"
+    },
+    {
+      "name": "TeaFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rd/models/block/tea_fence_inventory.json",
+          "src/main/java/com/fauxjang/rubylands/block/TeaFenceBlock.java",
+          "src/main/resources/assets/rd/blockstates/tea_fence.json",
+          "src/main/resources/assets/rd/models/item/tea_fence.json",
+          "src/main/resources/data/rd/loot_table/blocks/tea_fence.json",
+          "src/main/resources/assets/rd/models/block/tea_fence.json",
+          "src/main/resources/assets/rd/models/block/tea_fence_post.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Tea"
+    },
+    {
+      "name": "TeaFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fauxjang/rubylands/block/TeaFenceGateBlock.java",
+          "src/main/resources/assets/rd/models/block/tea_fence_gate.json",
+          "src/main/resources/assets/rd/models/block/tea_fence_gate_wall_open.json",
+          "src/main/resources/data/rd/loot_table/blocks/tea_fence_gate.json",
+          "src/main/resources/assets/rd/models/block/tea_fence_gate_wall.json",
+          "src/main/resources/assets/rd/models/item/tea_fence_gate.json",
+          "src/main/resources/assets/rd/blockstates/tea_fence_gate.json",
+          "src/main/resources/assets/rd/models/block/tea_fence_gate_open.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Tea"
+    },
+    {
+      "name": "TeaDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rd/blockstates/tea_door.json",
+          "src/main/resources/assets/rd/models/block/tea_door_bottom_right_open.json",
+          "src/main/resources/assets/rd/models/block/tea_door_bottom_left_open.json",
+          "src/main/resources/assets/rd/models/block/tea_door_bottom_right.json",
+          "src/main/resources/assets/rd/models/block/tea_door_top_left_open.json",
+          "src/main/resources/data/rd/loot_table/blocks/tea_door.json",
+          "src/main/resources/assets/rd/models/block/tea_door_top_left.json",
+          "src/main/java/com/fauxjang/rubylands/block/TeaDoorBlock.java",
+          "src/main/resources/assets/rd/models/item/tea_door.json",
+          "src/main/resources/assets/rd/models/block/tea_door_top_right.json",
+          "src/main/resources/assets/rd/models/block/tea_door_top_right_open.json",
+          "src/main/resources/assets/rd/models/block/tea_door_bottom_left.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Tea"
+    },
+    {
+      "name": "TeaTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rd/models/block/tea_trapdoor_open.json",
+          "src/main/resources/data/rd/loot_table/blocks/tea_trapdoor.json",
+          "src/main/resources/assets/rd/blockstates/tea_trapdoor.json",
+          "src/main/resources/assets/rd/models/block/tea_trapdoor.json",
+          "src/main/java/com/fauxjang/rubylands/block/TeaTrapdoorBlock.java",
+          "src/main/resources/assets/rd/models/block/tea_trapdoor_top.json",
+          "src/main/resources/assets/rd/models/item/tea_trapdoor.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Tea"
+    },
+    {
+      "name": "TeaPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rd/models/block/tea_pressure_plate.json",
+          "src/main/resources/assets/rd/models/item/tea_pressure_plate.json",
+          "src/main/resources/assets/rd/models/block/tea_pressure_plate_down.json",
+          "src/main/resources/assets/rd/blockstates/tea_pressure_plate.json",
+          "src/main/resources/data/rd/loot_table/blocks/tea_pressure_plate.json",
+          "src/main/java/com/fauxjang/rubylands/block/TeaPressurePlateBlock.java"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Tea"
+    },
+    {
+      "name": "TeaButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rd/models/item/tea_button.json",
+          "src/main/resources/assets/rd/models/block/tea_button_pressed.json",
+          "src/main/resources/assets/rd/models/block/tea_button_inventory.json",
+          "src/main/resources/data/rd/loot_table/blocks/tea_button.json",
+          "src/main/resources/assets/rd/models/block/tea_button.json",
+          "src/main/java/com/fauxjang/rubylands/block/TeaButtonBlock.java",
+          "src/main/resources/assets/rd/blockstates/tea_button.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Tea"
+    },
+    {
+      "name": "TeaWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/recipe/tea_wood_recipe.json",
+          "src/main/resources/data/rd/advancement/recipes/tea_wood_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Tea"
+    },
+    {
+      "name": "StrippedTeaWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_tea_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/recipe/stripped_tea_wood_recipe.json",
+          "src/main/resources/data/rd/advancement/recipes/stripped_tea_wood_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Tea"
+    },
+    {
+      "name": "TeaPlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/advancement/recipes/tea_planks_recipe.json",
+          "src/main/resources/data/rd/recipe/tea_planks_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Tea"
+    },
+    {
+      "name": "TeaStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/recipe/tea_stairs_recipe.json",
+          "src/main/resources/data/rd/advancement/recipes/tea_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Tea"
+    },
+    {
+      "name": "TeaSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/advancement/recipes/tea_slab_recipe.json",
+          "src/main/resources/data/rd/recipe/tea_slab_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Tea"
+    },
+    {
+      "name": "TeaFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/recipe/tea_fence_recipe.json",
+          "src/main/resources/data/rd/advancement/recipes/tea_fence_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Tea"
+    },
+    {
+      "name": "TeaFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/advancement/recipes/tea_fence_gate_recipe.json",
+          "src/main/resources/data/rd/recipe/tea_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Tea"
+    },
+    {
+      "name": "TeaDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/recipe/tea_door_recipe.json",
+          "src/main/resources/data/rd/advancement/recipes/tea_door_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Tea"
+    },
+    {
+      "name": "TeaTrapdoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_trapdoor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/recipe/tea_trapdoor_recipe.json",
+          "src/main/resources/data/rd/advancement/recipes/tea_trapdoor_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Tea"
+    },
+    {
+      "name": "TeaPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/recipe/tea_pressure_plate_recipe.json",
+          "src/main/resources/data/rd/advancement/recipes/tea_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Tea"
+    },
+    {
+      "name": "TeaButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/advancement/recipes/tea_button_recipe.json",
+          "src/main/resources/data/rd/recipe/tea_button_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Tea"
     }
   ],
   "variable_elements": [
@@ -6913,10 +6933,6 @@
       "CUSTOM:FlamewoodWood",
       "CUSTOM:StrippedFlamewoodLog",
       "CUSTOM:StrippedFlamewoodWood",
-      "CUSTOM:TeaLog",
-      "CUSTOM:TeaWood",
-      "CUSTOM:StrippedTeaLog",
-      "CUSTOM:StrippedTeaWood",
       "CUSTOM:MyconLog",
       "CUSTOM:MyconWood",
       "Blocks.MUSHROOM_STEM",
@@ -6948,19 +6964,19 @@
       "~CUSTOM:FlamewoodSapling"
     ],
     "BLOCKS:minecraft:leaves": [
-      "~CUSTOM:HighwoodLeaves",
       "~CUSTOM:TeaLeaves",
+      "~CUSTOM:HighwoodLeaves",
       "~CUSTOM:FlamewoodLeaves"
     ],
     "ENTITIES:minecraft:inverted_healing_and_harm": [
       "CUSTOM:Observer"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:TeaSlab",
       "~CUSTOM:HighwoodSlab",
       "~CUSTOM:MushroomSlab",
       "~CUSTOM:CactusSlab",
       "~CUSTOM:MyconSlab",
-      "~CUSTOM:TeaSlab",
       "~CUSTOM:SaltBricksSlab",
       "~CUSTOM:FlamewoodSlab"
     ],
@@ -6982,11 +6998,11 @@
       "Blocks.END_STONE"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:TeaStairs",
       "~CUSTOM:HighwoodStairs",
       "~CUSTOM:MushroomStairs",
       "~CUSTOM:CactusStairs",
       "~CUSTOM:MyconStairs",
-      "~CUSTOM:TeaStairs",
       "~CUSTOM:SaltBricksStairs",
       "~CUSTOM:FlamewoodStairs"
     ],
@@ -6998,7 +7014,6 @@
     "BLOCKS:minecraft:doors": [
       "CUSTOM:FlamewoodDoor",
       "CUSTOM:HubDoor",
-      "CUSTOM:TeaDoor",
       "CUSTOM:IceDoor"
     ],
     "ITEMS:minecraft:head_armor": [
@@ -7007,11 +7022,11 @@
     ],
     "ITEMS:minecraft:planks": [
       "CUSTOM:FlamewoodPlanks",
-      "CUSTOM:TeaPlanks",
       "CUSTOM:MyconPlanks",
       "CUSTOM:CactusPlanks",
       "CUSTOM:MushroomPlanks",
-      "CUSTOM:HighwoodPlanks"
+      "CUSTOM:HighwoodPlanks",
+      "CUSTOM:TeaPlanks"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
       "~CUSTOM:GreenstoneBrick",
@@ -7043,11 +7058,11 @@
       "~CUSTOM:DimensionWallBlock"
     ],
     "BLOCKS:minecraft:wooden_fences": [
+      "~CUSTOM:TeaFence",
       "~CUSTOM:HighwoodFence",
       "~CUSTOM:MushroomFence",
       "~CUSTOM:MyconFence",
       "CUSTOM:FlamewoodFence",
-      "CUSTOM:TeaFence",
       "CUSTOM:CactusFence"
     ],
     "ITEMS:minecraft:pickaxes": [
@@ -7117,6 +7132,19 @@
       "~CUSTOM:EssenceCache"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:TeaButton",
+      "~CUSTOM:TeaPressurePlate",
+      "~CUSTOM:TeaTrapdoor",
+      "~CUSTOM:TeaDoor",
+      "~CUSTOM:TeaFenceGate",
+      "~CUSTOM:TeaFence",
+      "~CUSTOM:TeaSlab",
+      "~CUSTOM:TeaStairs",
+      "~CUSTOM:TeaPlanks",
+      "~CUSTOM:StrippedTeaWood",
+      "~CUSTOM:StrippedTeaLog",
+      "~CUSTOM:TeaWood",
+      "~CUSTOM:TeaLog",
       "~CUSTOM:HighwoodButton",
       "~CUSTOM:HighwoodPressurePlate",
       "~CUSTOM:HighwoodTrapdoor",
@@ -7139,13 +7167,6 @@
       "~CUSTOM:MyconPlanks",
       "~CUSTOM:MyconLog",
       "~CUSTOM:MyconWood",
-      "~CUSTOM:StrippedTeaLog",
-      "~CUSTOM:StrippedTeaWood",
-      "~CUSTOM:TeaTrapdoor",
-      "~CUSTOM:TeaDoor",
-      "~CUSTOM:TeaPlanks",
-      "~CUSTOM:TeaLog",
-      "~CUSTOM:TeaWood",
       "~CUSTOM:FlamewoodTrapdoor",
       "~CUSTOM:FlamewoodDoor",
       "~CUSTOM:StrippedFlamewoodWood",
@@ -7161,7 +7182,6 @@
     ],
     "BLOCKS:minecraft:fences": [
       "CUSTOM:FlamewoodFence",
-      "CUSTOM:TeaFence",
       "CUSTOM:MyconFence",
       "CUSTOM:CactusFence"
     ],
@@ -7197,11 +7217,11 @@
     ],
     "BLOCKS:minecraft:planks": [
       "CUSTOM:FlamewoodPlanks",
-      "CUSTOM:TeaPlanks",
       "CUSTOM:MyconPlanks",
       "CUSTOM:CactusPlanks",
       "CUSTOM:MushroomPlanks",
-      "CUSTOM:HighwoodPlanks"
+      "CUSTOM:HighwoodPlanks",
+      "CUSTOM:TeaPlanks"
     ],
     "ENTITIES:minecraft:undead": [
       "~CUSTOM:Observer"
@@ -7221,14 +7241,13 @@
       "CUSTOM:ApplePie"
     ],
     "BLOCKS:minecraft:wooden_doors": [
+      "~CUSTOM:TeaDoor",
       "~CUSTOM:HighwoodDoor",
       "~CUSTOM:IceDoor",
-      "CUSTOM:FlamewoodDoor",
-      "CUSTOM:TeaDoor"
+      "CUSTOM:FlamewoodDoor"
     ],
     "BLOCKS:minecraft:trapdoors": [
-      "CUSTOM:FlamewoodTrapdoor",
-      "CUSTOM:TeaTrapdoor"
+      "CUSTOM:FlamewoodTrapdoor"
     ],
     "BLOCKS:mod:lilies": [
       "CUSTOM:GlowingFlower",
@@ -7245,13 +7264,9 @@
     "ITEMS:minecraft:logs": [
       "CUSTOM:FlamewoodLog",
       "CUSTOM:StrippedFlamewoodLog",
-      "CUSTOM:TeaLog",
-      "CUSTOM:StrippedTeaLog",
       "CUSTOM:MyconLog",
       "CUSTOM:FlamewoodWood",
       "CUSTOM:StrippedFlamewoodWood",
-      "CUSTOM:TeaWood",
-      "CUSTOM:StrippedTeaWood",
       "CUSTOM:MyconWood"
     ],
     "ITEMS:minecraft:meat": [
@@ -7277,7 +7292,6 @@
     "ITEMS:minecraft:doors": [
       "CUSTOM:HubDoor",
       "CUSTOM:FlamewoodDoor",
-      "CUSTOM:TeaDoor",
       "CUSTOM:IceDoor"
     ],
     "ITEMS:mod:pillars": [
@@ -7309,27 +7323,27 @@
       "CUSTOM:BambooPillar"
     ],
     "BLOCKS:minecraft:wooden_pressure_plates": [
+      "~CUSTOM:TeaPressurePlate",
       "~CUSTOM:HighwoodPressurePlate",
       "~CUSTOM:MushroomPressurePlate",
       "~CUSTOM:CactusPressurePlate",
       "~CUSTOM:MyconPressurePlate",
-      "~CUSTOM:TeaPressurePlate",
       "~CUSTOM:FlamewoodPressurePlate"
     ],
     "BLOCKS:minecraft:wooden_buttons": [
+      "~CUSTOM:TeaButton",
       "~CUSTOM:HighwoodButton",
       "~CUSTOM:MushroomButton",
       "~CUSTOM:CactusButton",
       "~CUSTOM:MyconButton",
-      "~CUSTOM:TeaButton",
       "~CUSTOM:FlamewoodButton"
     ],
     "BLOCKS:minecraft:mob_interactable_doors": [
       "~CUSTOM:HubDoor"
     ],
     "BLOCKS:minecraft:wooden_trapdoors": [
-      "~CUSTOM:HighwoodTrapdoor",
       "~CUSTOM:TeaTrapdoor",
+      "~CUSTOM:HighwoodTrapdoor",
       "~CUSTOM:FlamewoodTrapdoor"
     ],
     "BLOCKS:mod:highwood_logs": [
@@ -7340,7 +7354,8 @@
     ],
     "BLOCKS:minecraft:logs_that_burn": [
       "TAG:mod:highwood_logs",
-      "TAG:mod:flamewood_logs"
+      "TAG:mod:flamewood_logs",
+      "TAG:mod:tea_logs"
     ],
     "ITEMS:mod:highwood_logs": [
       "CUSTOM:HighwoodLog",
@@ -7350,7 +7365,8 @@
     ],
     "ITEMS:minecraft:logs_that_burn": [
       "TAG:mod:highwood_logs",
-      "TAG:mod:flamewood_logs"
+      "TAG:mod:flamewood_logs",
+      "TAG:mod:tea_logs"
     ],
     "BLOCKS:mod:flamewood_logs": [
       "CUSTOM:FlamewoodWood",
@@ -7367,6 +7383,18 @@
     "ITEMS:minecraft:flowers": [
       "CUSTOM:GlowingFlower",
       "CUSTOM:ElderLily"
+    ],
+    "BLOCKS:mod:tea_logs": [
+      "CUSTOM:TeaLog",
+      "CUSTOM:TeaWood",
+      "CUSTOM:StrippedTeaLog",
+      "CUSTOM:StrippedTeaWood"
+    ],
+    "ITEMS:mod:tea_logs": [
+      "CUSTOM:TeaLog",
+      "CUSTOM:TeaWood",
+      "CUSTOM:StrippedTeaLog",
+      "CUSTOM:StrippedTeaWood"
     ]
   },
   "tab_element_order": {
@@ -7406,6 +7434,19 @@
       "FlamewoodPressurePlate",
       "FlamewoodButton",
       "FlamewoodPillar",
+      "TeaLog",
+      "TeaWood",
+      "StrippedTeaLog",
+      "StrippedTeaWood",
+      "TeaPlanks",
+      "TeaStairs",
+      "TeaSlab",
+      "TeaFence",
+      "TeaFenceGate",
+      "TeaDoor",
+      "TeaTrapdoor",
+      "TeaPressurePlate",
+      "TeaButton",
       "HighwoodLog",
       "HighwoodWood",
       "StrippedHighwoodLog",
@@ -7458,17 +7499,6 @@
       "SaltBricksSlab",
       "SaltBricksStairs",
       "SaltBricksWall",
-      "TeaLog",
-      "TeaWood",
-      "StrippedTeaLog",
-      "StrippedTeaWood",
-      "TeaPlanks",
-      "TeaStairs",
-      "TeaSlab",
-      "TeaFence",
-      "TeaFenceGate",
-      "TeaPressurePlate",
-      "TeaButton",
       "MyconLog",
       "MyconWood",
       "StrippedMyconLog",
@@ -7506,10 +7536,10 @@
       "FlamewoodSapling",
       "FlamewoodLeaves",
       "SaltBlock",
-      "TeaLeaves",
       "TeaSapling",
       "MyconLeaves",
-      "HighwoodLeaves"
+      "HighwoodLeaves",
+      "TeaLeaves"
     ],
     "COMBAT": [
       "CactusSword",
@@ -7538,10 +7568,8 @@
       "advancements.enter_hub.title": "Open the Magic Door",
       "item.rd.obsidian_brick": "Diamond Brick",
       "block.rd.mycon_button": "Mycon Button",
-      "block.rd.tea_leaves": "Tea Leaves",
       "block.rd.deepslate_lace_agate_ore": "Deepslate Lace Agate Ore",
       "entity.rd.observer": "Observer",
-      "block.rd.tea_door": "Tea Door",
       "block.rd.malachite_block": "Block of Malachite",
       "block.rd.malachite_ore": "Malachite Ore",
       "block.rd.obsidian_brick": "Obsidian Brick",
@@ -7569,7 +7597,6 @@
       "block.rd.low_clinohumite_ore": "Low Clinohumite Ore",
       "item.rd.obsidian_helmet": "Obsidian Helmet",
       "block.ext_16_05.stone_path": "Stone Path",
-      "block.rd.tea_fence": "Tea Fence",
       "item.rd.copper_sword": "Copper Sword",
       "block.rd.jungle_pillar": "Jungle Pillar",
       "item.ext_16_05.edible_fire": "Liquified Fire",
@@ -7598,10 +7625,8 @@
       "block.rd.spruce_pillar": "Spruce Pillar",
       "subtitles.entity.skeleton.ambient": "Observer drones",
       "block.ext_16_05.flamewood_slab": "Flamewood Slab",
-      "block.rd.tea_log": "Tea Log",
       "block.rd.low_malachite_ore": "Low Malachite Ore",
       "block.rd.pyrite_block": "Block of Pyrite",
-      "block.rd.tea_planks": "Tea Planks",
       "block.ext_16_05.flamewood_fence_gate": "Flamewood Fence Gate",
       "item.rd.copper_shovel": "Copper Shovel",
       "block.rd.low_lily": "Low Lily",
@@ -7616,7 +7641,6 @@
       "item.rd.dimension_floor_block": "Dimension Floor",
       "block.ext_16_05.flamewood_door": "Flamewood Door",
       "subtitles.music.nebula": "",
-      "block.rd.tea_pressure_plate": "Tea Pressure Plate",
       "subtitles.music.hub": "",
       "block.rd.deepslate_pyrite_ore": "Deepslate Pyrite Ore",
       "block.ext_16_05.glowing_flower_inf_basic": "Flame-Infused Lily",
@@ -7661,7 +7685,6 @@
       "item.ext_16_05.obsidian_ingot": "Obsidian Ingot",
       "item.rd.obsidian_shovel": "Obsidian Shovel",
       "block.rd.salt_brick_stairs": "Salt Brick Stairs",
-      "block.rd.tea_stairs": "Tea Stairs",
       "gui.rd.extra_debug_info_for_raevan.label_hub_connected_null": "Hub Connected: [NULL]",
       "block.rd.flamewood_pillar": "Flamewood Pillar",
       "block.rd.dark_oak_pillar": "Dark Oak Pillar",
@@ -7672,9 +7695,7 @@
       "block.rd.xray_scaffold": "X-Ray Scaffold",
       "item.rd.copper_pickaxe": "Copper Pickaxe",
       "block.rd.deepslate_malachite_ore": "Deepslate Malachite Ore",
-      "block.rd.tea_button": "Tea Button",
       "block.rd.flamewood_fence_gate": "Flamewood Fence Gate",
-      "block.rd.tea_wood": "Tea Wood",
       "gui.ext_16_05.chunk_name_display.label_testtesttest": "TEST-TEST-TEST",
       "block.rd.flamewood_stairs": "Flamewood Stairs",
       "block.rd.low_mycelium": "Low Mycelium",
@@ -7691,9 +7712,7 @@
       "block.rd.tea_sapling": "Tea Sapling",
       "item.ext_16_05.obsidian_chestplate": "Obsidian Chestplate",
       "block.rd.flamewood_log": "Flamewood Log",
-      "block.rd.tea_trapdoor": "Tea Trapdoor",
       "painting.rd.earth.author": "Mojang",
-      "block.rd.stripped_tea_wood": "Stripped Tea Wood",
       "item.rd.copper_nugget": "Copper Nugget",
       "item.rd.copper_hoe": "Copper Hoe",
       "block.rd.scaffold": "Scaffold",
@@ -7701,7 +7720,6 @@
       "block.rd.flamewood_wood": "Flamewood Wood",
       "block.ext_16_05.alt_mojang_hypostasis_anemo": "Cyan Mojang Block",
       "item.ext_16_05.obsidian_boots": "Obsidian Boots",
-      "block.rd.tea_fence_gate": "Tea Fence Gate",
       "block.rd.flamewood_button": "Flamewood Button",
       "block.ext_16_05.tile_block_3": "Blue Dimension Tile",
       "block.ext_16_05.tile_block_4": "Yellow Dimension Tile",
@@ -7740,7 +7758,6 @@
       "item.rd.essence": "Essence",
       "subtitles.music.rain": "",
       "gui.rd.extra_debug_info_for_raevan.label_logged_in_as_user": "Playing as [NULL]",
-      "block.rd.tea_slab": "Tea Slab",
       "block.rd.cactus_planks": "Cactus Planks",
       "block.rd.flamewood_planks": "Flamewood Planks",
       "block.ext_16_05.dimension_wall_block": "Dimension Wall",
@@ -7757,7 +7774,6 @@
       "block.rd.salt_block": "Salt Block",
       "block.ext_16_05.stripped_flamewood_log": "Stripped Flamewood Log",
       "block.ext_16_05.essence_cache": "Essence Cache",
-      "block.rd.stripped_tea_log": "Stripped Tea Log",
       "item.rd.obsidian_axe": "Obsidian Axe",
       "block.ext_16_05.golden_flower_inf_gold": "Gold-Infused Lily",
       "block.rd.lace_agate_ore": "Lace Agate Ore",
@@ -7819,7 +7835,21 @@
       "block.rd.highwood_door": "Highwood Door",
       "block.rd.highwood_trapdoor": "Highwood Trapdoor",
       "block.rd.highwood_pressure_plate": "Highwood Pressure Plate",
-      "block.rd.highwood_button": "Highwood Button"
+      "block.rd.highwood_button": "Highwood Button",
+      "block.rd.tea_log": "Tea Log",
+      "block.rd.tea_wood": "Tea Wood",
+      "block.rd.stripped_tea_log": "Stripped Tea Log",
+      "block.rd.stripped_tea_wood": "Stripped Tea Wood",
+      "block.rd.tea_planks": "Tea Planks",
+      "block.rd.tea_leaves": "Tea Leaves",
+      "block.rd.tea_stairs": "Tea Stairs",
+      "block.rd.tea_slab": "Tea Slab",
+      "block.rd.tea_fence": "Tea Fence",
+      "block.rd.tea_fence_gate": "Tea Fence Gate",
+      "block.rd.tea_door": "Tea Door",
+      "block.rd.tea_trapdoor": "Tea Trapdoor",
+      "block.rd.tea_pressure_plate": "Tea Pressure Plate",
+      "block.rd.tea_button": "Tea Button"
     },
     "pt_br": {
       "subtitles.music.low_river": "",
@@ -7828,10 +7858,8 @@
       "advancements.enter_hub.title": "Open the Magic Door",
       "item.rd.obsidian_brick": "Diamond Brick",
       "block.rd.mycon_button": "Mycon Button",
-      "block.rd.tea_leaves": "Tea Leaves",
       "block.rd.deepslate_lace_agate_ore": "Deepslate Lace Agate Ore",
       "entity.rd.observer": "Observer",
-      "block.rd.tea_door": "Tea Door",
       "block.rd.malachite_block": "Block of Malachite",
       "block.rd.malachite_ore": "Malachite Ore",
       "block.rd.obsidian_brick": "Obsidian Brick",
@@ -7859,7 +7887,6 @@
       "block.rd.low_clinohumite_ore": "Low Clinohumite Ore",
       "item.rd.obsidian_helmet": "Obsidian Helmet",
       "block.ext_16_05.stone_path": "Stone Path",
-      "block.rd.tea_fence": "Tea Fence",
       "item.rd.copper_sword": "Copper Sword",
       "block.rd.jungle_pillar": "Jungle Pillar",
       "item.ext_16_05.edible_fire": "Liquified Fire",
@@ -7888,10 +7915,8 @@
       "block.rd.spruce_pillar": "Spruce Pillar",
       "subtitles.entity.skeleton.ambient": "Observer drones",
       "block.ext_16_05.flamewood_slab": "Flamewood Slab",
-      "block.rd.tea_log": "Tea Log",
       "block.rd.low_malachite_ore": "Low Malachite Ore",
       "block.rd.pyrite_block": "Block of Pyrite",
-      "block.rd.tea_planks": "Tea Planks",
       "block.ext_16_05.flamewood_fence_gate": "Flamewood Fence Gate",
       "item.rd.copper_shovel": "Copper Shovel",
       "block.rd.low_lily": "Low Lily",
@@ -7906,7 +7931,6 @@
       "item.rd.dimension_floor_block": "Dimension Floor",
       "block.ext_16_05.flamewood_door": "Flamewood Door",
       "subtitles.music.nebula": "",
-      "block.rd.tea_pressure_plate": "Tea Pressure Plate",
       "subtitles.music.hub": "",
       "block.rd.deepslate_pyrite_ore": "Deepslate Pyrite Ore",
       "block.ext_16_05.glowing_flower_inf_basic": "Flame-Infused Lily",
@@ -7951,7 +7975,6 @@
       "item.ext_16_05.obsidian_ingot": "Obsidian Ingot",
       "item.rd.obsidian_shovel": "Obsidian Shovel",
       "block.rd.salt_brick_stairs": "Salt Brick Stairs",
-      "block.rd.tea_stairs": "Tea Stairs",
       "gui.rd.extra_debug_info_for_raevan.label_hub_connected_null": "Hub Connected: [NULL]",
       "block.rd.flamewood_pillar": "Flamewood Pillar",
       "block.rd.dark_oak_pillar": "Dark Oak Pillar",
@@ -7962,9 +7985,7 @@
       "block.rd.xray_scaffold": "X-Ray Scaffold",
       "item.rd.copper_pickaxe": "Copper Pickaxe",
       "block.rd.deepslate_malachite_ore": "Deepslate Malachite Ore",
-      "block.rd.tea_button": "Tea Button",
       "block.rd.flamewood_fence_gate": "Flamewood Fence Gate",
-      "block.rd.tea_wood": "Tea Wood",
       "gui.ext_16_05.chunk_name_display.label_testtesttest": "TEST-TEST-TEST",
       "block.rd.flamewood_stairs": "Flamewood Stairs",
       "block.rd.low_mycelium": "Low Mycelium",
@@ -7981,9 +8002,7 @@
       "block.rd.tea_sapling": "Tea Sapling",
       "item.ext_16_05.obsidian_chestplate": "Obsidian Chestplate",
       "block.rd.flamewood_log": "Flamewood Log",
-      "block.rd.tea_trapdoor": "Tea Trapdoor",
       "painting.rd.earth.author": "Mojang",
-      "block.rd.stripped_tea_wood": "Stripped Tea Wood",
       "item.rd.copper_nugget": "Copper Nugget",
       "item.rd.copper_hoe": "Copper Hoe",
       "block.rd.scaffold": "Scaffold",
@@ -7991,7 +8010,6 @@
       "block.rd.flamewood_wood": "Flamewood Wood",
       "block.ext_16_05.alt_mojang_hypostasis_anemo": "Cyan Mojang Block",
       "item.ext_16_05.obsidian_boots": "Obsidian Boots",
-      "block.rd.tea_fence_gate": "Tea Fence Gate",
       "block.rd.flamewood_button": "Flamewood Button",
       "block.ext_16_05.tile_block_3": "Blue Dimension Tile",
       "block.ext_16_05.tile_block_4": "Yellow Dimension Tile",
@@ -8030,7 +8048,6 @@
       "item.rd.essence": "Essence",
       "subtitles.music.rain": "",
       "gui.rd.extra_debug_info_for_raevan.label_logged_in_as_user": "Playing as [NULL]",
-      "block.rd.tea_slab": "Tea Slab",
       "block.rd.cactus_planks": "Cactus Planks",
       "block.rd.flamewood_planks": "Flamewood Planks",
       "block.ext_16_05.dimension_wall_block": "Dimension Wall",
@@ -8047,7 +8064,6 @@
       "block.rd.salt_block": "Salt Block",
       "block.ext_16_05.stripped_flamewood_log": "Stripped Flamewood Log",
       "block.ext_16_05.essence_cache": "Essence Cache",
-      "block.rd.stripped_tea_log": "Stripped Tea Log",
       "item.rd.obsidian_axe": "Obsidian Axe",
       "block.ext_16_05.golden_flower_inf_gold": "Gold-Infused Lily",
       "block.rd.lace_agate_ore": "Lace Agate Ore",
@@ -8109,7 +8125,21 @@
       "block.rd.highwood_door": "Highwood Door",
       "block.rd.highwood_trapdoor": "Highwood Trapdoor",
       "block.rd.highwood_pressure_plate": "Highwood Pressure Plate",
-      "block.rd.highwood_button": "Highwood Button"
+      "block.rd.highwood_button": "Highwood Button",
+      "block.rd.tea_log": "Tea Log",
+      "block.rd.tea_wood": "Tea Wood",
+      "block.rd.stripped_tea_log": "Stripped Tea Log",
+      "block.rd.stripped_tea_wood": "Stripped Tea Wood",
+      "block.rd.tea_planks": "Tea Planks",
+      "block.rd.tea_leaves": "Tea Leaves",
+      "block.rd.tea_stairs": "Tea Stairs",
+      "block.rd.tea_slab": "Tea Slab",
+      "block.rd.tea_fence": "Tea Fence",
+      "block.rd.tea_fence_gate": "Tea Fence Gate",
+      "block.rd.tea_door": "Tea Door",
+      "block.rd.tea_trapdoor": "Tea Trapdoor",
+      "block.rd.tea_pressure_plate": "Tea Pressure Plate",
+      "block.rd.tea_button": "Tea Button"
     }
   },
   "metadata": {

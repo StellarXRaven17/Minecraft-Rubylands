@@ -22,6 +22,11 @@ public class TeaFenceGateBlock extends FenceGateBlock {
 
 	@Override
 	public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+		return 20;
+	}
+
+	@Override
+	public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
 		return 5;
 	}
 }

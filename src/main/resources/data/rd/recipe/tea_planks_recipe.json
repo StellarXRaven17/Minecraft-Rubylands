@@ -4,7 +4,7 @@
   "category": "building",
   "ingredients": [
     {
-      "item": "rd:tea_wood"
+      "tag": "rd:tea_logs"
     }
   ],
   "result": {

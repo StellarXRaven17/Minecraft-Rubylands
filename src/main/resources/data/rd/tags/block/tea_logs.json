@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "rd:tea_log",
+    "rd:stripped_tea_wood",
+    "rd:stripped_tea_log",
+    "rd:tea_wood"
+  ]
+}

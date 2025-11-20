@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "rd:flamewood_trapdoor",
-    "rd:tea_trapdoor"
+    "rd:flamewood_trapdoor"
   ]
 }

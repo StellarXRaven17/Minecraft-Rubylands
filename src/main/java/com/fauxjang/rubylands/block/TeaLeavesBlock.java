@@ -1,23 +1,18 @@
 package com.fauxjang.rubylands.block;
 
-import net.neoforged.neoforge.client.event.RegisterColorHandlersEvent;
-import net.neoforged.api.distmarker.OnlyIn;
-import net.neoforged.api.distmarker.Dist;
-
+import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.LeavesBlock;
-import net.minecraft.world.level.FoliageColor;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import com.fauxjang.rubylands.init.RdModBlocks;
-
 public class TeaLeavesBlock extends LeavesBlock {
 	public TeaLeavesBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.GRASS).strength(0.2f).noOcclusion().ignitedByLava().isSuffocating((bs, br, bp) -> false).isViewBlocking((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of().sound(SoundType.GRASS).strength(0.2f).noOcclusion().pushReaction(PushReaction.DESTROY).isRedstoneConductor((bs, br, bp) -> false).ignitedByLava().isSuffocating((bs, br, bp) -> false)
+				.isViewBlocking((bs, br, bp) -> false));
 	}
 
 	@Override
@@ -27,13 +22,11 @@ public class TeaLeavesBlock extends LeavesBlock {
 
 	@Override
 	public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
-		return 30;
+		return 60;
 	}
 
-	@OnlyIn(Dist.CLIENT)
-	public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
-		event.getBlockColors().register((bs, world, pos, index) -> {
-			return FoliageColor.getBirchColor();
-		}, RdModBlocks.TEA_LEAVES.get());
+	@Override
+	public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+		return 30;
 	}
 }
