@@ -6833,6 +6833,140 @@
         ]
       },
       "path": "~/Advancements/SuperSecret/TBS"
+    },
+    {
+      "name": "BismuthIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bismuth_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rd/models/item/bismuth_ingot.json",
+          "src/main/java/com/fauxjang/rubylands/item/BismuthIngotItem.java"
+        ]
+      },
+      "path": "~/Blocks/OreBlocks/Bismuth"
+    },
+    {
+      "name": "BismuthOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bismuth_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fauxjang/rubylands/block/BismuthOreBlock.java",
+          "src/main/resources/data/rd/worldgen/placed_feature/bismuth_ore.json",
+          "src/main/resources/assets/rd/models/item/bismuth_ore.json",
+          "src/main/resources/assets/rd/models/block/bismuth_ore.json",
+          "src/main/resources/assets/rd/blockstates/bismuth_ore.json",
+          "src/main/resources/data/rd/neoforge/biome_modifier/bismuth_ore_biome_modifier.json",
+          "src/main/resources/data/rd/worldgen/configured_feature/bismuth_ore.json",
+          "src/main/resources/data/rd/loot_table/blocks/bismuth_ore.json"
+        ]
+      },
+      "path": "~/Blocks/OreBlocks/Bismuth"
+    },
+    {
+      "name": "BismuthBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bismuth_block",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fauxjang/rubylands/block/BismuthBlockBlock.java",
+          "src/main/resources/assets/rd/models/block/bismuth_block.json",
+          "src/main/resources/assets/rd/blockstates/bismuth_block.json",
+          "src/main/resources/assets/rd/models/item/bismuth_block.json",
+          "src/main/resources/data/rd/loot_table/blocks/bismuth_block.json"
+        ]
+      },
+      "path": "~/Blocks/OreBlocks/Bismuth"
+    },
+    {
+      "name": "BismuthOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bismuth_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/recipe/bismuth_ore_block_recipe.json",
+          "src/main/resources/data/rd/advancement/recipes/bismuth_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/OreBlocks/Bismuth"
+    },
+    {
+      "name": "BismuthBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bismuth_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/advancement/recipes/bismuth_block_ore_recipe.json",
+          "src/main/resources/data/rd/recipe/bismuth_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/OreBlocks/Bismuth"
+    },
+    {
+      "name": "BismuthOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bismuth_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/advancement/recipes/bismuth_ore_smelting.json",
+          "src/main/resources/data/rd/recipe/bismuth_ore_smelting.json"
+        ]
+      },
+      "path": "~/Blocks/OreBlocks/Bismuth"
+    },
+    {
+      "name": "RawBismuthDrop",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_bismuth_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/loot_table/raw_bismuth_drop.json"
+        ]
+      },
+      "path": "~/Blocks/OreBlocks/Bismuth"
+    },
+    {
+      "name": "RawBismuth",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_bismuth",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fauxjang/rubylands/item/RawBismuthItem.java",
+          "src/main/resources/assets/rd/models/item/raw_bismuth.json"
+        ]
+      },
+      "path": "~/Blocks/OreBlocks/Bismuth"
+    },
+    {
+      "name": "RawBismuthSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_bismuth_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/advancement/recipes/raw_bismuth_smelting.json",
+          "src/main/resources/data/rd/recipe/raw_bismuth_smelting.json"
+        ]
+      },
+      "path": "~/Blocks/OreBlocks/Bismuth"
     }
   ],
   "variable_elements": [
@@ -7043,6 +7177,8 @@
       "CUSTOM:TeaPlanks"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:BismuthBlock",
+      "~CUSTOM:BismuthOre",
       "~CUSTOM:GreenstoneBrick",
       "~CUSTOM:LowStoneDiamondOre",
       "~CUSTOM:LowStoneGoldOre",
@@ -7097,6 +7233,8 @@
       "CUSTOM:Copper.boots"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:BismuthBlock",
+      "~CUSTOM:BismuthOre",
       "~CUSTOM:GreenstoneBrick",
       "~CUSTOM:PetrifiedWood",
       "~CUSTOM:LowClinohumiteOre",
@@ -7421,7 +7559,9 @@
       "Pyrite",
       "Clinohumite",
       "LaceAgate",
-      "Malachite"
+      "Malachite",
+      "BismuthIngot",
+      "RawBismuth"
     ],
     "BUILDING_BLOCKS": [
       "WoodenPillar",
@@ -7540,7 +7680,9 @@
       "LowPyriteOre",
       "DeepslateClinohumiteOre",
       "LowClinohumiteOre",
-      "TeaPillar"
+      "TeaPillar",
+      "BismuthOre",
+      "BismuthBlock"
     ],
     "DECORATIONS": [
       "GlowingFlower",
@@ -7869,7 +8011,11 @@
       "advancements.super_secret_advancements.descr": "Advancements that you can\u0027t get through normal gameplay.",
       "advancements.super_secret_advancements.title": "Super Secret Advancements",
       "advancements.super_secret_1.descr": "Play with The Broken Script installed.",
-      "advancements.super_secret_1.title": "Integrity and Dev0 at the Olympic Games"
+      "advancements.super_secret_1.title": "Integrity and Dev0 at the Olympic Games",
+      "item.rd.bismuth_ingot": "Bismuth",
+      "block.rd.bismuth_ore": "Bismuth Ore",
+      "block.rd.bismuth_block": "Block of Bismuth",
+      "item.rd.raw_bismuth": "Bismuth"
     },
     "pt_br": {
       "subtitles.music.low_river": "",
@@ -8164,7 +8310,11 @@
       "advancements.super_secret_advancements.descr": "Advancements that you can\u0027t get through normal gameplay.",
       "advancements.super_secret_advancements.title": "Super Secret Advancements",
       "advancements.super_secret_1.descr": "Play with The Broken Script installed.",
-      "advancements.super_secret_1.title": "Integrity and Dev0 at the Olympic Games"
+      "advancements.super_secret_1.title": "Integrity and Dev0 at the Olympic Games",
+      "item.rd.bismuth_ingot": "Bismuth",
+      "block.rd.bismuth_ore": "Bismuth Ore",
+      "block.rd.bismuth_block": "Block of Bismuth",
+      "item.rd.raw_bismuth": "Bismuth"
     }
   },
   "metadata": {

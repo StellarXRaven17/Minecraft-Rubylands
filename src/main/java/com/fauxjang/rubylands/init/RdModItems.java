@@ -201,6 +201,10 @@ public class RdModItems {
 	public static final DeferredItem<Item> TEA_PRESSURE_PLATE;
 	public static final DeferredItem<Item> TEA_BUTTON;
 	public static final DeferredItem<Item> TEA_PILLAR;
+	public static final DeferredItem<Item> BISMUTH_INGOT;
+	public static final DeferredItem<Item> BISMUTH_ORE;
+	public static final DeferredItem<Item> BISMUTH_BLOCK;
+	public static final DeferredItem<Item> RAW_BISMUTH;
 	static {
 		ESSENCE = REGISTRY.register("essence", EssenceItem::new);
 		OAK_PILLAR = block(RdModBlocks.OAK_PILLAR);
@@ -384,6 +388,10 @@ public class RdModItems {
 		TEA_PRESSURE_PLATE = block(RdModBlocks.TEA_PRESSURE_PLATE);
 		TEA_BUTTON = block(RdModBlocks.TEA_BUTTON);
 		TEA_PILLAR = block(RdModBlocks.TEA_PILLAR, new Item.Properties().fireResistant());
+		BISMUTH_INGOT = REGISTRY.register("bismuth_ingot", BismuthIngotItem::new);
+		BISMUTH_ORE = block(RdModBlocks.BISMUTH_ORE);
+		BISMUTH_BLOCK = block(RdModBlocks.BISMUTH_BLOCK);
+		RAW_BISMUTH = REGISTRY.register("raw_bismuth", RawBismuthItem::new);
 	}
 
 	// Start of user code block custom items

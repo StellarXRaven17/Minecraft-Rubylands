@@ -291,5 +291,9 @@
   "advancements.super_secret_advancements.descr": "Advancements that you can\u0027t get through normal gameplay.",
   "advancements.super_secret_advancements.title": "Super Secret Advancements",
   "advancements.super_secret_1.descr": "Play with The Broken Script installed.",
-  "advancements.super_secret_1.title": "Integrity and Dev0 at the Olympic Games"
+  "advancements.super_secret_1.title": "Integrity and Dev0 at the Olympic Games",
+  "item.rd.bismuth_ingot": "Bismuth",
+  "block.rd.bismuth_ore": "Bismuth Ore",
+  "block.rd.bismuth_block": "Block of Bismuth",
+  "item.rd.raw_bismuth": "Bismuth"
 }

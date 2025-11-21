@@ -35,6 +35,8 @@ public class RdModTabs {
 			tabData.accept(RdModItems.CLINOHUMITE.get());
 			tabData.accept(RdModItems.LACE_AGATE.get());
 			tabData.accept(RdModItems.MALACHITE.get());
+			tabData.accept(RdModItems.BISMUTH_INGOT.get());
+			tabData.accept(RdModItems.RAW_BISMUTH.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(RdModBlocks.OAK_PILLAR.get().asItem());
 			tabData.accept(RdModBlocks.SPRUCE_PILLAR.get().asItem());
@@ -153,6 +155,8 @@ public class RdModTabs {
 			tabData.accept(RdModBlocks.DEEPSLATE_CLINOHUMITE_ORE.get().asItem());
 			tabData.accept(RdModBlocks.LOW_CLINOHUMITE_ORE.get().asItem());
 			tabData.accept(RdModBlocks.TEA_PILLAR.get().asItem());
+			tabData.accept(RdModBlocks.BISMUTH_ORE.get().asItem());
+			tabData.accept(RdModBlocks.BISMUTH_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(RdModBlocks.WATER_LILY.get().asItem());
 			tabData.accept(RdModBlocks.LOW_LILY.get().asItem());
