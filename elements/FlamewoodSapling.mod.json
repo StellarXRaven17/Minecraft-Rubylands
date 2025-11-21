@@ -6,7 +6,7 @@
     "texture": "flamewood_sapling",
     "textureBottom": "",
     "customModelName": "Cross model",
-    "itemTexture": "flamewood_sapling",
+    "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -100,6 +100,9 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
+    "strippingResult": {
+      "value": ""
+    },
     "ignitedByLava": false,
     "flammability": 100,
     "fireSpreadSpeed": 60,

@@ -5,7 +5,7 @@
   },
   "spawners": {
     "type": "rd:observer",
-    "weight": 20,
+    "weight": 8,
     "minCount": 4,
     "maxCount": 4
   }

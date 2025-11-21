@@ -8,9 +8,11 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.projectile.ThrownPotion;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.monster.Monster;
-import net.minecraft.world.entity.monster.EnderMan;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
-import net.minecraft.world.entity.ai.goal.*;
+import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
+import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
+import net.minecraft.world.entity.ai.goal.LookAtPlayerGoal;
+import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnPlacementTypes;
@@ -27,7 +29,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 
 import com.fauxjang.rubylands.init.RdModEntities;
 
-public class ObserverEntity extends EnderMan {
+public class ObserverEntity extends Monster {
 	public ObserverEntity(EntityType<ObserverEntity> type, Level world) {
 		super(type, world);
 		xpReward = 5;
@@ -37,18 +39,16 @@ public class ObserverEntity extends EnderMan {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new ClimbOnTopOfPowderSnowGoal(this, this.level()));
-		this.goalSelector.addGoal(2, new LookAtPlayerGoal(this, Player.class, (float) 6));
-		this.goalSelector.addGoal(3, new PanicGoal(this, 1.2));
-		this.goalSelector.addGoal(4, new RandomStrollGoal(this, 1));
-		this.goalSelector.addGoal(5, new MeleeAttackGoal(this, 1, true) {
+		this.goalSelector.addGoal(1, new RandomStrollGoal(this, 1));
+		this.goalSelector.addGoal(2, new LookAtPlayerGoal(this, Player.class, (float) 8));
+		this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.2, true) {
 			@Override
 			protected boolean canPerformAttack(LivingEntity entity) {
 				return this.isTimeToAttack() && this.mob.distanceToSqr(entity) < (this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth()) && this.mob.getSensing().hasLineOfSight(entity);
 			}
 		});
-		this.targetSelector.addGoal(6, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(7, new FloatGoal(this));
+		this.targetSelector.addGoal(4, new HurtByTargetGoal(this));
+		this.goalSelector.addGoal(5, new FloatGoal(this));
 	}
 
 	@Override

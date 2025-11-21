@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "rd:item/flamewood_sapling"
+    "layer0": "rd:block/flamewood_sapling"
   }
 }
