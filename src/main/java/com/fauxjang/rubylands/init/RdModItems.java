@@ -158,8 +158,6 @@ public class RdModItems {
 	public static final DeferredItem<Item> BAMBOO_PILLAR;
 	public static final DeferredItem<Item> ICE_DOOR;
 	public static final DeferredItem<Item> FREEZER;
-	public static final DeferredItem<Item> RAW_FLESH;
-	public static final DeferredItem<Item> COOKED_FLESH;
 	public static final DeferredItem<Item> MUSHROOM_PLANKS;
 	public static final DeferredItem<Item> MUSHROOM_STAIRS;
 	public static final DeferredItem<Item> MUSHROOM_SLAB;
@@ -345,8 +343,6 @@ public class RdModItems {
 		BAMBOO_PILLAR = block(RdModBlocks.BAMBOO_PILLAR);
 		ICE_DOOR = doubleBlock(RdModBlocks.ICE_DOOR);
 		FREEZER = block(RdModBlocks.FREEZER);
-		RAW_FLESH = REGISTRY.register("raw_flesh", FleshItem::new);
-		COOKED_FLESH = REGISTRY.register("cooked_flesh", CookedFleshItem::new);
 		MUSHROOM_PLANKS = block(RdModBlocks.MUSHROOM_PLANKS);
 		MUSHROOM_STAIRS = block(RdModBlocks.MUSHROOM_STAIRS);
 		MUSHROOM_SLAB = block(RdModBlocks.MUSHROOM_SLAB);

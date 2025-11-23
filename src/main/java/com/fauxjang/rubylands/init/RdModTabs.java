@@ -22,9 +22,6 @@ public class RdModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(RdModItems.OBSERVER_SPAWN_EGG.get());
-		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
-			tabData.accept(RdModItems.RAW_FLESH.get());
-			tabData.accept(RdModItems.COOKED_FLESH.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(RdModItems.COPPER_NUGGET.get());
 			tabData.accept(RdModBlocks.BLUE_FIRE_IDK.get().asItem());

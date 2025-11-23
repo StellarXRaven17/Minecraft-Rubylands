@@ -1,8 +1,6 @@
 {
   "replace": false,
   "values": [
-    "rd:cooked_flesh",
-    "rd:apple_pie",
-    "rd:raw_flesh"
+    "rd:apple_pie"
   ]
 }

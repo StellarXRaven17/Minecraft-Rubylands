@@ -5328,48 +5328,6 @@
       "path": "~/Blocks/FrostBlocks"
     },
     {
-      "name": "Flesh",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "raw_flesh",
-      "metadata": {
-        "files": [
-          "src/main/java/com/fauxjang/rubylands/item/FleshItem.java",
-          "src/main/resources/assets/rd/models/item/raw_flesh.json"
-        ]
-      },
-      "path": "~/Items/Consumables/Food"
-    },
-    {
-      "name": "CookedFlesh",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cooked_flesh",
-      "metadata": {
-        "files": [
-          "src/main/java/com/fauxjang/rubylands/item/CookedFleshItem.java",
-          "src/main/resources/assets/rd/models/item/cooked_flesh.json"
-        ]
-      },
-      "path": "~/Items/Consumables/Food"
-    },
-    {
-      "name": "PeelingEnchantment",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cannibalism",
-      "metadata": {
-        "dependencies": [],
-        "files": [
-          "src/main/java/com/fauxjang/rubylands/procedures/PeelingEnchantmentProcedure.java"
-        ]
-      },
-      "path": "~/MiscFeatures"
-    },
-    {
       "name": "BuiltinResourcePacksRegistrar",
       "type": "code",
       "compiles": true,
@@ -5393,19 +5351,6 @@
         ]
       },
       "path": "~/Items/Essence"
-    },
-    {
-      "name": "TeaBrewing",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tea_brewing",
-      "metadata": {
-        "files": [
-          "src/main/java/com/fauxjang/rubylands/recipe/brewing/TeaBrewingBrewingRecipe.java"
-        ]
-      },
-      "path": "~/Items/Consumables/Food"
     },
     {
       "name": "NetheriteHelmetSmithing",
@@ -7378,16 +7323,8 @@
     "ENTITIES:minecraft:undead": [
       "~CUSTOM:Observer"
     ],
-    "ITEMS:c:foods/raw_meat": [
-      "CUSTOM:Flesh"
-    ],
-    "ITEMS:c:foods/cooked_meat": [
-      "CUSTOM:CookedFlesh"
-    ],
     "ITEMS:c:foods": [
-      "CUSTOM:ApplePie",
-      "CUSTOM:Flesh",
-      "CUSTOM:CookedFlesh"
+      "CUSTOM:ApplePie"
     ],
     "ITEMS:c:foods/pie": [
       "CUSTOM:ApplePie"
@@ -7420,10 +7357,6 @@
       "CUSTOM:FlamewoodWood",
       "CUSTOM:StrippedFlamewoodWood",
       "CUSTOM:MyconWood"
-    ],
-    "ITEMS:minecraft:meat": [
-      "CUSTOM:Flesh",
-      "CUSTOM:CookedFlesh"
     ],
     "ITEMS:c:nuggets": [
       "CUSTOM:CopperNugget"
@@ -7965,8 +7898,6 @@
       "gui.rd.overlay_thingies.label_minecraft_1211_neoforge": "Minecraft RubyLands Version 0.1.0",
       "block.rd.ice_door": "Ice Door",
       "block.rd.freezer": "Freezer",
-      "item.rd.raw_flesh": "Raw Flesh",
-      "item.rd.cooked_flesh": "Cooked Flesh",
       "block.rd.mushroom_planks": "Mushroom Planks",
       "block.rd.mushroom_stairs": "Mushroom Stairs",
       "block.rd.mushroom_slab": "Mushroom Slab",
@@ -8264,8 +8195,6 @@
       "gui.rd.overlay_thingies.label_minecraft_1211_neoforge": "Minecraft RubyLands Version 0.1.0",
       "block.rd.ice_door": "Ice Door",
       "block.rd.freezer": "Freezer",
-      "item.rd.raw_flesh": "Flesh",
-      "item.rd.cooked_flesh": "Cooked Flesh",
       "block.rd.mushroom_planks": "Mushroom Planks",
       "block.rd.mushroom_stairs": "Mushroom Stairs",
       "block.rd.mushroom_slab": "Mushroom Slab",
