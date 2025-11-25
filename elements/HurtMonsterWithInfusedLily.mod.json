@@ -2,8 +2,8 @@
   "_fv": 79,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Plants Vs. Googlies",
-    "achievementDescription": "Use Infused Lilies to defend yourself",
+    "achievementName": "Bloom and Doom",
+    "achievementDescription": "Use Infused Lilies to defend yourself from the undead",
     "achievementIcon": {
       "value": "CUSTOM:GlowingFlowerInfBasic"
     },
@@ -17,7 +17,7 @@
     "rewardXP": 0,
     "achievementType": "task",
     "parent": {
-      "value": "CUSTOM:HealPlayerWithLily"
+      "value": "husbandry/root"
     },
     "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"custom_trigger\"></block></next></block></xml>"
   }
