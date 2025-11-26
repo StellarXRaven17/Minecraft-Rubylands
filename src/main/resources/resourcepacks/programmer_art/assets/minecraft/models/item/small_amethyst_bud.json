@@ -1,0 +1,6 @@
+{
+  "parent": "item/amethyst_bud",
+  "textures": {
+    "layer0": "minecraft:block/small_amethyst_bud"
+  }
+}

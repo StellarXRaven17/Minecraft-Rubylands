@@ -29,11 +29,11 @@ public class RdModTabs {
 			tabData.accept(RdModItems.OBSERVER_FUR.get());
 			tabData.accept(RdModItems.OBSIDIAN_INGOT.get());
 			tabData.accept(RdModItems.PYRITE.get());
+			tabData.accept(RdModItems.RAW_BISMUTH.get());
+			tabData.accept(RdModItems.BISMUTH_INGOT.get());
 			tabData.accept(RdModItems.CLINOHUMITE.get());
 			tabData.accept(RdModItems.LACE_AGATE.get());
 			tabData.accept(RdModItems.MALACHITE.get());
-			tabData.accept(RdModItems.BISMUTH_INGOT.get());
-			tabData.accept(RdModItems.RAW_BISMUTH.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(RdModBlocks.OAK_PILLAR.get().asItem());
 			tabData.accept(RdModBlocks.SPRUCE_PILLAR.get().asItem());
@@ -99,6 +99,8 @@ public class RdModTabs {
 			tabData.accept(RdModBlocks.MUSHROOM_SLAB.get().asItem());
 			tabData.accept(RdModBlocks.MUSHROOM_FENCE.get().asItem());
 			tabData.accept(RdModBlocks.MUSHROOM_FENCE_GATE.get().asItem());
+			tabData.accept(RdModBlocks.MUSHROOM_DOOR.get().asItem());
+			tabData.accept(RdModBlocks.MUSHROOM_TRAPDOOR.get().asItem());
 			tabData.accept(RdModBlocks.MUSHROOM_PRESSURE_PLATE.get().asItem());
 			tabData.accept(RdModBlocks.MUSHROOM_BUTTON.get().asItem());
 			tabData.accept(RdModBlocks.PETRIFIED_WOOD.get().asItem());
@@ -162,11 +164,11 @@ public class RdModTabs {
 			tabData.accept(RdModBlocks.OBSIDIAN_INFUSED_LILY.get().asItem());
 			tabData.accept(RdModBlocks.FLAMEWOOD_SAPLING.get().asItem());
 			tabData.accept(RdModBlocks.FLAMEWOOD_LEAVES.get().asItem());
-			tabData.accept(RdModBlocks.SALT_BLOCK.get().asItem());
 			tabData.accept(RdModBlocks.TEA_SAPLING.get().asItem());
-			tabData.accept(RdModBlocks.MYCON_CAP.get().asItem());
-			tabData.accept(RdModBlocks.HIGHWOOD_LEAVES.get().asItem());
 			tabData.accept(RdModBlocks.TEA_LEAVES.get().asItem());
+			tabData.accept(RdModBlocks.HIGHWOOD_LEAVES.get().asItem());
+			tabData.accept(RdModBlocks.MYCON_CAP.get().asItem());
+			tabData.accept(RdModBlocks.SALT_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(RdModItems.CACTUS_SWORD.get());
 			tabData.accept(RdModItems.COPPER_SWORD.get());

@@ -1,0 +1,20 @@
+{
+	"credit": "Made by Marioood.",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/spore_blossom",
+		"sheet": "block/spore_blossom"
+	},
+	"elements": [
+		{
+			"from": [0, 15.8, 0],
+			"to": [16, 15.8, 16],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "x", "origin": [0, 16.6, 0]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#sheet"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#sheet"}
+			}
+		}
+	]
+}

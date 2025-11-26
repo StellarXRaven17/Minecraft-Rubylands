@@ -19,6 +19,9 @@
     "particleTexture": "",
     "blockBase": "Slab",
     "blockSetType": "OAK",
+    "pottedPlant": {
+      "value": ""
+    },
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -54,7 +57,7 @@
         "value": "BUILDING_BLOCKS"
       }
     ],
-    "destroyTool": "Not specified",
+    "destroyTool": "axe",
     "customDrop": {
       "value": ""
     },
@@ -75,15 +78,18 @@
       "fixedValue": 15.0
     },
     "colorOnMap": "DEFAULT",
-    "noteBlockInstrument": "harp",
+    "noteBlockInstrument": "bass",
     "creativePickItem": {
       "value": ""
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
+    "strippingResult": {
+      "value": ""
+    },
     "ignitedByLava": true,
-    "flammability": 5,
-    "fireSpreadSpeed": 0,
+    "flammability": 20,
+    "fireSpreadSpeed": 5,
     "isLadder": false,
     "slipperiness": 0.6,
     "speedFactor": 1.0,
@@ -92,7 +98,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "WOOD"
+      "value": "NETHER_WOOD"
     },
     "breakSound": {
       "value": ""

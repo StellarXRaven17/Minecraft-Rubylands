@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/stem_noshade",
+	"textures": {
+		"cross": "minecraft:block/pitcher_crop_bottom_stage_1"
+	}
+}

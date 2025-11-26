@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/sheet",
+	"textures": {
+		"sheet": "minecraft:block/glow_lichen"
+	}
+}

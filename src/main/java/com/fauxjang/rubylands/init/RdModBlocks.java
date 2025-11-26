@@ -124,13 +124,6 @@ public class RdModBlocks {
 	public static final DeferredBlock<Block> BAMBOO_PILLAR;
 	public static final DeferredBlock<Block> ICE_DOOR;
 	public static final DeferredBlock<Block> FREEZER;
-	public static final DeferredBlock<Block> MUSHROOM_PLANKS;
-	public static final DeferredBlock<Block> MUSHROOM_STAIRS;
-	public static final DeferredBlock<Block> MUSHROOM_SLAB;
-	public static final DeferredBlock<Block> MUSHROOM_FENCE;
-	public static final DeferredBlock<Block> MUSHROOM_FENCE_GATE;
-	public static final DeferredBlock<Block> MUSHROOM_PRESSURE_PLATE;
-	public static final DeferredBlock<Block> MUSHROOM_BUTTON;
 	public static final DeferredBlock<Block> STRIPPED_MYCON_STEM;
 	public static final DeferredBlock<Block> STRIPPED_MYCON_HYPHAE;
 	public static final DeferredBlock<Block> FAKE_DIRT;
@@ -166,6 +159,15 @@ public class RdModBlocks {
 	public static final DeferredBlock<Block> TEA_PILLAR;
 	public static final DeferredBlock<Block> BISMUTH_ORE;
 	public static final DeferredBlock<Block> BISMUTH_BLOCK;
+	public static final DeferredBlock<Block> MUSHROOM_PLANKS;
+	public static final DeferredBlock<Block> MUSHROOM_STAIRS;
+	public static final DeferredBlock<Block> MUSHROOM_SLAB;
+	public static final DeferredBlock<Block> MUSHROOM_FENCE;
+	public static final DeferredBlock<Block> MUSHROOM_FENCE_GATE;
+	public static final DeferredBlock<Block> MUSHROOM_DOOR;
+	public static final DeferredBlock<Block> MUSHROOM_TRAPDOOR;
+	public static final DeferredBlock<Block> MUSHROOM_PRESSURE_PLATE;
+	public static final DeferredBlock<Block> MUSHROOM_BUTTON;
 	static {
 		OAK_PILLAR = REGISTRY.register("oak_pillar", WoodenPillarBlock::new);
 		ESSENCE_CACHE = REGISTRY.register("essence_cache", EssenceCacheBlock::new);
@@ -274,13 +276,6 @@ public class RdModBlocks {
 		BAMBOO_PILLAR = REGISTRY.register("bamboo_pillar", BambooPillarBlock::new);
 		ICE_DOOR = REGISTRY.register("ice_door", IceDoorBlock::new);
 		FREEZER = REGISTRY.register("freezer", FreezerBlock::new);
-		MUSHROOM_PLANKS = REGISTRY.register("mushroom_planks", MushroomPlanksBlock::new);
-		MUSHROOM_STAIRS = REGISTRY.register("mushroom_stairs", MushroomStairsBlock::new);
-		MUSHROOM_SLAB = REGISTRY.register("mushroom_slab", MushroomSlabBlock::new);
-		MUSHROOM_FENCE = REGISTRY.register("mushroom_fence", MushroomFenceBlock::new);
-		MUSHROOM_FENCE_GATE = REGISTRY.register("mushroom_fence_gate", MushroomFenceGateBlock::new);
-		MUSHROOM_PRESSURE_PLATE = REGISTRY.register("mushroom_pressure_plate", MushroomPressurePlateBlock::new);
-		MUSHROOM_BUTTON = REGISTRY.register("mushroom_button", MushroomButtonBlock::new);
 		STRIPPED_MYCON_STEM = REGISTRY.register("stripped_mycon_stem", StrippedMyconLogBlock::new);
 		STRIPPED_MYCON_HYPHAE = REGISTRY.register("stripped_mycon_hyphae", StrippedMyconWoodBlock::new);
 		FAKE_DIRT = REGISTRY.register("fake_dirt", FakeDirtBlock::new);
@@ -316,6 +311,15 @@ public class RdModBlocks {
 		TEA_PILLAR = REGISTRY.register("tea_pillar", TeaPillarBlock::new);
 		BISMUTH_ORE = REGISTRY.register("bismuth_ore", BismuthOreBlock::new);
 		BISMUTH_BLOCK = REGISTRY.register("bismuth_block", BismuthBlockBlock::new);
+		MUSHROOM_PLANKS = REGISTRY.register("mushroom_planks", MushroomPlanksBlock::new);
+		MUSHROOM_STAIRS = REGISTRY.register("mushroom_stairs", MushroomStairsBlock::new);
+		MUSHROOM_SLAB = REGISTRY.register("mushroom_slab", MushroomSlabBlock::new);
+		MUSHROOM_FENCE = REGISTRY.register("mushroom_fence", MushroomFenceBlock::new);
+		MUSHROOM_FENCE_GATE = REGISTRY.register("mushroom_fence_gate", MushroomFenceGateBlock::new);
+		MUSHROOM_DOOR = REGISTRY.register("mushroom_door", MushroomDoorBlock::new);
+		MUSHROOM_TRAPDOOR = REGISTRY.register("mushroom_trapdoor", MushroomTrapdoorBlock::new);
+		MUSHROOM_PRESSURE_PLATE = REGISTRY.register("mushroom_pressure_plate", MushroomPressurePlateBlock::new);
+		MUSHROOM_BUTTON = REGISTRY.register("mushroom_button", MushroomButtonBlock::new);
 	}
 
 	// Start of user code block custom blocks

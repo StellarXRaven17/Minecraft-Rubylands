@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "wooden_door",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:MushroomPlanks"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "REDSTONE",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MushroomPlanks"
+      },
+      {
+        "value": "CUSTOM:MushroomPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MushroomPlanks"
+      },
+      {
+        "value": "CUSTOM:MushroomPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MushroomPlanks"
+      },
+      {
+        "value": "CUSTOM:MushroomPlanks"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MushroomDoor"
+    },
+    "name": "mushroom_door_recipe",
+    "namespace": "mod"
+  }
+}

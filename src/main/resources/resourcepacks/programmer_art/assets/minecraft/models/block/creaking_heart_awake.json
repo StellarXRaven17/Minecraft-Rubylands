@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "_comment": "texture NAMES got changed in 1.21.5 for some reason",
+  "textures": {
+    "end": "minecraft:block/creaking_heart_top_active",
+    "side": "minecraft:block/creaking_heart_active"
+  }
+}

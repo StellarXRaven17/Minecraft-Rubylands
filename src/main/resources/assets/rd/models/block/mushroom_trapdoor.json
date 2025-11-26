@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_orientable_trapdoor_bottom",
+  "textures": {
+    "texture": "rd:block/mushroom_trapdoor",
+    "particle": "rd:block/mushroom_trapdoor"
+  },
+  "render_type": "cutout"
+}

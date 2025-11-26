@@ -3,13 +3,13 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "bismuth_ingot",
+    "texture": "minecraft:raw_iron",
     "customModelName": "Normal",
     "guiTexture": "",
     "customProperties": {},
     "states": [],
     "animations": [],
-    "name": "Bismuth",
+    "name": "Raw Bismuth",
     "rarity": "COMMON",
     "creativeTabs": [
       {

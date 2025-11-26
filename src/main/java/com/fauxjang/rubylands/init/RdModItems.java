@@ -158,13 +158,6 @@ public class RdModItems {
 	public static final DeferredItem<Item> BAMBOO_PILLAR;
 	public static final DeferredItem<Item> ICE_DOOR;
 	public static final DeferredItem<Item> FREEZER;
-	public static final DeferredItem<Item> MUSHROOM_PLANKS;
-	public static final DeferredItem<Item> MUSHROOM_STAIRS;
-	public static final DeferredItem<Item> MUSHROOM_SLAB;
-	public static final DeferredItem<Item> MUSHROOM_FENCE;
-	public static final DeferredItem<Item> MUSHROOM_FENCE_GATE;
-	public static final DeferredItem<Item> MUSHROOM_PRESSURE_PLATE;
-	public static final DeferredItem<Item> MUSHROOM_BUTTON;
 	public static final DeferredItem<Item> SUGAR_COOKIE;
 	public static final DeferredItem<Item> STRIPPED_MYCON_STEM;
 	public static final DeferredItem<Item> STRIPPED_MYCON_HYPHAE;
@@ -203,6 +196,15 @@ public class RdModItems {
 	public static final DeferredItem<Item> BISMUTH_ORE;
 	public static final DeferredItem<Item> BISMUTH_BLOCK;
 	public static final DeferredItem<Item> RAW_BISMUTH;
+	public static final DeferredItem<Item> MUSHROOM_PLANKS;
+	public static final DeferredItem<Item> MUSHROOM_STAIRS;
+	public static final DeferredItem<Item> MUSHROOM_SLAB;
+	public static final DeferredItem<Item> MUSHROOM_FENCE;
+	public static final DeferredItem<Item> MUSHROOM_FENCE_GATE;
+	public static final DeferredItem<Item> MUSHROOM_DOOR;
+	public static final DeferredItem<Item> MUSHROOM_TRAPDOOR;
+	public static final DeferredItem<Item> MUSHROOM_PRESSURE_PLATE;
+	public static final DeferredItem<Item> MUSHROOM_BUTTON;
 	static {
 		ESSENCE = REGISTRY.register("essence", EssenceItem::new);
 		OAK_PILLAR = block(RdModBlocks.OAK_PILLAR);
@@ -343,13 +345,6 @@ public class RdModItems {
 		BAMBOO_PILLAR = block(RdModBlocks.BAMBOO_PILLAR);
 		ICE_DOOR = doubleBlock(RdModBlocks.ICE_DOOR);
 		FREEZER = block(RdModBlocks.FREEZER);
-		MUSHROOM_PLANKS = block(RdModBlocks.MUSHROOM_PLANKS);
-		MUSHROOM_STAIRS = block(RdModBlocks.MUSHROOM_STAIRS);
-		MUSHROOM_SLAB = block(RdModBlocks.MUSHROOM_SLAB);
-		MUSHROOM_FENCE = block(RdModBlocks.MUSHROOM_FENCE);
-		MUSHROOM_FENCE_GATE = block(RdModBlocks.MUSHROOM_FENCE_GATE);
-		MUSHROOM_PRESSURE_PLATE = block(RdModBlocks.MUSHROOM_PRESSURE_PLATE);
-		MUSHROOM_BUTTON = block(RdModBlocks.MUSHROOM_BUTTON);
 		SUGAR_COOKIE = REGISTRY.register("sugar_cookie", SugarCookieItem::new);
 		STRIPPED_MYCON_STEM = block(RdModBlocks.STRIPPED_MYCON_STEM);
 		STRIPPED_MYCON_HYPHAE = block(RdModBlocks.STRIPPED_MYCON_HYPHAE);
@@ -388,6 +383,15 @@ public class RdModItems {
 		BISMUTH_ORE = block(RdModBlocks.BISMUTH_ORE);
 		BISMUTH_BLOCK = block(RdModBlocks.BISMUTH_BLOCK);
 		RAW_BISMUTH = REGISTRY.register("raw_bismuth", RawBismuthItem::new);
+		MUSHROOM_PLANKS = block(RdModBlocks.MUSHROOM_PLANKS);
+		MUSHROOM_STAIRS = block(RdModBlocks.MUSHROOM_STAIRS);
+		MUSHROOM_SLAB = block(RdModBlocks.MUSHROOM_SLAB);
+		MUSHROOM_FENCE = block(RdModBlocks.MUSHROOM_FENCE);
+		MUSHROOM_FENCE_GATE = block(RdModBlocks.MUSHROOM_FENCE_GATE);
+		MUSHROOM_DOOR = doubleBlock(RdModBlocks.MUSHROOM_DOOR);
+		MUSHROOM_TRAPDOOR = block(RdModBlocks.MUSHROOM_TRAPDOOR);
+		MUSHROOM_PRESSURE_PLATE = block(RdModBlocks.MUSHROOM_PRESSURE_PLATE);
+		MUSHROOM_BUTTON = block(RdModBlocks.MUSHROOM_BUTTON);
 	}
 
 	// Start of user code block custom items

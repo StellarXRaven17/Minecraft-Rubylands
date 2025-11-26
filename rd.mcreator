@@ -5481,235 +5481,6 @@
       "path": "~/Items/Essence"
     },
     {
-      "name": "MushroomPlanks",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mushroom_planks",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rd/loot_table/blocks/mushroom_planks.json",
-          "src/main/resources/assets/rd/models/item/mushroom_planks.json",
-          "src/main/resources/assets/rd/blockstates/mushroom_planks.json",
-          "src/main/java/com/fauxjang/rubylands/block/MushroomPlanksBlock.java",
-          "src/main/resources/assets/rd/models/block/mushroom_planks.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Mushroom"
-    },
-    {
-      "name": "MushroomStairs",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mushroom_stairs",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rd/loot_table/blocks/mushroom_stairs.json",
-          "src/main/resources/assets/rd/models/block/mushroom_stairs_inner.json",
-          "src/main/resources/assets/rd/models/block/mushroom_stairs.json",
-          "src/main/resources/assets/rd/models/item/mushroom_stairs.json",
-          "src/main/java/com/fauxjang/rubylands/block/MushroomStairsBlock.java",
-          "src/main/resources/assets/rd/blockstates/mushroom_stairs.json",
-          "src/main/resources/assets/rd/models/block/mushroom_stairs_outer.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Mushroom"
-    },
-    {
-      "name": "MushroomSlab",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mushroom_slab",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/rd/models/block/mushroom_slab_full.json",
-          "src/main/resources/assets/rd/models/block/mushroom_slab_top.json",
-          "src/main/resources/data/rd/loot_table/blocks/mushroom_slab.json",
-          "src/main/resources/assets/rd/models/item/mushroom_slab.json",
-          "src/main/java/com/fauxjang/rubylands/block/MushroomSlabBlock.java",
-          "src/main/resources/assets/rd/blockstates/mushroom_slab.json",
-          "src/main/resources/assets/rd/models/block/mushroom_slab.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Mushroom"
-    },
-    {
-      "name": "MushroomFence",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mushroom_fence",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/rd/models/block/mushroom_fence_post.json",
-          "src/main/resources/data/rd/loot_table/blocks/mushroom_fence.json",
-          "src/main/resources/assets/rd/models/block/mushroom_fence.json",
-          "src/main/resources/assets/rd/models/block/mushroom_fence_inventory.json",
-          "src/main/resources/assets/rd/models/item/mushroom_fence.json",
-          "src/main/resources/assets/rd/blockstates/mushroom_fence.json",
-          "src/main/java/com/fauxjang/rubylands/block/MushroomFenceBlock.java"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Mushroom"
-    },
-    {
-      "name": "MushroomFenceGate",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mushroom_fence_gate",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/rd/models/item/mushroom_fence_gate.json",
-          "src/main/resources/assets/rd/blockstates/mushroom_fence_gate.json",
-          "src/main/java/com/fauxjang/rubylands/block/MushroomFenceGateBlock.java",
-          "src/main/resources/assets/rd/models/block/mushroom_fence_gate_open.json",
-          "src/main/resources/assets/rd/models/block/mushroom_fence_gate_wall_open.json",
-          "src/main/resources/assets/rd/models/block/mushroom_fence_gate.json",
-          "src/main/resources/data/rd/loot_table/blocks/mushroom_fence_gate.json",
-          "src/main/resources/assets/rd/models/block/mushroom_fence_gate_wall.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Mushroom"
-    },
-    {
-      "name": "MushroomPressurePlate",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mushroom_pressure_plate",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/rd/models/block/mushroom_pressure_plate_down.json",
-          "src/main/resources/assets/rd/blockstates/mushroom_pressure_plate.json",
-          "src/main/resources/data/rd/loot_table/blocks/mushroom_pressure_plate.json",
-          "src/main/resources/assets/rd/models/block/mushroom_pressure_plate.json",
-          "src/main/java/com/fauxjang/rubylands/block/MushroomPressurePlateBlock.java",
-          "src/main/resources/assets/rd/models/item/mushroom_pressure_plate.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Mushroom"
-    },
-    {
-      "name": "MushroomButton",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mushroom_button",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/rd/models/item/mushroom_button.json",
-          "src/main/resources/assets/rd/blockstates/mushroom_button.json",
-          "src/main/resources/assets/rd/models/block/mushroom_button_inventory.json",
-          "src/main/resources/assets/rd/models/block/mushroom_button.json",
-          "src/main/resources/assets/rd/models/block/mushroom_button_pressed.json",
-          "src/main/java/com/fauxjang/rubylands/block/MushroomButtonBlock.java",
-          "src/main/resources/data/rd/loot_table/blocks/mushroom_button.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Mushroom"
-    },
-    {
-      "name": "MushroomPlanksRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mushroom_planks_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rd/recipe/mushroom_planks_recipe.json",
-          "src/main/resources/data/rd/advancement/recipes/mushroom_planks_recipe.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Mushroom"
-    },
-    {
-      "name": "MushroomStairsRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mushroom_stairs_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rd/advancement/recipes/mushroom_stairs_recipe.json",
-          "src/main/resources/data/rd/recipe/mushroom_stairs_recipe.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Mushroom"
-    },
-    {
-      "name": "MushroomSlabRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mushroom_slab_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rd/recipe/mushroom_slab_recipe.json",
-          "src/main/resources/data/rd/advancement/recipes/mushroom_slab_recipe.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Mushroom"
-    },
-    {
-      "name": "MushroomFenceRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mushroom_fence_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rd/recipe/mushroom_fence_recipe.json",
-          "src/main/resources/data/rd/advancement/recipes/mushroom_fence_recipe.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Mushroom"
-    },
-    {
-      "name": "MushroomFenceGateRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mushroom_fence_gate_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rd/recipe/mushroom_fence_gate_recipe.json",
-          "src/main/resources/data/rd/advancement/recipes/mushroom_fence_gate_recipe.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Mushroom"
-    },
-    {
-      "name": "MushroomPressurePlateRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mushroom_pressure_plate_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rd/advancement/recipes/mushroom_pressure_plate_recipe.json",
-          "src/main/resources/data/rd/recipe/mushroom_pressure_plate_recipe.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Mushroom"
-    },
-    {
-      "name": "MushroomButtonRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mushroom_button_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rd/recipe/mushroom_button_recipe.json",
-          "src/main/resources/data/rd/advancement/recipes/mushroom_button_recipe.json"
-        ]
-      },
-      "path": "~/Blocks/WoodBlocks/Mushroom"
-    },
-    {
       "name": "SugarCookie",
       "type": "item",
       "compiles": true,
@@ -6912,6 +6683,306 @@
         ]
       },
       "path": "~/Blocks/OreBlocks/Bismuth"
+    },
+    {
+      "name": "MushroomPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/loot_table/blocks/mushroom_planks.json",
+          "src/main/resources/assets/rd/models/item/mushroom_planks.json",
+          "src/main/resources/assets/rd/blockstates/mushroom_planks.json",
+          "src/main/java/com/fauxjang/rubylands/block/MushroomPlanksBlock.java",
+          "src/main/resources/assets/rd/models/block/mushroom_planks.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "MushroomStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/loot_table/blocks/mushroom_stairs.json",
+          "src/main/resources/assets/rd/models/block/mushroom_stairs_inner.json",
+          "src/main/resources/assets/rd/models/block/mushroom_stairs.json",
+          "src/main/resources/assets/rd/models/item/mushroom_stairs.json",
+          "src/main/java/com/fauxjang/rubylands/block/MushroomStairsBlock.java",
+          "src/main/resources/assets/rd/blockstates/mushroom_stairs.json",
+          "src/main/resources/assets/rd/models/block/mushroom_stairs_outer.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "MushroomSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rd/models/block/mushroom_slab_full.json",
+          "src/main/resources/assets/rd/models/block/mushroom_slab_top.json",
+          "src/main/resources/data/rd/loot_table/blocks/mushroom_slab.json",
+          "src/main/resources/assets/rd/models/item/mushroom_slab.json",
+          "src/main/java/com/fauxjang/rubylands/block/MushroomSlabBlock.java",
+          "src/main/resources/assets/rd/blockstates/mushroom_slab.json",
+          "src/main/resources/assets/rd/models/block/mushroom_slab.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "MushroomFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rd/models/block/mushroom_fence_post.json",
+          "src/main/resources/data/rd/loot_table/blocks/mushroom_fence.json",
+          "src/main/resources/assets/rd/models/block/mushroom_fence.json",
+          "src/main/resources/assets/rd/models/block/mushroom_fence_inventory.json",
+          "src/main/resources/assets/rd/models/item/mushroom_fence.json",
+          "src/main/resources/assets/rd/blockstates/mushroom_fence.json",
+          "src/main/java/com/fauxjang/rubylands/block/MushroomFenceBlock.java"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "MushroomFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rd/models/item/mushroom_fence_gate.json",
+          "src/main/resources/assets/rd/blockstates/mushroom_fence_gate.json",
+          "src/main/java/com/fauxjang/rubylands/block/MushroomFenceGateBlock.java",
+          "src/main/resources/assets/rd/models/block/mushroom_fence_gate_open.json",
+          "src/main/resources/assets/rd/models/block/mushroom_fence_gate_wall_open.json",
+          "src/main/resources/assets/rd/models/block/mushroom_fence_gate.json",
+          "src/main/resources/data/rd/loot_table/blocks/mushroom_fence_gate.json",
+          "src/main/resources/assets/rd/models/block/mushroom_fence_gate_wall.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "MushroomDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rd/blockstates/mushroom_door.json",
+          "src/main/resources/assets/rd/models/item/mushroom_door.json",
+          "src/main/java/com/fauxjang/rubylands/block/MushroomDoorBlock.java",
+          "src/main/resources/assets/rd/models/block/mushroom_door_top_right.json",
+          "src/main/resources/data/rd/loot_table/blocks/mushroom_door.json",
+          "src/main/resources/assets/rd/models/block/mushroom_door_bottom_left.json",
+          "src/main/resources/assets/rd/models/block/mushroom_door_top_left.json",
+          "src/main/resources/assets/rd/models/block/mushroom_door_bottom_right_open.json",
+          "src/main/resources/assets/rd/models/block/mushroom_door_top_right_open.json",
+          "src/main/resources/assets/rd/models/block/mushroom_door_bottom_left_open.json",
+          "src/main/resources/assets/rd/models/block/mushroom_door_bottom_right.json",
+          "src/main/resources/assets/rd/models/block/mushroom_door_top_left_open.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "MushroomTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/loot_table/blocks/mushroom_trapdoor.json",
+          "src/main/resources/assets/rd/models/block/mushroom_trapdoor_top.json",
+          "src/main/java/com/fauxjang/rubylands/block/MushroomTrapdoorBlock.java",
+          "src/main/resources/assets/rd/models/item/mushroom_trapdoor.json",
+          "src/main/resources/assets/rd/models/block/mushroom_trapdoor_open.json",
+          "src/main/resources/assets/rd/models/block/mushroom_trapdoor.json",
+          "src/main/resources/assets/rd/blockstates/mushroom_trapdoor.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "MushroomPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rd/models/block/mushroom_pressure_plate_down.json",
+          "src/main/resources/assets/rd/blockstates/mushroom_pressure_plate.json",
+          "src/main/resources/data/rd/loot_table/blocks/mushroom_pressure_plate.json",
+          "src/main/resources/assets/rd/models/block/mushroom_pressure_plate.json",
+          "src/main/java/com/fauxjang/rubylands/block/MushroomPressurePlateBlock.java",
+          "src/main/resources/assets/rd/models/item/mushroom_pressure_plate.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "MushroomButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rd/models/item/mushroom_button.json",
+          "src/main/resources/assets/rd/blockstates/mushroom_button.json",
+          "src/main/resources/assets/rd/models/block/mushroom_button_inventory.json",
+          "src/main/resources/assets/rd/models/block/mushroom_button.json",
+          "src/main/resources/assets/rd/models/block/mushroom_button_pressed.json",
+          "src/main/java/com/fauxjang/rubylands/block/MushroomButtonBlock.java",
+          "src/main/resources/data/rd/loot_table/blocks/mushroom_button.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "MushroomPlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/recipe/mushroom_planks_recipe.json",
+          "src/main/resources/data/rd/advancement/recipes/mushroom_planks_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "MushroomStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/advancement/recipes/mushroom_stairs_recipe.json",
+          "src/main/resources/data/rd/recipe/mushroom_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "MushroomSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/recipe/mushroom_slab_recipe.json",
+          "src/main/resources/data/rd/advancement/recipes/mushroom_slab_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "MushroomFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/recipe/mushroom_fence_recipe.json",
+          "src/main/resources/data/rd/advancement/recipes/mushroom_fence_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "MushroomFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/recipe/mushroom_fence_gate_recipe.json",
+          "src/main/resources/data/rd/advancement/recipes/mushroom_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "MushroomDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/recipe/mushroom_door_recipe.json",
+          "src/main/resources/data/rd/advancement/recipes/mushroom_door_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "MushroomTrapdoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_trapdoor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/advancement/recipes/mushroom_trapdoor_recipe.json",
+          "src/main/resources/data/rd/recipe/mushroom_trapdoor_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "MushroomPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/advancement/recipes/mushroom_pressure_plate_recipe.json",
+          "src/main/resources/data/rd/recipe/mushroom_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
+    },
+    {
+      "name": "MushroomButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rd/recipe/mushroom_button_recipe.json",
+          "src/main/resources/data/rd/advancement/recipes/mushroom_button_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodBlocks/Mushroom"
     }
   ],
   "variable_elements": [
@@ -7065,9 +7136,9 @@
       "CUSTOM:Observer"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:MushroomSlab",
       "~CUSTOM:TeaSlab",
       "~CUSTOM:HighwoodSlab",
-      "~CUSTOM:MushroomSlab",
       "~CUSTOM:CactusSlab",
       "~CUSTOM:MyconSlab",
       "~CUSTOM:SaltBricksSlab",
@@ -7091,9 +7162,9 @@
       "Blocks.END_STONE"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:MushroomStairs",
       "~CUSTOM:TeaStairs",
       "~CUSTOM:HighwoodStairs",
-      "~CUSTOM:MushroomStairs",
       "~CUSTOM:CactusStairs",
       "~CUSTOM:MyconStairs",
       "~CUSTOM:SaltBricksStairs",
@@ -7117,9 +7188,9 @@
       "CUSTOM:FlamewoodPlanks",
       "CUSTOM:MyconPlanks",
       "CUSTOM:CactusPlanks",
-      "CUSTOM:MushroomPlanks",
       "CUSTOM:HighwoodPlanks",
-      "CUSTOM:TeaPlanks"
+      "CUSTOM:TeaPlanks",
+      "CUSTOM:MushroomPlanks"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
       "~CUSTOM:BismuthBlock",
@@ -7153,9 +7224,9 @@
       "~CUSTOM:DimensionWallBlock"
     ],
     "BLOCKS:minecraft:wooden_fences": [
+      "~CUSTOM:MushroomFence",
       "~CUSTOM:TeaFence",
       "~CUSTOM:HighwoodFence",
-      "~CUSTOM:MushroomFence",
       "~CUSTOM:MyconFence",
       "CUSTOM:FlamewoodFence",
       "CUSTOM:CactusFence"
@@ -7229,6 +7300,15 @@
       "~CUSTOM:EssenceCache"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:MushroomButton",
+      "~CUSTOM:MushroomPressurePlate",
+      "~CUSTOM:MushroomTrapdoor",
+      "~CUSTOM:MushroomDoor",
+      "~CUSTOM:MushroomFenceGate",
+      "~CUSTOM:MushroomFence",
+      "~CUSTOM:MushroomSlab",
+      "~CUSTOM:MushroomStairs",
+      "~CUSTOM:MushroomPlanks",
       "~CUSTOM:TeaButton",
       "~CUSTOM:TeaPressurePlate",
       "~CUSTOM:TeaTrapdoor",
@@ -7257,7 +7337,6 @@
       "~CUSTOM:HighwoodLog",
       "~CUSTOM:StrippedMyconWood",
       "~CUSTOM:StrippedMyconLog",
-      "~CUSTOM:MushroomPlanks",
       "~CUSTOM:HardenedCactusArm",
       "~CUSTOM:HardenedCactusStem",
       "~CUSTOM:CactusPlanks",
@@ -7316,9 +7395,9 @@
       "CUSTOM:FlamewoodPlanks",
       "CUSTOM:MyconPlanks",
       "CUSTOM:CactusPlanks",
-      "CUSTOM:MushroomPlanks",
       "CUSTOM:HighwoodPlanks",
-      "CUSTOM:TeaPlanks"
+      "CUSTOM:TeaPlanks",
+      "CUSTOM:MushroomPlanks"
     ],
     "ENTITIES:minecraft:undead": [
       "~CUSTOM:Observer"
@@ -7330,6 +7409,7 @@
       "CUSTOM:ApplePie"
     ],
     "BLOCKS:minecraft:wooden_doors": [
+      "~CUSTOM:MushroomDoor",
       "~CUSTOM:TeaDoor",
       "~CUSTOM:HighwoodDoor",
       "~CUSTOM:IceDoor",
@@ -7408,17 +7488,17 @@
       "CUSTOM:BambooPillar"
     ],
     "BLOCKS:minecraft:wooden_pressure_plates": [
+      "~CUSTOM:MushroomPressurePlate",
       "~CUSTOM:TeaPressurePlate",
       "~CUSTOM:HighwoodPressurePlate",
-      "~CUSTOM:MushroomPressurePlate",
       "~CUSTOM:CactusPressurePlate",
       "~CUSTOM:MyconPressurePlate",
       "~CUSTOM:FlamewoodPressurePlate"
     ],
     "BLOCKS:minecraft:wooden_buttons": [
+      "~CUSTOM:MushroomButton",
       "~CUSTOM:TeaButton",
       "~CUSTOM:HighwoodButton",
-      "~CUSTOM:MushroomButton",
       "~CUSTOM:CactusButton",
       "~CUSTOM:MyconButton",
       "~CUSTOM:FlamewoodButton"
@@ -7427,6 +7507,7 @@
       "~CUSTOM:HubDoor"
     ],
     "BLOCKS:minecraft:wooden_trapdoors": [
+      "~CUSTOM:MushroomTrapdoor",
       "~CUSTOM:TeaTrapdoor",
       "~CUSTOM:HighwoodTrapdoor",
       "~CUSTOM:FlamewoodTrapdoor"
@@ -7440,7 +7521,8 @@
     "BLOCKS:minecraft:logs_that_burn": [
       "TAG:mod:highwood_logs",
       "TAG:mod:flamewood_logs",
-      "TAG:mod:tea_logs"
+      "TAG:mod:tea_logs",
+      "TAG:mod:mushroom_logs"
     ],
     "ITEMS:mod:highwood_logs": [
       "CUSTOM:HighwoodLog",
@@ -7451,7 +7533,8 @@
     "ITEMS:minecraft:logs_that_burn": [
       "TAG:mod:highwood_logs",
       "TAG:mod:flamewood_logs",
-      "TAG:mod:tea_logs"
+      "TAG:mod:tea_logs",
+      "TAG:mod:mushroom_logs"
     ],
     "BLOCKS:mod:flamewood_logs": [
       "CUSTOM:FlamewoodWood",
@@ -7480,6 +7563,9 @@
       "CUSTOM:TeaWood",
       "CUSTOM:StrippedTeaLog",
       "CUSTOM:StrippedTeaWood"
+    ],
+    "BLOCKS:mod:mushroom_logs": [
+      "Blocks.MUSHROOM_STEM"
     ]
   },
   "tab_element_order": {
@@ -7490,11 +7576,11 @@
       "ObserverFur",
       "ObsidianIngot",
       "Pyrite",
+      "RawBismuth",
+      "BismuthIngot",
       "Clinohumite",
       "LaceAgate",
-      "Malachite",
-      "BismuthIngot",
-      "RawBismuth"
+      "Malachite"
     ],
     "BUILDING_BLOCKS": [
       "WoodenPillar",
@@ -7561,6 +7647,8 @@
       "MushroomSlab",
       "MushroomFence",
       "MushroomFenceGate",
+      "MushroomDoor",
+      "MushroomTrapdoor",
       "MushroomPressurePlate",
       "MushroomButton",
       "PetrifiedWood",
@@ -7625,11 +7713,11 @@
       "GlowingFlowerInfObsidian",
       "FlamewoodSapling",
       "FlamewoodLeaves",
-      "SaltBlock",
       "TeaSapling",
-      "MyconLeaves",
+      "TeaLeaves",
       "HighwoodLeaves",
-      "TeaLeaves"
+      "MyconLeaves",
+      "SaltBlock"
     ],
     "COMBAT": [
       "CactusSword",
@@ -7898,13 +7986,6 @@
       "gui.rd.overlay_thingies.label_minecraft_1211_neoforge": "Minecraft RubyLands Version 0.1.0",
       "block.rd.ice_door": "Ice Door",
       "block.rd.freezer": "Freezer",
-      "block.rd.mushroom_planks": "Mushroom Planks",
-      "block.rd.mushroom_stairs": "Mushroom Stairs",
-      "block.rd.mushroom_slab": "Mushroom Slab",
-      "block.rd.mushroom_fence": "Mushroom Fence",
-      "block.rd.mushroom_fence_gate": "Mushroom Fence Gate",
-      "block.rd.mushroom_pressure_plate": "Mushroom Pressure Plate",
-      "block.rd.mushroom_button": "Mushroom Button",
       "item.rd.sugar_cookie": "Sugar Cookie",
       "block.rd.stripped_mycon_stem": "Stripped Mycon Stem",
       "block.rd.stripped_mycon_hyphae": "Stripped Mycon Hyphae",
@@ -7943,10 +8024,19 @@
       "advancements.super_secret_advancements.title": "Super Secret Advancements",
       "advancements.super_secret_1.descr": "Play with The Broken Script installed.",
       "advancements.super_secret_1.title": "Integrity and Dev0 at the Olympic Games",
-      "item.rd.bismuth_ingot": "Bismuth",
+      "item.rd.bismuth_ingot": "Bismuth Ingot",
       "block.rd.bismuth_ore": "Bismuth Ore",
       "block.rd.bismuth_block": "Block of Bismuth",
-      "item.rd.raw_bismuth": "Bismuth"
+      "item.rd.raw_bismuth": "Raw Bismuth",
+      "block.rd.mushroom_planks": "Mushroom Planks",
+      "block.rd.mushroom_stairs": "Mushroom Stairs",
+      "block.rd.mushroom_slab": "Mushroom Slab",
+      "block.rd.mushroom_fence": "Mushroom Fence",
+      "block.rd.mushroom_fence_gate": "Mushroom Fence Gate",
+      "block.rd.mushroom_door": "Mushroom Door",
+      "block.rd.mushroom_trapdoor": "Mushroom Trapdoor",
+      "block.rd.mushroom_pressure_plate": "Mushroom Pressure Plate",
+      "block.rd.mushroom_button": "Mushroom Button"
     },
     "pt_br": {
       "subtitles.music.low_river": "",
@@ -8195,13 +8285,6 @@
       "gui.rd.overlay_thingies.label_minecraft_1211_neoforge": "Minecraft RubyLands Version 0.1.0",
       "block.rd.ice_door": "Ice Door",
       "block.rd.freezer": "Freezer",
-      "block.rd.mushroom_planks": "Mushroom Planks",
-      "block.rd.mushroom_stairs": "Mushroom Stairs",
-      "block.rd.mushroom_slab": "Mushroom Slab",
-      "block.rd.mushroom_fence": "Mushroom Fence",
-      "block.rd.mushroom_fence_gate": "Mushroom Fence Gate",
-      "block.rd.mushroom_pressure_plate": "Mushroom Pressure Plate",
-      "block.rd.mushroom_button": "Mushroom Button",
       "item.rd.sugar_cookie": "Sugar Cookie",
       "block.rd.stripped_mycon_stem": "Mycon Stem",
       "block.rd.stripped_mycon_hyphae": "Mycon Hyphae",
@@ -8243,7 +8326,16 @@
       "item.rd.bismuth_ingot": "Bismuth",
       "block.rd.bismuth_ore": "Bismuth Ore",
       "block.rd.bismuth_block": "Block of Bismuth",
-      "item.rd.raw_bismuth": "Bismuth"
+      "item.rd.raw_bismuth": "Bismuth",
+      "block.rd.mushroom_planks": "Mushroom Planks",
+      "block.rd.mushroom_stairs": "Mushroom Stairs",
+      "block.rd.mushroom_slab": "Mushroom Slab",
+      "block.rd.mushroom_fence": "Mushroom Fence",
+      "block.rd.mushroom_fence_gate": "Mushroom Fence Gate",
+      "block.rd.mushroom_door": "Mushroom Door",
+      "block.rd.mushroom_trapdoor": "Mushroom Trapdoor",
+      "block.rd.mushroom_pressure_plate": "Mushroom Pressure Plate",
+      "block.rd.mushroom_button": "Mushroom Button"
     }
   },
   "metadata": {

@@ -1,0 +1,8 @@
+{
+    "parent": "block/calibrated_sculk_sensor",
+    "textures": {
+        "tendrils": "block/sculk_sensor_tendril_active",
+        "calibrated_side": "block/calibrated_sculk_sensor_input_side_active",
+        "top": "block/calibrated_sculk_sensor_top_active"
+    }
+}

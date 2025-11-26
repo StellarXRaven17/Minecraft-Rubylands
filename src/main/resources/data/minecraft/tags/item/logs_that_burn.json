@@ -10,6 +10,10 @@
       "required": false
     },
     {
+      "id": "#rd:mushroom_logs",
+      "required": false
+    },
+    {
       "id": "#rd:flamewood_logs",
       "required": false
     }

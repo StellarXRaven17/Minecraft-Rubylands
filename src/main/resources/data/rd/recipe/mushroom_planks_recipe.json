@@ -4,7 +4,7 @@
   "category": "building",
   "ingredients": [
     {
-      "item": "minecraft:mushroom_stem"
+      "tag": "rd:mushroom_logs"
     }
   ],
   "result": {
